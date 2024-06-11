@@ -121,20 +121,20 @@
   },
   "location": {
     "label": "Location",
-    "name": "Planeta kino",
-    "city": "Lviv",
-    "short": "Lviv, Ukraine",
-    "address": "36 Shchyretska St, Lviv, Ukraine",
+    "name": "Randstad Box",
+    "city": "Milan",
+    "short": "Milan, Italy",
+    "address": "Randstad Box, Via S. Vigilio, 1, Milano",
     "pointer": {
-      "latitude": 49.809841,
-      "longitude": 23.972805,
-      "zoom": 5
+      "latitude": 45.4367052,
+      "longitude": 9.1652419,
+      "zoom": 13
     },
     "mapCenter": {
-      "latitude": 48,
-      "longitude": 8
+      "latitude": 45.458,
+      "longitude": 9.16
     },
-    "description": "Newly built Pivdennyi Expo is a long-awaited exhibition center in Lviv, which can fulfill the needs of the large-scale event"
+    "description": "Randstad Box is a modern coworking and event space, well connected with the city center and other transport hubs"
   },
   "socialNetwork": {
     "follow": [
@@ -166,7 +166,7 @@
       }
     ]
   },
-  "mailto": "devfest@gdg.org.ua",
+  "mailto": "infogdgmi@gmail.com",
   "signInProviders": {
     "providersData": [
       {
