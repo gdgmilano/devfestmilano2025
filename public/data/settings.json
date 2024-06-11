@@ -1,16 +1,16 @@
 {
   "organizer": {
-    "name": "GDG Lviv",
+    "name": "GDG Milano + GDG Cloud Milano + GDSC Milan",
     "twitter": "gdglviv",
     "blog": "https://medium.com/gdg-lviv",
     "url": "http://lviv.gdg.org.ua/"
   },
-  "startDate": "2017-10-013T09:00:00+03:00",
-  "endDate": "2017-10-14T19:00:00+03:00",
+  "startDate": "2024-11-23T09:00:00+02:00",
+  "endDate": "2024-11-23T19:00:00+02:00",
   "webapp": {
-    "shortName": "DevFest",
     "themeColor": "#673AB7",
     "backgroundColor": "#673AB7"
+    "shortName": "DevFest Milano",
   },
   "dateFormat": {
     "locale": "en-US"
@@ -24,29 +24,14 @@
       "label": "Home"
     },
     {
-      "route": "speakers",
-      "permalink": "/speakers",
-      "label": "Speakers"
-    },
-    {
-      "route": "schedule",
-      "permalink": "/schedule",
-      "label": "Schedule"
-    },
-    {
       "route": "team",
       "permalink": "/team",
       "label": "Team"
-    },
-    {
-      "route": "blog",
-      "permalink": "/blog",
-      "label": "Blog"
     }
   ],
   "heroSettings": {
     "home": {
-      "description": "Join the commuity, learn new things!",
+      "description": "The most exciting tech event in Milan this fall!",
       "background": {
         "color": "#673ab7",
         "image": "/images/backgrounds/home.jpg"
@@ -121,42 +106,38 @@
   },
   "location": {
     "label": "Location",
-    "name": "Planeta kino",
-    "city": "Lviv",
-    "short": "Lviv, Ukraine",
-    "address": "36 Shchyretska St, Lviv, Ukraine",
+    "name": "Randstad Box",
+    "city": "Milan",
+    "short": "Milan, Italy",
+    "address": "Randstad Box, Via S. Vigilio, 1, Milano",
     "pointer": {
-      "latitude": 49.809841,
-      "longitude": 23.972805,
-      "zoom": 5
+      "latitude": 45.4367052,
+      "longitude": 9.1652419,
+      "zoom": 13
     },
     "mapCenter": {
-      "latitude": 48,
-      "longitude": 8
+      "latitude": 45.458,
+      "longitude": 9.16
     },
-    "description": "Newly built Pivdennyi Expo is a long-awaited exhibition center in Lviv, which can fulfill the needs of the large-scale event"
+    "description": "Randstad Box is a modern coworking and event space, well connected with the city center and other transport hubs"
   },
   "socialNetwork": {
     "follow": [
       {
-        "name": "meetup",
-        "url": "https://www.meetup.com/GDG-Lviv/events/244342635/"
-      },
-      {
         "name": "facebook",
-        "url": "https://www.facebook.com/devfest.ukraine/"
+        "url": "https://www.facebook.com/GDGMilano"
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/devfest_ukraine/"
+        "url": "https://twitter.com/gdgmilano/"
       },
       {
         "name": "instagram",
-        "url": "https://www.instagram.com/devfestukraine"
+        "url": "https://www.instagram.com/gdg_milano"
       },
       {
         "name": "youtube",
-        "url": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AouwDkbLbLARlQFwNS2en"
+        "url": "https://www.youtube.com/@gdgmilano"
       }
     ],
     "share": [
@@ -170,24 +151,17 @@
       }
     ]
   },
-  "mailto": "devfest@gdg.org.ua",
+  "mailto": "infogdgmi@gmail.com",
   "signInProviders": {
     "providersData": [
       {
         "name": "google",
         "label": "Sign in with Google",
         "url": "https://accounts.google.com"
-      },
-      {
-        "name": "twitter",
-        "label": "Sign in with Twitter",
-        "url": "https://twitter.com"
       }
     ],
     "allowedProvidersUrl": [
-      "https://accounts.google.com",
-      "https://www.facebook.com",
-      "https://twitter.com"
+      "https://accounts.google.com"
     ]
   },
   "contentLoaders": {
