@@ -27,6 +27,11 @@
       "route": "team",
       "permalink": "/team",
       "label": "Team"
+    },
+    {
+      "route": "faq",
+      "permalink": "/faq",
+      "label": "FAQ"
     }
   ],
   "heroSettings": {
