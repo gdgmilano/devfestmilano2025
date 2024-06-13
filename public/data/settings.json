@@ -1,6 +1,6 @@
 {
   "organizer": {
-    "name": "GDG Milano + GDG Cloud Milano + GDSC Milan",
+    "name": "GDG Milano + GDG Cloud Milano + GDSC PoliMi",
     "twitter": "gdglviv",
     "blog": "https://medium.com/gdg-lviv",
     "url": "http://lviv.gdg.org.ua/"
@@ -8,9 +8,9 @@
   "startDate": "2024-11-23T09:00:00+02:00",
   "endDate": "2024-11-23T19:00:00+02:00",
   "webapp": {
-    "themeColor": "#673AB7",
-    "backgroundColor": "#673AB7"
     "shortName": "DevFest Milano",
+    "themeColor": "#303F9F",
+    "backgroundColor": "#303F9F"
   },
   "dateFormat": {
     "locale": "en-US"
@@ -24,6 +24,16 @@
       "label": "Home"
     },
     {
+      "route": "location",
+      "permalink": "/location",
+      "label": "Location"
+    },
+    {
+      "route": "faq",
+      "permalink": "/faq",
+      "label": "FAQ"
+    },
+    {
       "route": "team",
       "permalink": "/team",
       "label": "Team"
@@ -33,7 +43,7 @@
     "home": {
       "description": "The most exciting tech event in Milan this fall!",
       "background": {
-        "color": "#673ab7",
+        "color": "#303F9F",
         "image": "/images/backgrounds/home.jpg"
       },
       "fontColor": "#FFF"
@@ -95,6 +105,15 @@
       },
       "fontColor": "#424242"
     },
+    "location": {
+      "title": "Location",
+      "metaDescription": "Please find directions and address of the venue on this page",
+      "description": "Please find directions and address of the venue on this page",
+      "background": {
+        "color": "#fff"
+      },
+      "fontColor": "#424242"
+    },
     "notFound": {
       "title": "Not Found",
       "metaDescription": "Page not found",
@@ -151,7 +170,7 @@
       }
     ]
   },
-  "mailto": "infogdgmi@gmail.com",
+  "mailto": "infogdgmi+devfest@gmail.com",
   "signInProviders": {
     "providersData": [
       {

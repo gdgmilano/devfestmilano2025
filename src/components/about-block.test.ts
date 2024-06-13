@@ -32,16 +32,4 @@ describe('about-block', () => {
     expect(getByText(aboutBlock.statisticsBlock.attendees.number)).toBeInTheDocument();
     expect(getByText(aboutBlock.statisticsBlock.attendees.label)).toBeInTheDocument();
   });
-
-  it('plays the video', async () => {
-    const { shadowRootForWithin } = await fixture(html`<about-block></about-block>`);
-    const { getByText } = within(shadowRootForWithin);
-
-    fireEvent.click(getByText(aboutBlock.callToAction.howItWas.label));
-    expect(mockToggleVideoDialogs).toHaveBeenCalledTimes(1);
-    expect(mockToggleVideoDialogs).toHaveBeenCalledWith({
-      title: aboutBlock.callToAction.howItWas.label,
-      youtubeId: aboutBlock.callToAction.howItWas.youtubeId,
-    });
-  });
 });

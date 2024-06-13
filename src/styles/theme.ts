@@ -2,12 +2,12 @@ import { css } from 'lit';
 
 export const theme = css`
   :host {
-    --dark-primary-color: #512da8;
-    --default-primary-color: #673ab7;
+    --dark-primary-color: #303F9F;
+    --default-primary-color: #3F51B5;
     --focused-color: #311b92;
-    --light-primary-color: #d1c4e9;
+    --light-primary-color: #C5CAE9;
     --text-primary-color: #fff;
-    --accent-color: #ff5252;
+    --accent-color: #FF5722;
     --primary-background-color: #fff;
     --primary-text-color: #424242;
     --secondary-text-color: #757575;
