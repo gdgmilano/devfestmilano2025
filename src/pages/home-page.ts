@@ -267,13 +267,6 @@ export class HomePage extends ReduxMixin(PolymerElement) {
   @property({ type: Boolean })
   private showForkMeBlock: boolean = false;
 
-  private playVideo() {
-    openVideoDialog({
-      title: this.aboutBlock.callToAction.howItWas.label,
-      youtubeId: this.aboutBlock.callToAction.howItWas.youtubeId,
-    });
-  }
-
   private scrollToTickets() {
     const element = this.$['tickets-block'];
     if (element) {
