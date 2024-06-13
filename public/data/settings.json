@@ -8,9 +8,9 @@
   "startDate": "2024-11-23T09:00:00+02:00",
   "endDate": "2024-11-23T19:00:00+02:00",
   "webapp": {
-    "themeColor": "#673AB7",
-    "backgroundColor": "#673AB7"
     "shortName": "DevFest Milano",
+    "themeColor": "#303F9F",
+    "backgroundColor": "#303F9F"
   },
   "dateFormat": {
     "locale": "en-US"
@@ -43,7 +43,7 @@
     "home": {
       "description": "The most exciting tech event in Milan this fall!",
       "background": {
-        "color": "#673ab7",
+        "color": "#303F9F",
         "image": "/images/backgrounds/home.jpg"
       },
       "fontColor": "#FFF"
