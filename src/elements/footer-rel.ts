@@ -1,6 +1,6 @@
 import { customElement, property } from '@polymer/decorators';
 import { html, PolymerElement } from '@polymer/polymer';
-import { footerRelBlock, notifications, subscribeNote } from '../utils/data';
+import { footerRelBlock, notifications } from '../utils/data';
 import './subscribe-form-footer';
 
 @customElement('footer-rel')
@@ -82,19 +82,11 @@ export class FooterRel extends PolymerElement {
           </ul>
         </div>
       </template>
-
-      <div class="col" layout vertical flex-auto wrap>
-        <div class="col-heading">[[notifications.subscribe]]</div>
-        <span>[[subscribeNote]]</span>
-        <subscribe-form-footer></subscribe-form-footer>
-      </div>
     `;
   }
 
   @property({ type: Array })
   private footerRelBlock = footerRelBlock;
-  @property()
-  private subscribeNote = subscribeNote;
   @property({ type: Object })
   private notifications = notifications;
 }

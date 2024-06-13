@@ -14,7 +14,6 @@ import '../elements/latest-posts-block';
 import '../elements/map-block';
 import '../elements/partners-block';
 import '../elements/speakers-block';
-import '../elements/subscribe-block';
 import '../elements/tickets-block';
 import { firebaseApp } from '../firebase';
 import { store } from '../store';
@@ -251,7 +250,6 @@ export class HomePage extends ReduxMixin(PolymerElement) {
       </template>
       <about-block></about-block>
       <speakers-block></speakers-block>
-      <subscribe-block></subscribe-block>
       <tickets-block id="tickets-block"></tickets-block>
       <gallery-block></gallery-block>
       <about-organizer-block></about-organizer-block>
