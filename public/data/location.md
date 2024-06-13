@@ -25,7 +25,7 @@ You can access the whole Milano underground network by using any contactless car
 
 ## By car 🚗
 
-The nearest parking to the venue, just 5 minutes walking, is the [ATM Parking Famagosta](https://maps.app.goo.gl/EQ9XScsjRkgtixVK7).
+The nearest parking to the venue, just 5 minutes walking, is the [ATM Parking Famagosta](https://maps.app.goo.gl/EQ9XScsjRkgtixVK7). It's a paid parking, but the cost is limited. More information on the [official website](https://www.atm.it/it/AltriServizi/Auto/Pagine/Famagosta.aspx). 
 
 Please notice that the venue is inside the Area B zone of Milano, which limits the access to only recent, less polluting cars. These limits are constantly updated; to know if the class of your car is allowed and the extension of the limits, please have a look at the [Area B page in the Milano city website](https://www.comune.milano.it/en/aree-tematiche/mobilita/area-b).
 
