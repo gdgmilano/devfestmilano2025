@@ -160,6 +160,13 @@ const ROUTES: Route[] = [
     },
   },
   {
+    path: '/location',
+    component: 'location-page',
+    action: async () => {
+      await import('./pages/location-page.js');
+    },
+  },
+  {
     path: '(.*)',
     component: 'not-found-page',
     action: async () => {

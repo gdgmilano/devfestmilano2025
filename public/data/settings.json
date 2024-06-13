@@ -24,14 +24,19 @@
       "label": "Home"
     },
     {
-      "route": "team",
-      "permalink": "/team",
-      "label": "Team"
+      "route": "location",
+      "permalink": "/location",
+      "label": "Location"
     },
     {
       "route": "faq",
       "permalink": "/faq",
       "label": "FAQ"
+    },
+    {
+      "route": "team",
+      "permalink": "/team",
+      "label": "Team"
     }
   ],
   "heroSettings": {
@@ -95,6 +100,15 @@
     "coc": {
       "title": "Code of Conduct",
       "metaDescription": "Learn more about our expectations for all those who participate in our community",
+      "background": {
+        "color": "#fff"
+      },
+      "fontColor": "#424242"
+    },
+    "location": {
+      "title": "Location",
+      "metaDescription": "Please find directions and address of the venue on this page",
+      "description": "Please find directions and address of the venue on this page",
       "background": {
         "color": "#fff"
       },

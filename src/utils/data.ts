@@ -21,6 +21,7 @@ export {
   galleryBlock,
   latestPostsBlock,
   loading,
+  locationPage,
   mapBlock,
   mySchedule,
   notifications,
