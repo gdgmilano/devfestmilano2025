@@ -55,7 +55,7 @@
           "newTab": true
         },
         {
-          "name": "GDSC Milano",
+          "name": "GDSC PoliMi",
           "url": "https://gdsc.community.dev/polytechnic-university-of-milan-milan-italy/",
           "newTab": true
         }
@@ -266,7 +266,7 @@
     "blocks": [
       {
         "title": "Organizers",
-        "description": "A joint effort between 3 of the most active tech groups in Milan: <a href='https://gdg.community.dev/gdg-milano' target='_blank'>GDG Milano</a>, <a href='https://gdg.community.dev/gdg-cloud-milano' target='_blank'>GDG Cloud Milano</a> and <a href='https://gdsc.community.dev/polytechnic-university-of-milan-milan-italy' target='_blank'>GDSC Milano</a>, with support from Google, Italian GDGs, and our amazing Sponsors",
+        "description": "A joint effort between 3 of the most active tech groups in Milan: <a href='https://gdg.community.dev/gdg-milano' target='_blank'>GDG Milano</a>, <a href='https://gdg.community.dev/gdg-cloud-milano' target='_blank'>GDG Cloud Milano</a> and <a href='https://gdsc.community.dev/polytechnic-university-of-milan-milan-italy' target='_blank'>GDSC PoliMi</a>, with support from Google, Italian GDGs, and our amazing Sponsors",
         "callToAction": {
           "label": "Open team page",
           "link": "/team"
