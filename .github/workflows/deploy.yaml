@@ -21,4 +21,4 @@ jobs:
         env:
           # See docs/tutorials/04-deploy.md for configuring these
           PROJECT_ID: devfest-milano-2024
-          GCP_SA_KEY: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_HOVERBOARD_MASTER }}
+          GOOGLE_APPLICATION_CREDENTIALS: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_HOVERBOARD_MASTER }}
