@@ -157,6 +157,22 @@
       {
         "name": "youtube",
         "url": "https://www.youtube.com/@gdgmilano"
+      },
+      {
+        "name": "facebook GDG Cloud Milano",
+        "url": "https://www.facebook.com/GDGMilano"
+      },
+      {
+        "name": "Linkedin GDG Cloud Milano",
+        "url": "https://www.linkedin.com/company/gdg-cloud-milano"
+      },
+      {
+        "name": "instagram GDG Cloud Milano",
+        "url": "https://www.instagram.com/gdgcloudmilano/"
+      },
+      {
+        "name": "website GDG Cloud Milano",
+        "url": "https://gdg.community.dev/gdg-cloud-milano/"
       }
     ],
     "share": [
