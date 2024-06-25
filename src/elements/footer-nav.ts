@@ -71,7 +71,7 @@ export class FooterNav extends PolymerElement {
         <a href="[[organizer.url]]" target="_blank" rel="noopener noreferrer">
           <lazy-image
             class="footer-logo"
-            src="../../images/organizer-logo.svg"
+            src="../../images/organizer-logo.png"
             alt="[[organizer.name]]"
           ></lazy-image>
         </a>
