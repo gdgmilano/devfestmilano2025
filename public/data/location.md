@@ -2,7 +2,7 @@
 
 The conference will take place at **Ranstadt Box**. It's in the south side of Milan and easily connected via the underground to the city center and other transit hubs. We recommend to use public transportation if you're coming from far away.
 
-The address of the venue is: [**Via S. Vigilio, 1, 20142 Milano MI**](https://maps.app.goo.gl/thLMmmMQWtJ1xTiaA).
+The address of the venue is: [**Via S. Vigilio, 5, 20142 Milano MI**](https://maps.app.goo.gl/thLMmmMQWtJ1xTiaA).
 
 ## By train 🚄
 

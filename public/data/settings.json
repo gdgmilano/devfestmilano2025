@@ -41,7 +41,7 @@
   ],
   "heroSettings": {
     "home": {
-      "description": "The most exciting tech event in Milan this fall!",
+      "description": "The most exciting community tech event in Milan this fall!",
       "background": {
         "color": "#303F9F",
         "image": "/images/backgrounds/home.jpg"
@@ -128,7 +128,7 @@
     "name": "Randstad Box",
     "city": "Milan",
     "short": "Milan, Italy",
-    "address": "Randstad Box, Via S. Vigilio, 1, Milano",
+    "address": "Randstad Box, Via S. Vigilio, 5, Milano",
     "pointer": {
       "latitude": 45.4367052,
       "longitude": 9.1652419,
