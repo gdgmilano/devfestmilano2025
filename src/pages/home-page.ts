@@ -51,7 +51,7 @@ export class HomePage extends ReduxMixin(PolymerElement) {
           width: var(--lazy-image-width);
           height: var(--lazy-image-height);
           max-width: 240px;
-          max-height: 76px;
+          max-height: 220px;
         }
 
         .info-items {
