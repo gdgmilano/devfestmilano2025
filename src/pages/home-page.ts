@@ -143,7 +143,7 @@ export class HomePage extends ReduxMixin(PolymerElement) {
           }
 
           .info-items {
-            margin: 48px auto;
+            margin: 16px auto;
             font-size: 28px;
             line-height: 1.1;
           }
