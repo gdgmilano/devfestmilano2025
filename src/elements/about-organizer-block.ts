@@ -54,7 +54,7 @@ export class AboutOrganizerBlock extends ReduxMixin(PolymerElement) {
       </style>
 
       <div class="container" layout horizontal>
-        <div layout horizontal center-center flex hidden$="[[viewport.isPhone]]">
+        <div layout horizontal flex hidden$="[[viewport.isPhone]]">
           <a href="/team" class="image-link">
             <lazy-image
               class="organizers-photo"
