@@ -161,7 +161,7 @@ export class HomePage extends ReduxMixin(PolymerElement) {
           <lazy-image class="hero-logo" src="/images/logo.png" alt="[[siteTitle]]"></lazy-image>
 
           <div class="info-items">
-            <div class="info-item">[[city]]. [[dates]]</div>
+            <div class="info-item" style="font-weight:bold">[[city]]. [[dates]]</div>
             <div class="info-item">[[heroSettings.description]]</div>
           </div>
 
