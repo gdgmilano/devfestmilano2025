@@ -10,6 +10,7 @@ import '../elements/about-organizer-block';
 import '../elements/fork-me-block';
 import '../elements/map-block';
 import '../elements/partners-block';
+import '../elements/tickets-block';
 import { firebaseApp } from '../firebase';
 import { store } from '../store';
 import { ReduxMixin } from '../store/mixin';
@@ -165,6 +166,13 @@ export class HomePage extends ReduxMixin(PolymerElement) {
             <div class="info-item">[[heroSettings.description]]</div>
           </div>
 
+          <div class="action-buttons" layout horizontal center-justified wrap>
+            <paper-button on-click="scrollToTickets" primary invert>
+              <iron-icon icon="hoverboard:ticket"></iron-icon>
+              [[buyTicket]]
+            </paper-button>
+          </div>
+
           <div class="scroll-down" on-click="scrollNextBlock">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -233,6 +241,7 @@ export class HomePage extends ReduxMixin(PolymerElement) {
         <fork-me-block></fork-me-block>
       </template>
       <about-block></about-block>
+      <tickets-block id="tickets-block"></tickets-block>
       <about-organizer-block></about-organizer-block>
       <map-block></map-block>
       <partners-block></partners-block>
