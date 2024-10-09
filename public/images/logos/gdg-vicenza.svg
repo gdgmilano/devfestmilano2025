@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 464.4 270">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0f9d58;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-5 {
+        font-size: 23.7px;
+        letter-spacing: 0em;
+      }
+
+      .cls-6 {
+        fill: #656c73;
+        font-family: GoogleSansDisplay-Regular, 'Google Sans Display';
+      }
+
+      .cls-7 {
+        font-size: 17.2px;
+      }
+
+      .cls-2 {
+        fill: #4285f4;
+      }
+
+      .cls-3 {
+        fill: #ea4335;
+      }
+
+      .cls-4 {
+        fill: #fbbc04;
+      }
+    </style>
+  </defs>
+  <text class="cls-6" transform="translate(96 177.6)"><tspan class="cls-5"><tspan x="0" y="0">Google Developer Groups</tspan></tspan><tspan class="cls-7"><tspan x="106.3" y="27.2">Vicenza</tspan></tspan></text>
+  <g>
+    <path class="cls-3" d="M207.7,115.1l15.2-8.8c3.6-2.1,4.8-6.6,2.7-10.2-2.1-3.6-6.6-4.8-10.2-2.7l-26.3,15.2,18.5,6.6Z"/>
+    <path class="cls-2" d="M219.1,137.6c2.6,0,5.1-1.3,6.5-3.7,2.1-3.6.8-8.1-2.7-10.2l-26.3-15.2c-3.6-2.1-8.1-.8-10.2,2.7-2.1,3.6-.8,8.1,2.7,10.2l26.3,15.2c1.2.7,2.5,1,3.7,1Z"/>
+    <path class="cls-4" d="M245.2,137.6c1.3,0,2.6-.3,3.7-1l26.3-15.2-18.3-6.7-15.4,8.9c-3.6,2.1-4.8,6.6-2.7,10.2,1.4,2.4,3.9,3.7,6.5,3.7Z"/>
+    <path class="cls-1" d="M271.5,122.5c2.6,0,5.1-1.3,6.5-3.7,2.1-3.6.8-8.1-2.7-10.2l-26.3-15.2c-3.6-2.1-8.1-.8-10.2,2.7-2.1,3.6-.8,8.1,2.7,10.2l26.3,15.2c1.2.7,2.5,1,3.7,1Z"/>
+  </g>
+</svg>
