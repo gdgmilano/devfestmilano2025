@@ -10,7 +10,7 @@ You can easily reach **Randstad Box** with public transportation. Please check t
 
 ### Do I need a ticket to join DevFest Milano?
 
-Yes, participation to the DevFest is **free**, but registration is **mandatory**. Being in the waiting list is not sufficient to participate to the conference.
+Yes, participation to the DevFest is **free**, but registration is **mandatory**.
 
 ### I can't attend the DevFest, what should I do?
 
@@ -19,10 +19,6 @@ If you **can't attend** we kindly ask you to **cancel your order** via the GDG p
 ### Do I need to print my tickets?
 
 No, you can use your smartphone to show us the ticket. Showing the ticket email with the QR code is also enough. Please make sure to have your ticket ready to do not slow down the check-in process.
-
-### Should I come even if I'm still on the waiting list?
-
-You can come even if you're in the waiting list, but we can't assure you will get a spot :( We will release tickets of people that don't show up during day so you may have a chance to get in, but this is out of our control, and we can't tell you in advance if you'll get a place.
 
 ### Can I give my ticket to a friend?
 
