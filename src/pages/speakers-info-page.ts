@@ -16,8 +16,6 @@ export class SpeakersInfoPage extends PolymerElement {
         }
       </style>
 
-      <simple-hero page="speakersInfo"></simple-hero>
-
       <remote-markdown path="[[source]]"></remote-markdown>
 
       <footer-block></footer-block>
