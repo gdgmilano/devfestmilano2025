@@ -7,13 +7,13 @@ We created a the Telegram group for speakers, please join so that we can all sta
 ## Hashtags and official links
 Here some links and hashtags you can share with your audience:
 
-- **Official website**
+### Official website
 [www.devfestmilano.it](https://www.devfestmilano.it)
 
-- **Hashtags**
+### Hashtags
 #devfestMilano2024
 
-- **Tickets**
+### Tickets
 RSVP at https://gdg.community.dev/events/details/google-gdg-milano-presents-devfest-milano-2024-1
 
 ## Travel support
