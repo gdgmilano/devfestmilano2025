@@ -114,6 +114,15 @@
       },
       "fontColor": "#424242"
     },
+    "speakersInfo": {
+      "title": "Information for Speakers",
+      "metaDescription": "Please find some useful information for our DevFest speakers on this page",
+      "description": "Please find some useful information for our DevFest speakers on this page",
+      "background": {
+        "color": "#fff"
+      },
+      "fontColor": "#424242"
+    },
     "notFound": {
       "title": "Not Found",
       "metaDescription": "Page not found",

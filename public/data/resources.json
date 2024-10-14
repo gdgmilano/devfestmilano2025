@@ -27,6 +27,7 @@
   "faq": "/data/faq.md",
   "coc": "/data/coc.md",
   "locationPage": "data/location.md",
+  "speakersInfoPage": "data/speakers-info.md",
   "timezoneOffset": "-180",
   "loading": "Loading...",
   "footer": {

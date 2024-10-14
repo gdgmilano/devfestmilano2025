@@ -22,6 +22,7 @@ export {
   latestPostsBlock,
   loading,
   locationPage,
+  speakersInfoPage,
   mapBlock,
   mySchedule,
   notifications,

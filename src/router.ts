@@ -147,6 +147,13 @@ const ROUTES: Route[] = [
     },
   },
   {
+    path: '/speakers-info',
+    component: 'speakers-info-page',
+    action: async () => {
+      await import('./pages/speakers-info-page.js');
+    },
+  },
+  {
     path: '(.*)',
     component: 'not-found-page',
     action: async () => {
