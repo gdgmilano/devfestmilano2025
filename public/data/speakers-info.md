@@ -1,5 +1,5 @@
 ## Communication
-We created a the Telegram group for speakers, please join so that we can all stay easily in touch and share information in a more timely manner:
+We created a Telegram group for speakers, please join so that we can all stay easily in touch and share information in a more timely manner:
 
 [t.me/+Ryh95GxQ0tExNTU0](https://t.me/+Ryh95GxQ0tExNTU0)
 
