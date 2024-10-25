@@ -151,7 +151,7 @@ export class SpeakerPage extends ReduxMixin(PolymerElement) {
           <lazy-image class="photo" src="[[speaker.photoUrl]]" alt="[[speaker.name]]"></lazy-image>
           <div>
             <h2 class="name" flex>[[speaker.name]]</h2>
-            <div class="subtitle">[[subtitle]]</div>
+          <!--  <div class="subtitle">[[subtitle]]</div> -->
           </div>
         </div>
       </simple-hero>
