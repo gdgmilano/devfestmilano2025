@@ -192,19 +192,21 @@ export class SpeakersBlock extends ReduxMixin(PolymerElement) {
                 </div>
               </div>
 
+              <!-- 
               <lazy-image
                 class="company-logo"
                 src="[[speaker.companyLogoUrl]]"
                 alt="[[speaker.company]]"
               ></lazy-image>
+              -->
 
               <div class="description">
                 <text-truncate lines="1">
                   <h3 class="name">[[speaker.name]]</h3>
                 </text-truncate>
-                <text-truncate lines="1">
+               <!-- <text-truncate lines="1">
                   <div class="origin">[[speaker.country]]</div>
-                </text-truncate>
+                </text-truncate> -->
               </div>
             </a>
           </template>
