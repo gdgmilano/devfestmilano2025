@@ -53,6 +53,9 @@ export const theme = css`
     --cloud: #3f51b5;
     --community: #e91e63;
     --design: #e91e63;
+    --ai: #8a0909;
+    --workshop: #1d1d1f;
+    --tools: #311b41;
   }
 
   *,
