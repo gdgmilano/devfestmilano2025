@@ -78,7 +78,7 @@ export class ScheduleDay extends ReduxMixin(PolymerElement) {
             display: grid;
             grid-column-gap: 16px;
             grid-row-gap: 32px;
-            grid-template-columns: repeat(var(--tracks-number), 1fr);
+            grid-template-columns: repeat(var(--tracks-number), minmax(0, 1fr));
           }
 
           .start-time {
