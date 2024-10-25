@@ -224,15 +224,17 @@ export class SpeakersPage extends ReduxMixin(PolymerElement) {
               </div>
             </div>
 
+            <!--
             <lazy-image
               class="company-logo"
               src="[[speaker.companyLogoUrl]]"
               alt="[[speaker.company]]"
             ></lazy-image>
+            -->
 
             <div class="description">
               <h2 class="name">[[speaker.name]]</h2>
-              <div class="origin">[[speaker.country]]</div>
+             <!-- <div class="origin">[[speaker.country]]</div> -->
 
               <text-truncate lines="5">
                 <div class="bio">[[speaker.bio]]</div>
@@ -253,7 +255,7 @@ export class SpeakersPage extends ReduxMixin(PolymerElement) {
         </template>
       </div>
 
-      <previous-speakers-block></previous-speakers-block>
+      <!-- <previous-speakers-block></previous-speakers-block> -->
 
       <footer-block></footer-block>
     `;
