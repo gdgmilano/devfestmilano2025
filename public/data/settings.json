@@ -29,6 +29,11 @@
       "label": "Speakers"
     },
     {
+      "route": "schedule",
+      "permalink": "/schedule",
+      "label": "Schedule"
+    },
+    {
       "route": "location",
       "permalink": "/location",
       "label": "Location"
