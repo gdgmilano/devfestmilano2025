@@ -55,7 +55,7 @@ const checkForBots = (userAgent) => {
 //
 // The trick is on L66, pwaShell(): You must update that file! Open for explainer.
 app.get('*', async (req, res) => {
-  functions.logger.log(`Prerendering ${request.originalUrl}`);
+  functions.logger.log(`Prerendering ${req.originalUrl}`);
   // What say you bot tester?
   const botResult = checkForBots(req.headers['user-agent']);
   if (botResult) {
