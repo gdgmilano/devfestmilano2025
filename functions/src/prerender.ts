@@ -55,9 +55,11 @@ const checkForBots = (userAgent) => {
 //
 // The trick is on L66, pwaShell(): You must update that file! Open for explainer.
 app.get('*', async (req, res) => {
+  functions.logger.log(`Prerendering ${request.originalUrl}`);
   // What say you bot tester?
   const botResult = checkForBots(req.headers['user-agent']);
   if (botResult) {
+    functions.logger.log('Looks like we have a bot');
     // Get me the url all nice
     const targetUrl = generateUrl(req);
 
@@ -77,6 +79,7 @@ app.get('*', async (req, res) => {
         res.send(body.toString());
       });
   } else {
+    functions.logger.log('That\'s not a bot');
     // 1. Umm, Justin, why not just point to index.html?
     // 2. Umm, Justin, why not just fetch() index.html from the domain?
     //
@@ -85,6 +88,7 @@ app.get('*', async (req, res) => {
     // 2. Could fetch and return...but I found copy+paste the index.html PWA shell into file returns faster
     // const indexHTML = fs.readFileSync('./index.html').toString();
     const path = new URL('./index.html', import.meta.url).pathname;
+    functions.logger.log(`Sending ${path}`);
     res.sendFile(path);
   }
 });
