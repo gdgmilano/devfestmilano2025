@@ -16,6 +16,7 @@ import { getPerformance, initializePerformance } from 'firebase/performance';
 declare global {
   interface Window {
     firebaseConfig?: FirebaseOptions;
+    firestoreDatabaseId?: string;
   }
 }
 
@@ -25,9 +26,13 @@ if (!firebaseConfig) {
   throw new Error('window.firebaseConfig is not defined');
 }
 
+// Use specific database ID if provided, otherwise use default
+const databaseId = window.firestoreDatabaseId || '(default)';
+
 export const firebaseApp = initializeApp(firebaseConfig);
 export const db: Firestore = initializeFirestore(firebaseApp, {
   localCache: persistentLocalCache(),
+  databaseId: databaseId,
 });
 export const performance = getPerformance(firebaseApp);
 export const analytics = getAnalytics(firebaseApp);

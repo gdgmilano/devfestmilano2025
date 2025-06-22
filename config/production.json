@@ -1,5 +1,6 @@
 {
   "basepath": "/",
   "url": "https://devfest-milano-2024.web.app/",
-  "googleMapApiKey": "AIzaSyCJqlRVGIe6bfU43rga3cnK7tSXXwc7JD8"
+  "googleMapApiKey": "AIzaSyCJqlRVGIe6bfU43rga3cnK7tSXXwc7JD8",
+  "firestoreDatabaseId": "devfest-2025"
 }
