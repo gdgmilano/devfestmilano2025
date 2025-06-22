@@ -30,10 +30,13 @@ if (!firebaseConfig) {
 const databaseId = window.firestoreDatabaseId || '(default)';
 
 export const firebaseApp = initializeApp(firebaseConfig);
-export const db: Firestore = initializeFirestore(firebaseApp, {
-  localCache: persistentLocalCache(),
-  databaseId: databaseId,
-});
+export const db: Firestore = initializeFirestore(
+  firebaseApp,
+  {
+    localCache: persistentLocalCache(),
+  },
+  databaseId
+);
 export const performance = getPerformance(firebaseApp);
 export const analytics = getAnalytics(firebaseApp);
 

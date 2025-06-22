@@ -10,7 +10,7 @@ const credential = cert(serviceAccount as ServiceAccount);
 initializeApp({ credential });
 
 // Use specific database ID if provided in environment, otherwise use default
-const databaseId = process.env.FIRESTORE_DATABASE_ID || '(default)';
+const databaseId = process.env['FIRESTORE_DATABASE_ID'] || '(default)';
 const firestore = getFirestore(databaseId);
 
 export { firestore };
