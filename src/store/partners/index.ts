@@ -32,7 +32,7 @@ export const initialState = {
 
 const subscribeToPartners = () => {
   return onSnapshot(
-    query(collectionGroup(db, 'items'), orderBy('order')),
+    query(collectionGroup(db, 'items'), orderBy('order')), // Restore ordering with index
     (snapshot) => {
       store.dispatch(setPartnersSuccess(snapshot.docs.map<Partner>(dataWithParentId)));
     },

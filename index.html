@@ -88,20 +88,23 @@
       // prettier-ignore
       {{ webVitalsPolyfill | safe }}
 
-      // Capture the config object from /__/firebase/init.js for src/firebase.ts
-      window.firebase = {
-        initializeApp: (config) => {
-          window.firebaseConfig = config;
-          // Delete fake Firebase global
-          delete window.firebase;
-        },
+      // Firebase configuration for devfest-milano-2024 project
+      window.firebaseConfig = {
+        "projectId": "devfest-milano-2024",
+        "appId": "1:622519749363:web:c2ac858ce8f2c00e758586",
+        "databaseURL": "https://devfest-milano-2024-default-rtdb.europe-west1.firebasedatabase.app",
+        "storageBucket": "devfest-milano-2024.appspot.com",
+        "locationId": "europe-west",
+        "apiKey": "AIzaSyD7J9yQiFW4cMLTdtIdbAeo5KRGYJlAuMo",
+        "authDomain": "devfest-milano-2024.firebaseapp.com",
+        "messagingSenderId": "622519749363",
+        "measurementId": "G-BQ79MFQS4N"
       };
 
       // Set Firestore database ID
       window.firestoreDatabaseId = '{{ firestoreDatabaseId }}';
     </script>
 
-    <script src="/__/firebase/init.js"></script>
     <script src="./src/hoverboard-app.ts" type="module"></script>
     <script src="./src/components/app-install.ts" type="module"></script>
     <script src="./src/service-worker-registration.ts" type="module"></script>

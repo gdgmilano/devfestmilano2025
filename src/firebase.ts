@@ -29,6 +29,10 @@ if (!firebaseConfig) {
 // Use specific database ID if provided, otherwise use default
 const databaseId = window.firestoreDatabaseId || '(default)';
 
+// Debug log to see which database is being used
+console.log('🔥 Firebase Database ID:', databaseId);
+console.log('🔥 Firebase Config:', firebaseConfig);
+
 export const firebaseApp = initializeApp(firebaseConfig);
 export const db: Firestore = initializeFirestore(
   firebaseApp,
