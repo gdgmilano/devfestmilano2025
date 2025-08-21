@@ -5,7 +5,11 @@ import fs from 'fs';
 
 type Data = typeof import('../public/data/resources.json') &
   typeof import('../public/data/settings.json') &
-  typeof import('../config/production.json') & { NODE_ENV: string; webVitalsPolyfill: string };
+  typeof import('../config/production.json') & { 
+    NODE_ENV: string; 
+    webVitalsPolyfill: string;
+    firestoreDatabaseId?: string;
+  };
 
 const { BUILD_ENV, NODE_ENV, ROLLUP_WATCH } = process.env;
 export const production = NODE_ENV === 'production';
@@ -55,6 +59,13 @@ const cleanupData = (data: Data) => {
 };
 
 const data = cleanupData(getData());
+
+// Debug: log delle variabili passate al template
+console.log('🔍 Template data:', {
+  firestoreDatabaseId: data.firestoreDatabaseId,
+  NODE_ENV: data.NODE_ENV,
+  buildTarget
+});
 
 const nunjucks = n.configure({ throwOnUndefined: true });
 
