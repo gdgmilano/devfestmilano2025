@@ -18,6 +18,7 @@ import { scheduleNotifications2025 } from './schedule-notifications.js';
 
 initializeApp();
 
+// Export only 2025 functions
 export {
   sendGeneralNotification2025,
   scheduleNotifications2025,
