@@ -19,11 +19,11 @@ const isScheduleEnabled = async (): Promise<boolean> => {
   }
 };
 
-export const sessionsWrite = functions.firestore
+export const sessionsWrite2025 = functions.firestore
   .document('sessions/{sessionId}')
   .onWrite(() => generateAndSaveData());
 
-export const scheduleWrite = functions.firestore
+export const scheduleWrite2025 = functions.firestore
   .document('schedule/{scheduleId}')
   .onWrite(async () => {
     if (await isScheduleEnabled()) {
@@ -32,7 +32,7 @@ export const scheduleWrite = functions.firestore
     return null;
   });
 
-export const speakersWrite = functions.firestore
+export const speakersWrite2025 = functions.firestore
   .document('speakers/{speakerId}')
   .onWrite(async (change, context) => {
     const changedSpeaker = change.after.exists

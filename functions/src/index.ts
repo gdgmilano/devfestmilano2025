@@ -19,12 +19,12 @@ import { scheduleNotifications } from './schedule-notifications.js';
 initializeApp();
 
 export {
-  sendGeneralNotification,
-  scheduleNotifications,
-  optimizeImages,
-  mailchimpSubscribe,
-  prerender,
-  scheduleWrite,
-  sessionsWrite,
-  speakersWrite,
+  sendGeneralNotification2025,
+  scheduleNotifications2025,
+  optimizeImages2025,
+  mailchimpSubscribe2025,
+  prerender2025,
+  scheduleWrite2025,
+  sessionsWrite2025,
+  speakersWrite2025,
 };

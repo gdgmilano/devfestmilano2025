@@ -80,7 +80,7 @@ const sendPushNotificationToUsers = async (userIds: string[], payload: Messaging
   return removeUserTokens(tokensToRemove);
 };
 
-export const scheduleNotifications = functions.pubsub
+export const scheduleNotifications2025 = functions.pubsub
   .schedule('every 5 minutes')
   .onRun(async () => {
     const notificationsConfigPromise = getFirestore()

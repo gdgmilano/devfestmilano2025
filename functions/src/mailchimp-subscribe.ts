@@ -12,7 +12,7 @@ const getMailchimpConfig = async () => {
   return doc.exists && doc.data();
 };
 
-export const mailchimpSubscribe = functions.firestore
+export const mailchimpSubscribe2025 = functions.firestore
   .document('/subscribers/{id}')
   .onCreate(async (snapshot) => {
     const mailchimpConfig = await getMailchimpConfig();

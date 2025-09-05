@@ -93,4 +93,4 @@ app.get('*', async (req, res) => {
   }
 });
 
-export const prerender = functions.https.onRequest(app);
+export const prerender2025 = functions.https.onRequest(app);
