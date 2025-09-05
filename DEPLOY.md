@@ -4,6 +4,18 @@
 
 Questo repository gestisce SOLO le funzioni 2025. Le funzioni 2024 devono rimanere intatte in GCP.
 
+## 🗄️ PREREQUISITI - BUCKET STORAGE SEPARATO
+
+Prima del deploy, devi creare un bucket Storage separato per il 2025:
+
+```bash
+# Crea il bucket per il 2025
+gsutil mb gs://devfest-milano-2025
+
+# Configura le regole di accesso
+gsutil iam ch allUsers:objectViewer gs://devfest-milano-2025
+```
+
 ## 🚀 Script di Deploy
 
 ### Deploy Completo (SICURO)
