@@ -21,8 +21,8 @@ export const sendGeneralNotification2025 = functions.firestore
 
     functions.logger.log(`New message added at ${timestamp} with payload ${message}`);
 
-    const deviceTokensPromise = getFirestore().collection('notificationsSubscribers').get();
-    const notificationsConfigPromise = getFirestore()
+    const deviceTokensPromise = getFirestore('devfest-2025').collection('notificationsSubscribers').get();
+    const notificationsConfigPromise = getFirestore('devfest-2025')
       .collection('config')
       .doc('notifications')
       .get();
@@ -62,7 +62,7 @@ export const sendGeneralNotification2025 = functions.firestore
       if (error) {
         functions.logger.error(`Failure sending notification to ${tokens[index]}`, error);
         if (REMOVE_TOKEN_ERROR.includes(error.code)) {
-          const tokenRef = getFirestore().collection('notificationsSubscribers').doc(tokens[index]);
+          const tokenRef = getFirestore('devfest-2025').collection('notificationsSubscribers').doc(tokens[index]);
           tokensToRemove.push(tokenRef.delete());
         }
       }

@@ -7,7 +7,7 @@ import { sessionsSpeakersScheduleMap } from './schedule-generator/speakers-sessi
 import { isEmpty, ScheduleMap, SessionMap, snapshotToObject, SpeakerMap } from './utils.js';
 
 const isScheduleEnabled = async (): Promise<boolean> => {
-  const doc = await getFirestore().collection('config').doc('schedule').get();
+  const doc = await getFirestore('devfest-2025').collection('config').doc('schedule').get();
 
   if (doc.exists) {
     return doc.data().enabled === 'true' || doc.data().enabled === true;
@@ -42,9 +42,9 @@ export const speakersWrite2025 = functions.firestore
   });
 
 const fetchData = () => {
-  const sessionsPromise = getFirestore().collection('sessions').get();
-  const schedulePromise = getFirestore().collection('schedule').orderBy('date', 'desc').get();
-  const speakersPromise = getFirestore().collection('speakers').get();
+  const sessionsPromise = getFirestore('devfest-2025').collection('sessions').get();
+  const schedulePromise = getFirestore('devfest-2025').collection('schedule').orderBy('date', 'desc').get();
+  const speakersPromise = getFirestore('devfest-2025').collection('speakers').get();
 
   return Promise.all([sessionsPromise, schedulePromise, speakersPromise]);
 };
@@ -89,6 +89,6 @@ function saveGeneratedData(data: SessionMap | SpeakerMap | ScheduleMap, collecti
 
   for (let index = 0; index < Object.keys(data).length; index++) {
     const key = Object.keys(data)[index];
-    getFirestore().collection(collectionName).doc(key).set(data[key]);
+    getFirestore('devfest-2025').collection(collectionName).doc(key).set(data[key]);
   }
 }

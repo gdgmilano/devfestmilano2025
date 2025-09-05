@@ -18,9 +18,9 @@ const removeUserTokens = (tokensToUsers) => {
   }, {});
 
   const promises = Object.keys(userTokens).map((userId) => {
-    const ref = getFirestore().collection('notificationsUsers').doc(userId);
+    const ref = getFirestore('devfest-2025').collection('notificationsUsers').doc(userId);
 
-    return getFirestore().runTransaction((transaction) =>
+    return getFirestore('devfest-2025').runTransaction((transaction) =>
       transaction.get(ref).then((doc) => {
         if (!doc.exists) {
           return;
@@ -50,7 +50,7 @@ const sendPushNotificationToUsers = async (userIds: string[], payload: Messaging
   );
 
   const tokensPromise = userIds.map((id) => {
-    return getFirestore().collection('notificationsUsers').doc(id).get();
+    return getFirestore('devfest-2025').collection('notificationsUsers').doc(id).get();
   });
 
   const usersTokens: DocumentSnapshot<DocumentData>[] = await Promise.all(tokensPromise);
@@ -83,11 +83,11 @@ const sendPushNotificationToUsers = async (userIds: string[], payload: Messaging
 export const scheduleNotifications2025 = functions.pubsub
   .schedule('every 5 minutes')
   .onRun(async () => {
-    const notificationsConfigPromise = getFirestore()
+    const notificationsConfigPromise = getFirestore('devfest-2025')
       .collection('config')
       .doc('notifications')
       .get();
-    const schedulePromise = getFirestore().collection('schedule').get();
+    const schedulePromise = getFirestore('devfest-2025').collection('schedule').get();
 
     const [notificationsConfigSnapshot, scheduleSnapshot] = await Promise.all([
       notificationsConfigPromise,
@@ -121,10 +121,10 @@ export const scheduleNotifications2025 = functions.pubsub
           [],
         ),
       );
-      const usersIdsSnapshot = await getFirestore().collection('featuredSessions').get();
+      const usersIdsSnapshot = await getFirestore('devfest-2025').collection('featuredSessions').get();
 
       upcomingSessions.forEach(async (upcomingSession, sessionIndex) => {
-        const sessionInfoSnapshot = await getFirestore()
+        const sessionInfoSnapshot = await getFirestore('devfest-2025')
           .collection('sessions')
           .doc(upcomingSession)
           .get();

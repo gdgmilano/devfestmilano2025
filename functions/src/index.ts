@@ -1,6 +1,7 @@
 // https://github.com/import-js/eslint-plugin-import/issues/1810
 // eslint-disable-next-line import/no-unresolved
 import { initializeApp } from 'firebase-admin/app';
+import { getFirestore } from 'firebase-admin/firestore';
 import {
   scheduleWrite2025,
   sessionsWrite2025,
@@ -16,7 +17,12 @@ import { scheduleNotifications2025 } from './schedule-notifications.js';
 // - "noImplicitReturns": true,
 // - "strict": true,
 
-initializeApp();
+// Initialize Firebase Admin with 2025 database
+const app = initializeApp();
+getFirestore(app, 'devfest-2025');
+
+// Set the default database for all getFirestore() calls
+process.env.FIRESTORE_DATABASE_ID = 'devfest-2025';
 
 // Export only 2025 functions
 export {

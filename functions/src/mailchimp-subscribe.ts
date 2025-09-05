@@ -8,7 +8,7 @@ import fetch from 'node-fetch';
 const md5 = (data: string) => crypto.createHash('md5').update(data).digest('hex');
 
 const getMailchimpConfig = async () => {
-  const doc = await getFirestore().collection('config').doc('mailchimp').get();
+  const doc = await getFirestore('devfest-2025').collection('config').doc('mailchimp').get();
   return doc.exists && doc.data();
 };
 
