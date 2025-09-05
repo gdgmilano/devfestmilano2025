@@ -1,12 +1,7 @@
 rules_version = '2';
 service firebase.storage {
-  match /b/{bucket}/o {
-    // Allow access to 2025 folder
-    match /2025/{allPaths=**} {
-      allow read, write: if request.auth != null;
-    }
-    
-    // Allow temporary uploads that will be moved to 2025 folder by Cloud Functions
+  match /b/devfest-milano-2025/o {
+    // Allow access to all files in the 2025 bucket
     match /{allPaths=**} {
       allow read, write: if request.auth != null;
     }
