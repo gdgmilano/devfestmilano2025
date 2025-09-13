@@ -1,61 +1,53 @@
-# Deploy Instructions - DevFest Milano 2025
+# 🚀 Deploy DevFest Milano 2025
 
-## ⚠️ IMPORTANTE - NON CANCELLARE LE FUNZIONI 2024
+## 🗄️ PREREQUISITI - NUOVO PROGETTO FIREBASE
 
-Questo repository gestisce SOLO le funzioni 2025. Le funzioni 2024 devono rimanere intatte in GCP.
+Questo repository è configurato per il nuovo progetto Firebase `devfest-milano-2025`.
 
-## 🗄️ PREREQUISITI - BUCKET STORAGE SEPARATO
-
-Prima del deploy, devi creare un bucket Storage separato per il 2025:
-
-```bash
-# Crea il bucket per il 2025
-gsutil mb gs://devfest-milano-2025
-
-# Configura le regole di accesso
-gsutil iam ch allUsers:objectViewer gs://devfest-milano-2025
-```
+Assicurati di:
+1. Avere accesso al progetto `devfest-milano-2025` su Firebase Console
+2. Aver fatto login con Firebase CLI: `firebase login`
+3. Aver selezionato il progetto corretto: `firebase use devfest-milano-2025`
 
 ## 🚀 Script di Deploy
 
-### Deploy Completo (SICURO)
+### Deploy Completo
 ```bash
-# Deploy solo hosting e storage (NON tocca le funzioni esistenti)
-npm run deploy:hosting
-npm run deploy:storage
-```
-
-### Deploy Solo Funzioni 2025
-```bash
-# Deploy solo le nuove funzioni 2025
-npm run deploy:functions
-```
-
-### Deploy Tutto (ATTENZIONE)
-```bash
-# Usa con cautela - potrebbe interferire con le funzioni esistenti
+# Deploy completo (funzioni, hosting, storage, firestore)
 npm run deploy
+```
+
+### Deploy Specifici
+```bash
+# Deploy solo funzioni
+npm run deploy:functions
+
+# Deploy solo hosting
+npm run deploy:hosting
+
+# Deploy solo storage
+npm run deploy:storage
 ```
 
 ## 📁 Configurazione
 
-- **firebase.json**: Configurazione principale (solo hosting, storage, firestore)
-- **firebase-functions.json**: Configurazione specifica per le funzioni 2025
-- **.firebaserc**: Progetto Firebase (devfest-milano-2024)
+- **firebase.json**: Configurazione principale
+- **.firebaserc**: Progetto Firebase (devfest-milano-2025)
+- **config/production.json**: Configurazione di produzione
 
-## 🎯 Funzioni 2025 Deployate
+## 🎯 Funzioni Deployate
 
-- `prerender2025`
-- `sendGeneralNotification2025`
-- `scheduleNotifications2025`
-- `mailchimpSubscribe2025`
-- `optimizeImages2025`
-- `sessionsWrite2025`
-- `scheduleWrite2025`
-- `speakersWrite2025`
+- `prerender`
+- `sendGeneralNotification`
+- `scheduleNotifications`
+- `mailchimpSubscribe`
+- `optimizeImages`
+- `sessionsWrite`
+- `scheduleWrite`
+- `speakersWrite`
 
 ## ✅ Verifica Post-Deploy
 
-1. Controlla che le funzioni 2024 siano ancora presenti in GCP
-2. Verifica che le funzioni 2025 siano state deployate
-3. Testa il sito per assicurarti che funzioni correttamente
+1. Verifica che tutte le funzioni siano state deployate correttamente
+2. Testa il sito per assicurarti che funzioni correttamente
+3. Controlla che il database Firestore sia configurato correttamente

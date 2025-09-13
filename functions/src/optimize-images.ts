@@ -10,23 +10,16 @@ const mkdirp = (path: string) => fs.promises.mkdir(path, { recursive: true });
 
 const gcs = new Storage();
 
-export const optimizeImages2025 = storage.object().onFinalize((object) => {
+export const optimizeImages = storage.object().onFinalize((object) => {
   const { contentType, name } = object;
-  
-  // Only process images in the 2025 bucket
-  if (object.bucket !== 'devfest-milano-2025') {
-    functions.logger.log('Image is not in 2025 bucket, skipping optimization.');
-    return null;
-  }
-  
+
   // Exit if this is triggered on a file that is not an image.
   if (!contentType.startsWith('image/')) {
     functions.logger.log('This is not an image.');
     return null;
   }
 
-  // Process all images in the 2025 bucket
-  functions.logger.log(`Processing image in 2025 bucket: ${name}`);
+  functions.logger.log(`Processing image: ${name}`);
   return optimizeImage(object);
 });
 

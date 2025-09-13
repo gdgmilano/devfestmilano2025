@@ -9,12 +9,12 @@ import url, { URL } from 'url';
 const app = express();
 
 const getSiteDomain = async () => {
-  const doc = await getFirestore('devfest-2025').collection('config').doc('site').get();
+  const doc = await getFirestore().collection('config').doc('site').get();
   return doc.data().domain;
 };
 
 const getRendertronServer = async () => {
-  const doc = await getFirestore('devfest-2025').collection('config').doc('rendertron').get();
+  const doc = await getFirestore().collection('config').doc('rendertron').get();
   return doc.data().server;
 };
 
@@ -93,4 +93,4 @@ app.get('*', async (req, res) => {
   }
 });
 
-export const prerender2025 = functions.https.onRequest(app);
+export const prerender = functions.https.onRequest(app);

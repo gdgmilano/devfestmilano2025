@@ -80,14 +80,14 @@ const sendPushNotificationToUsers = async (userIds: string[], payload: Messaging
   return removeUserTokens(tokensToRemove);
 };
 
-export const scheduleNotifications2025 = functions.pubsub
+export const scheduleNotifications = functions.pubsub
   .schedule('every 5 minutes')
   .onRun(async () => {
-    const notificationsConfigPromise = getFirestore('devfest-2025')
+    const notificationsConfigPromise = getFirestore()
       .collection('config')
       .doc('notifications')
       .get();
-    const schedulePromise = getFirestore('devfest-2025').collection('schedule').get();
+    const schedulePromise = getFirestore().collection('schedule').get();
 
     const [notificationsConfigSnapshot, scheduleSnapshot] = await Promise.all([
       notificationsConfigPromise,
@@ -121,10 +121,10 @@ export const scheduleNotifications2025 = functions.pubsub
           [],
         ),
       );
-      const usersIdsSnapshot = await getFirestore('devfest-2025').collection('featuredSessions').get();
+      const usersIdsSnapshot = await getFirestore().collection('featuredSessions').get();
 
       upcomingSessions.forEach(async (upcomingSession, sessionIndex) => {
-        const sessionInfoSnapshot = await getFirestore('devfest-2025')
+        const sessionInfoSnapshot = await getFirestore()
           .collection('sessions')
           .doc(upcomingSession)
           .get();
