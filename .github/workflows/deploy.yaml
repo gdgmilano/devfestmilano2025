@@ -20,5 +20,5 @@ jobs:
           args: deploy --debug
         env:
           # See docs/tutorials/04-deploy.md for configuring these
-          PROJECT_ID: devfest-milano-2024
+          PROJECT_ID: devfest-milano-2025
           GCP_SA_KEY: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_HOVERBOARD_MASTER }}
