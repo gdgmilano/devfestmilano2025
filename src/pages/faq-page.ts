@@ -16,7 +16,7 @@ export class FaqPage extends PolymerElement {
         }
       </style>
 
-      <simple-hero page="faq"></simple-hero>
+      <simple-hero page="faq1"></simple-hero>
 
       <remote-markdown toc path="[[source]]"></remote-markdown>
 
