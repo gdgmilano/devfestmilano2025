@@ -26,10 +26,11 @@ async function main() {
     await crawl();
   } else {
     console.log('\n[1-2/6] Skipped (--no-crawl): using existing crawled output.');
+    // Photo fix + dynamic-UI strip is applied inline during crawl; only needed
+    // as a separate offline pass when reusing already-crawled output.
+    console.log('\n[3/6] Fixing photos + stripping dynamic UI (offline)...');
+    await postprocess();
   }
-
-  console.log('\n[3/6] Fixing photos (offline)...');
-  await postprocess();
 
   console.log('\n[4/6] Building speaker detail pages...');
   await buildSpeakers();

@@ -2,108 +2,110 @@
   {
     "id": "adrian_kajda",
     "name": "Adrian Kajda",
-    "order": 0,
-    "company": "Sygic",
-    "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/adrian_kajda.jpg",
-    "photo": "/images/people/adrian_kajda.jpg",
     "title": "Product Manager/Developer",
-    "shortBio": "Creator of Fuelio app. Fuelio was his hooby project started in 2012. Three years later the app wa...",
-    "companyLogo": "/images/logos/gdg-lviv.svg",
-    "bio": "Creator of Fuelio app. Fuelio was his hooby project started in 2012. Three years later the app was aquired by Sygic.",
     "featured": true,
+    "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/adrian_kajda.jpg",
+    "company": "Sygic",
+    "photo": "/images/people/adrian_kajda.jpg",
     "socials": [],
-    "pronouns": "he/him",
     "country": "Creator of Fuelio app. Fuelio blah blah, Poland",
-    "companyLogoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg"
+    "order": 0,
+    "shortBio": "Creator of Fuelio app. Fuelio was his hooby project started in 2012. Three years later the app wa...",
+    "pronouns": "he/him",
+    "bio": "Creator of Fuelio app. Fuelio was his hooby project started in 2012. Three years later the app was aquired by Sygic.",
+    "companyLogoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
+    "companyLogo": "/images/logos/gdg-lviv.svg"
   },
   {
     "id": "ahmed_tikiwa",
-    "badges": [
-      {
-        "name": "gde",
-        "link": "https://developers.google.com/profile/u/ahmedt",
-        "description": "Android Google Developer Expert"
-      }
-    ],
-    "title": "Google Developer Expert (GDE) Android",
-    "featured": false,
-    "name": "Ahmed Tikiwa",
-    "order": 1,
     "bio": "Ahmed Tikiwa is a Google Developer Expert for Android and a seasoned full-stack developer with over 10 years of experience and possesses a strong passion for developing world-class applications that can help make a difference. He has experience in frontend and backend systems, where he has built enterprise solutions for major telecommunication companies. He is currently a Software Engineer based in Utrecht, The Netherlands and an official contributor to Google Developers Dev Library.",
     "socials": [
       {
-        "link": "https://www.linkedin.com/in/ahmed-tikiwa/",
         "name": "LinkedIn",
-        "icon": "linkedin"
+        "icon": "linkedin",
+        "link": "https://www.linkedin.com/in/ahmed-tikiwa/"
       },
       {
-        "link": "https://twitter.com/@ahmed_tikiwa",
         "name": "Twitter",
+        "link": "https://twitter.com/@ahmed_tikiwa",
         "icon": "twitter"
       }
     ],
+    "badges": [
+      {
+        "link": "https://developers.google.com/profile/u/ahmedt",
+        "description": "Android Google Developer Expert",
+        "name": "gde"
+      }
+    ],
+    "featured": false,
+    "title": "Google Developer Expert (GDE) Android",
+    "order": 1,
+    "name": "Ahmed Tikiwa",
     "photoUrl": "https://sessionize.com/image/0960-400o400o1-HRBPjPpDAECwDhScYPj4Nm.png"
   },
   {
     "id": "aldan_creo",
-    "socials": [
-      {
-        "name": "LinkedIn",
-        "link": "https://linkedin.com/in/acmcmc",
-        "icon": "linkedin"
-      }
-    ],
     "photoUrl": "https://sessionize.com/image/a8f5-400o400o1-KZ2Qk2kdE34vjwtHtCDzEk.jpg",
     "name": "Aldan Creo",
     "order": 2,
-    "bio": "Aldan is a Fulbright Student, sponsored by the U.S. Department of State. He studied Computer Science in Spain, France, and Switzerland, graduating as valedictorian. He has completed four internships and been a Google Summer of Code contributor for Django. He received a public grant to undertake research on Natural Language Processing, and has been recognized for leadership and academic excellence through several awards. He is also the founder of 3 associations and contributes to open source. Currently, he is employed as a Technology Research Specialist working on Knowledge Graphs and Natural Language Processing in Accenture Labs.\t",
     "featured": false,
     "title": "Technology Research Specialist @ Accenture Labs",
+    "socials": [
+      {
+        "link": "https://linkedin.com/in/acmcmc",
+        "icon": "linkedin",
+        "name": "LinkedIn"
+      }
+    ],
+    "bio": "Aldan is a Fulbright Student, sponsored by the U.S. Department of State. He studied Computer Science in Spain, France, and Switzerland, graduating as valedictorian. He has completed four internships and been a Google Summer of Code contributor for Django. He received a public grant to undertake research on Natural Language Processing, and has been recognized for leadership and academic excellence through several awards. He is also the founder of 3 associations and contributes to open source. Currently, he is employed as a Technology Research Specialist working on Knowledge Graphs and Natural Language Processing in Accenture Labs.\t",
     "badges": []
   },
   {
     "id": "aleksander_piotrowski",
+    "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/aleksander_piotrowski.jpg",
+    "title": "Code Monkey",
+    "name": "Aleksander Piotrowski",
+    "featured": false,
+    "company": "Applause",
+    "photo": "/images/people/aleksander_piotrowski.jpg",
+    "shortBio": "Became a mobile developer after long run as a backend developer. Because of age, holding senior p...",
     "country": "Warsaw, Poland",
-    "companyLogoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
-    "pronouns": "he/him",
+    "order": 1,
     "socials": [
       {
+        "icon": "twitter",
         "link": "https://twitter.com/pelotasplus",
-        "name": "Twitter",
-        "icon": "twitter"
+        "name": "Twitter"
       },
       {
-        "link": "http://facebook.com/pelotasplus",
         "name": "Facebook",
+        "link": "http://facebook.com/pelotasplus",
         "icon": "facebook"
       },
       {
+        "icon": "linkedin",
         "link": "https://www.linkedin.com/in/pelotasplus",
-        "name": "LinkedIn",
-        "icon": "linkedin"
+        "name": "LinkedIn"
       },
       {
+        "icon": "instagram",
         "link": "https://www.instagram.com/pelotasplus/",
-        "name": "Instagram",
-        "icon": "instagram"
+        "name": "Instagram"
       }
     ],
-    "featured": false,
     "companyLogo": "/images/logos/gdg-lviv.svg",
-    "bio": "Became a mobile developer after long run as a backend developer. Because of age, holding senior positions from the day one as an Android programmer. Serial hackathon winner, or at least contender ;-)",
-    "title": "Code Monkey",
-    "shortBio": "Became a mobile developer after long run as a backend developer. Because of age, holding senior p...",
-    "company": "Applause",
-    "order": 1,
-    "name": "Aleksander Piotrowski",
-    "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/aleksander_piotrowski.jpg",
-    "photo": "/images/people/aleksander_piotrowski.jpg"
+    "pronouns": "he/him",
+    "companyLogoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
+    "bio": "Became a mobile developer after long run as a backend developer. Because of age, holding senior positions from the day one as an Android programmer. Serial hackathon winner, or at least contender ;-)"
   },
   {
     "id": "alessandro_romano",
-    "title": "Senior Engineering Manager at Mollie",
-    "badges": [],
     "photoUrl": "https://sessionize.com/image/3097-0o0o0-UtREYN6c5NUYLM14t4N9Xq.png",
+    "name": "Alessandro Romano",
+    "title": "Senior Engineering Manager at Mollie",
+    "featured": true,
+    "order": 26,
     "socials": [
       {
         "name": "LinkedIn",
@@ -111,84 +113,75 @@
         "icon": "linkedin"
       },
       {
-        "link": "https://x.com/_aleromano",
         "name": "Twitter",
-        "icon": "twitter"
+        "icon": "twitter",
+        "link": "https://x.com/_aleromano"
       }
     ],
-    "name": "Alessandro Romano",
-    "order": 26,
     "bio": "I'm addicted to details and obsessed with how things work: from Cloud services to human relationships. Since my first Hello World in RPG Maker, I have come to believe that being an Engineer is much more than coding.  I'm currently an Engineering Manager at Mollie, where I focus on helping teams collaborate effectively and deliver impactful solutions.",
-    "featured": true
+    "badges": []
   },
   {
     "id": "alfredo_morresi",
     "badges": [],
-    "title": "Developer Relations @ Google",
-    "featured": true,
-    "name": "Alfredo Morresi",
-    "order": 3,
     "bio": "I help people to get things done, at the intersection of technology, community, leadership and fun.    Community builder and developer by passion, Developer Relation @ Google by profession        🇮🇹, I love being a dad, free-software, running on the beach, snowboarding. I relentlessly train myself in preparing (and eating) Tiramisù.        I’m definitely yellow.",
     "socials": [
       {
         "link": "https://linkedin.com/in/alfredomorresi",
-        "name": "LinkedIn",
-        "icon": "linkedin"
+        "icon": "linkedin",
+        "name": "LinkedIn"
       },
       {
         "link": "https://twitter.com/rainbowbreeze",
-        "name": "Twitter",
-        "icon": "twitter"
+        "icon": "twitter",
+        "name": "Twitter"
       },
       {
         "link": "https://rainbowbreeze.it",
-        "name": "Website",
-        "icon": "website"
+        "icon": "website",
+        "name": "Website"
       }
     ],
+    "name": "Alfredo Morresi",
+    "title": "Developer Relations @ Google",
+    "featured": true,
+    "order": 3,
     "photoUrl": "https://sessionize.com/image/5335-400o400o1-VTGuvYKRpnENbxKRVA9ygc.png"
   },
   {
     "id": "alvin_bryan",
-    "badges": [],
+    "name": "Alvin Bryan",
+    "order": 4,
+    "featured": false,
     "title": "Developer Advocate",
     "photoUrl": "https://sessionize.com/image/9d33-400o400o1-YhHHzbcpAMbXGo5wExweTT.jpeg",
+    "bio": "I’m a developer advocate at Unleash, previously at Contentful. Before that, he used to be a lead engineer for Dow Jones in the Wall Street Journal and has had various front-end roles. He’s very UX driven and happiest when collaborating with designers and pushing boundaries as a team. He’s learning a lot about DevRel these days and loving it.",
     "socials": [
       {
         "link": "https://www.linkedin.com/in/alvin-bryan/",
-        "name": "LinkedIn",
-        "icon": "linkedin"
+        "icon": "linkedin",
+        "name": "LinkedIn"
       },
       {
+        "icon": "twitter",
         "link": "https://twitter.com/hola_alvin",
-        "name": "Twitter",
-        "icon": "twitter"
+        "name": "Twitter"
       },
       {
-        "link": "https://instagram.com/hola_alvin",
         "name": "Instagram",
+        "link": "https://instagram.com/hola_alvin",
         "icon": "instagram"
       },
       {
-        "link": "https://alvin.codes/",
         "name": "Website",
+        "link": "https://alvin.codes/",
         "icon": "website"
       }
     ],
-    "featured": false,
-    "name": "Alvin Bryan",
-    "bio": "I’m a developer advocate at Unleash, previously at Contentful. Before that, he used to be a lead engineer for Dow Jones in the Wall Street Journal and has had various front-end roles. He’s very UX driven and happiest when collaborating with designers and pushing boundaries as a team. He’s learning a lot about DevRel these days and loving it.",
-    "order": 4
+    "badges": []
   },
   {
     "id": "andrea_caglio",
-    "badges": [],
-    "title": "Intré srl, Software & AI Engineer",
-    "featured": false,
-    "name": "Andrea Caglio",
-    "bio": "\"I am a computer science professional with a passion for innovation and the use of new technologies. Since September 2017, I have been working as a software engineer at Intré, where I have developed skills in Agile methodologies and teamwork. I have come to appreciate the importance of code quality and clean code in my work.    I have obtained a three-year bachelor's degree in computer science in 2019 and a master's degree in computer science in 2022, both from the University of Milan-Bicocca. I have a strong interest in Artificial Intelligence and Machine Learning, and I am always looking for ways to improve my skills in these areas.\"\t\t",
-    "order": 5,
-    "photoUrl": "https://sessionize.com/image/bac3-400o400o1-RCxWNfA4266LW8YP6pvaX.jpg",
     "socials": [
       {
         "name": "LinkedIn",
@@ -196,175 +189,177 @@
         "icon": "linkedin"
       },
       {
-        "link": "https://www.instagram.com/andre_caglio?igsh=djgzemc4YzN5MGw%3D&utm_source=qr",
         "name": "Instagram",
-        "icon": "instagram"
+        "icon": "instagram",
+        "link": "https://www.instagram.com/andre_caglio?igsh=djgzemc4YzN5MGw%3D&utm_source=qr"
       }
-    ]
+    ],
+    "bio": "\"I am a computer science professional with a passion for innovation and the use of new technologies. Since September 2017, I have been working as a software engineer at Intré, where I have developed skills in Agile methodologies and teamwork. I have come to appreciate the importance of code quality and clean code in my work.    I have obtained a three-year bachelor's degree in computer science in 2019 and a master's degree in computer science in 2022, both from the University of Milan-Bicocca. I have a strong interest in Artificial Intelligence and Machine Learning, and I am always looking for ways to improve my skills in these areas.\"\t\t",
+    "badges": [],
+    "photoUrl": "https://sessionize.com/image/bac3-400o400o1-RCxWNfA4266LW8YP6pvaX.jpg",
+    "featured": false,
+    "title": "Intré srl, Software & AI Engineer",
+    "order": 5,
+    "name": "Andrea Caglio"
   },
   {
     "id": "andrea_romoli",
-    "bio": "I am Innovation Facilitator and an Event Producer : in the last years I have acquired expertise organizing workshop with new emerging and innovative methodologies: Lean Startup methodology since 2014, LEGO® Serious Play® since 2017 and Google Design Sprint 2018.",
-    "order": 6,
     "name": "AndRom",
+    "order": 6,
     "featured": false,
+    "title": "In Sprint Srl, Co-Founder, Innovation Facilitator",
     "photoUrl": "https://sessionize.com/image/0609-400o400o1-RMquLRktbV4Xgzxxtb5c3u.jpg",
+    "bio": "I am Innovation Facilitator and an Event Producer : in the last years I have acquired expertise organizing workshop with new emerging and innovative methodologies: Lean Startup methodology since 2014, LEGO® Serious Play® since 2017 and Google Design Sprint 2018.",
     "socials": [
       {
+        "icon": "linkedin",
         "link": "https://www.linkedin.com/in/andrearomoli/",
-        "name": "LinkedIn",
-        "icon": "linkedin"
+        "name": "LinkedIn"
       },
       {
-        "name": "Twitter",
+        "icon": "twitter",
         "link": "https://twitter.com/androm/",
-        "icon": "twitter"
+        "name": "Twitter"
       },
       {
         "link": "https://instagram.com/androm63",
-        "name": "Instagram",
-        "icon": "instagram"
+        "icon": "instagram",
+        "name": "Instagram"
       }
     ],
-    "title": "In Sprint Srl, Co-Founder, Innovation Facilitator",
     "badges": []
   },
   {
     "id": "andreas_klumpp",
-    "name": "Andreas Klumpp",
-    "order": 26,
+    "badges": [],
     "bio": "Andreas is a dedicated fullstack software developer at Thoughtworks, with a background in business informatics. His expertise lies in frontend and product development, where he aims at creating inclusive and accessible experiences. Beyond his technical expertise, Andreas is deeply engaged in and committed to DEI (Diversity, Equity, and Inclusion) topics.  He is passionate about building inclusive and accessible software, and he actively advocates for bringing this perspective into agile delivery teams. With a keen eye for user needs and a commitment to fostering diversity, Andreas strives to make a positive impact in the world of software development.",
-    "featured": false,
-    "photoUrl": "https://sessionize.com/image/58a5-0o0o0-95BWgTbiSpo4TvRTjCfuNj.jpg",
     "socials": [
       {
         "link": "https://www.linkedin.com/in/andreas-klumpp-8310a0106/",
-        "name": "LinkedIn",
-        "icon": "linkedin"
+        "icon": "linkedin",
+        "name": "LinkedIn"
       },
       {
-        "link": "https://www.instagram.com/andi.klmp/",
         "name": "Instagram",
-        "icon": "instagram"
+        "icon": "instagram",
+        "link": "https://www.instagram.com/andi.klmp/"
       }
     ],
+    "name": "Andreas Klumpp",
     "title": "Senior Consultant Developer @ Thoughtworks",
-    "badges": []
+    "featured": false,
+    "order": 26,
+    "photoUrl": "https://sessionize.com/image/58a5-0o0o0-95BWgTbiSpo4TvRTjCfuNj.jpg"
   },
   {
     "id": "ankur_roy",
+    "name": "Ankur Roy",
+    "order": 26,
+    "featured": false,
+    "title": "Architect at Online Partner AB",
     "photoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWBkoClrOHjo5-sDQGTZc9793xwrkGn9Vf3gygWCqJlfBPbq-MT=s300",
+    "bio": "I am a Solutions Architect at Online Partner AB. I have worked on several projects involving Google Cloud services and Google Workspace along with multiple other technology stacks and platforms.  Some important things to know about me:  I have all 11 GCP certifications. I have recently published a book on the use of Python in DevOps and am currently working on a book regarding passing the Google Cloud Professional Data Engineer certification exam. I am passionate about working out, writing, and content creation. I love public speaking and have done many speaking appearances including one recently for a webinar at Google's Oslo headquarters.",
     "socials": [
       {
         "link": "https://linkedin.com/in/ankurr0y",
-        "name": "LinkedIn",
-        "icon": "linkedin"
+        "icon": "linkedin",
+        "name": "LinkedIn"
       }
     ],
-    "bio": "I am a Solutions Architect at Online Partner AB. I have worked on several projects involving Google Cloud services and Google Workspace along with multiple other technology stacks and platforms.  Some important things to know about me:  I have all 11 GCP certifications. I have recently published a book on the use of Python in DevOps and am currently working on a book regarding passing the Google Cloud Professional Data Engineer certification exam. I am passionate about working out, writing, and content creation. I love public speaking and have done many speaking appearances including one recently for a webinar at Google's Oslo headquarters.",
-    "order": 26,
-    "name": "Ankur Roy",
-    "featured": false,
-    "title": "Architect at Online Partner AB",
     "badges": [
       {
         "link": "https://developers.google.com/profile/u/117466783276776056921",
-        "name": "gde",
-        "description": "GCP Google Developer Expert"
+        "description": "GCP Google Developer Expert",
+        "name": "gde"
       }
     ]
   },
   {
     "id": "anton__minashkin",
+    "company": "EPAM",
+    "photo": "/images/people/anton_minashkin.jpg",
+    "title": "Lead Software Developer",
+    "featured": false,
+    "name": "Anton  Minashkin",
+    "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/anton_minashkin.jpg",
+    "companyLogo": "/images/logos/gdg-lviv.svg",
+    "bio": "Android developer, currently works at EPAM. Have experience in both server and mobile side development. All my free time I spend on the endless search of silver bullets, perfect architectures and holy wars.",
     "companyLogoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
+    "order": 2,
     "country": "Lviv, Ukraine",
+    "shortBio": "Android developer, currently works at EPAM. Have experience in both server and mobile side develo...",
     "socials": [
       {
+        "icon": "facebook",
         "link": "https://www.facebook.com/anton.minashkin.1",
-        "name": "Facebook",
-        "icon": "facebook"
+        "name": "Facebook"
       },
       {
-        "link": "https://twitter.com/AntonMinashkin",
         "name": "Twitter",
+        "link": "https://twitter.com/AntonMinashkin",
         "icon": "twitter"
       },
       {
-        "link": "https://ua.linkedin.com/in/anton-minashkin-606a1b4b",
         "name": "LinkedIn",
-        "icon": "linkedin"
+        "icon": "linkedin",
+        "link": "https://ua.linkedin.com/in/anton-minashkin-606a1b4b"
       }
-    ],
-    "featured": false,
-    "companyLogo": "/images/logos/gdg-lviv.svg",
-    "bio": "Android developer, currently works at EPAM. Have experience in both server and mobile side development. All my free time I spend on the endless search of silver bullets, perfect architectures and holy wars.",
-    "shortBio": "Android developer, currently works at EPAM. Have experience in both server and mobile side develo...",
-    "title": "Lead Software Developer",
-    "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/anton_minashkin.jpg",
-    "photo": "/images/people/anton_minashkin.jpg",
-    "company": "EPAM",
-    "name": "Anton  Minashkin",
-    "order": 2
+    ]
   },
   {
     "id": "antonio_perrone",
-    "badges": [],
-    "title": "Nearform, Tech Lead",
-    "photoUrl": "https://sessionize.com/image/3eaf-0o0o0-fLSRynHPMdm9uemKGerxux.jpg",
     "socials": [
       {
-        "name": "LinkedIn",
         "link": "https://www.linkedin.com/in/antonioperrone/",
-        "icon": "linkedin"
+        "icon": "linkedin",
+        "name": "LinkedIn"
       }
     ],
-    "featured": true,
-    "order": 26,
     "bio": "I'm a passionate and experienced Software Architect and Technical/Team Leader, from Milan, Italy. I've worked as a Software Engineer and Architect for almost ten years in consulting. Currently, I'm working as a Technical Leader at Nearform, previously worked as Unit Manager in Reply leading a business unit focused on the development of bespoke solutions for enterprise companies in the Telco, Media and Assurance market.",
-    "name": "Antonio Perrone "
+    "badges": [],
+    "photoUrl": "https://sessionize.com/image/3eaf-0o0o0-fLSRynHPMdm9uemKGerxux.jpg",
+    "name": "Antonio Perrone ",
+    "title": "Nearform, Tech Lead",
+    "featured": true,
+    "order": 26
   },
   {
     "id": "carlo_lucera",
-    "title": "HatDroid! - Flutter dev",
-    "badges": [
-      {
-        "description": "Flutter Google Developer Expert",
-        "name": "gde",
-        "link": "https://developers.google.com/profile/u/100368137217972977538"
-      }
-    ],
     "name": "Carlo Lucera",
-    "order": 26,
-    "bio": "Known as HatDroid, is a Technology enthusiast, former Android, and now Flutter developer, always in search of new technologies and strategies to improve.    Flutter Google Developer Expert and Full-time Flutter Developer @Pvotal technologies and admin for Flutter Italia Developers.    Always ready to share his experiences and working hard to help the Developer communities grow.",
+    "title": "HatDroid! - Flutter dev",
     "featured": true,
+    "order": 26,
+    "photoUrl": "https://sessionize.com/image/24d5-400o400o1-UPUyDxqEnpBHh1RHZxybB8.jpg",
+    "bio": "Known as HatDroid, is a Technology enthusiast, former Android, and now Flutter developer, always in search of new technologies and strategies to improve.    Flutter Google Developer Expert and Full-time Flutter Developer @Pvotal technologies and admin for Flutter Italia Developers.    Always ready to share his experiences and working hard to help the Developer communities grow.",
     "socials": [
       {
-        "link": "https://www.linkedin.com/in/clucera/",
         "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/clucera/",
         "icon": "linkedin"
       },
       {
-        "name": "Twitter",
         "link": "https://twitter.com/hat_droid",
-        "icon": "twitter"
+        "icon": "twitter",
+        "name": "Twitter"
       }
     ],
-    "photoUrl": "https://sessionize.com/image/24d5-400o400o1-UPUyDxqEnpBHh1RHZxybB8.jpg"
+    "badges": [
+      {
+        "name": "gde",
+        "description": "Flutter Google Developer Expert",
+        "link": "https://developers.google.com/profile/u/100368137217972977538"
+      }
+    ]
   },
   {
     "id": "carlos_mota",
-    "title": "Lead Software Engineer at Avancee Software",
     "badges": [
       {
         "name": "gde",
         "description": "Android Google Developer Expert"
       }
     ],
-    "order": 26,
     "bio": "Carlos Mota is an Android GDE. He can easily be spotted either working on Android applications written in Kotlin or developing them along with Kotlin Multiplatform. An enthusiastic about new technology and always trying to reach those last 20% of all of his side projects that seem to be really far away. He loves to share his knowledge with others either by giving talks, teaching, writing, or along with a cold beer in the nearest pub. GDG Coimbra organizer and Kotlin evangelist, he also has a huge passion for travel, photography, space, and the occasional run.",
-    "name": "Carlos Mota",
-    "featured": true,
-    "photoUrl": "https://sessionize.com/image/5179-0o0o0-4fVJ6MXwKJzgu75Zskx9nC.png",
     "socials": [
       {
         "name": "LinkedIn",
@@ -373,509 +368,514 @@
       },
       {
         "name": "Twitter",
-        "link": "https://twitter.com/@cafonsomota",
-        "icon": "twitter"
+        "icon": "twitter",
+        "link": "https://twitter.com/@cafonsomota"
       }
-    ]
+    ],
+    "order": 26,
+    "name": "Carlos Mota",
+    "title": "Lead Software Engineer at Avancee Software",
+    "featured": true,
+    "photoUrl": "https://sessionize.com/image/5179-0o0o0-4fVJ6MXwKJzgu75Zskx9nC.png"
   },
   {
     "id": "carmen_popovicu",
-    "companyLogo": "/images/logos/gdg-lviv.svg",
-    "bio": "Carmen is a front-end engineer and a #1 fan of dev communities. She loves Angular but has since recently developed feelings for Polymer too. She strongly believes that adding at least one ASCII smiley in your emails will make the world a better place and hopes to one day make a difference for the web with the code she writes. If she had super powers, she would smiley all the things.",
+    "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/carmen_popovicu.jpg",
     "featured": false,
+    "title": "Front-end Engineer",
+    "name": "Carmen Popovicu",
+    "photo": "/images/people/carmen_popovicu.jpg",
+    "company": "Widespread",
+    "shortBio": "Angular JS committer. Founder of Dutch Angular JS Community, co-organizer of NG-NL.",
+    "order": 3,
+    "country": "Cluj-Napoca, Romania",
     "socials": [
       {
+        "icon": "twitter",
         "link": "https://twitter.com/CarmenPopoviciu",
-        "name": "Twitter",
-        "icon": "twitter"
+        "name": "Twitter"
       }
     ],
-    "country": "Cluj-Napoca, Romania",
+    "companyLogo": "/images/logos/gdg-lviv.svg",
     "companyLogoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
-    "name": "Carmen Popovicu",
-    "order": 3,
-    "company": "Widespread",
-    "photo": "/images/people/carmen_popovicu.jpg",
-    "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/carmen_popovicu.jpg",
-    "title": "Front-end Engineer",
-    "shortBio": "Angular JS committer. Founder of Dutch Angular JS Community, co-organizer of NG-NL."
+    "bio": "Carmen is a front-end engineer and a #1 fan of dev communities. She loves Angular but has since recently developed feelings for Polymer too. She strongly believes that adding at least one ASCII smiley in your emails will make the world a better place and hopes to one day make a difference for the web with the code she writes. If she had super powers, she would smiley all the things."
   },
   {
     "id": "christian_de_simone",
-    "title": "Intré Srl, Software engineer",
-    "badges": [],
-    "name": "Christian De Simone",
-    "order": 26,
-    "bio": "\"I am a passionate individual who enjoys constantly learning new things. I have good experience in developing cloud native software with Kubernetes, and knowledge of major cloud providers such as AWS, Azure, and Scaleway. I firmly believe in continuous improvement and constantly strive to develop my skills to provide innovative and successful solutions to my clients.        💻 Software development    🔧 Debugging and code maintenance    🚀 Developing cloud native solutions    💬 Talkative: I enjoy making friends with colleagues    🌩️ Cloud infrastructure management: using AWS, Azure, and Scaleway.\"\t\t",
     "featured": false,
+    "title": "Intré Srl, Software engineer",
+    "order": 26,
+    "name": "Christian De Simone",
+    "photoUrl": "https://sessionize.com/image/3ee0-400o400o1-3g7yhCtxYbk7c6LqRawpUL.jpeg",
+    "bio": "\"I am a passionate individual who enjoys constantly learning new things. I have good experience in developing cloud native software with Kubernetes, and knowledge of major cloud providers such as AWS, Azure, and Scaleway. I firmly believe in continuous improvement and constantly strive to develop my skills to provide innovative and successful solutions to my clients.        💻 Software development    🔧 Debugging and code maintenance    🚀 Developing cloud native solutions    💬 Talkative: I enjoy making friends with colleagues    🌩️ Cloud infrastructure management: using AWS, Azure, and Scaleway.\"\t\t",
     "socials": [
       {
-        "name": "LinkedIn",
         "link": "https://www.linkedin.com/in/desimonechristian/",
-        "icon": "linkedin"
+        "icon": "linkedin",
+        "name": "LinkedIn"
       }
     ],
-    "photoUrl": "https://sessionize.com/image/3ee0-400o400o1-3g7yhCtxYbk7c6LqRawpUL.jpeg"
+    "badges": []
   },
   {
     "id": "constantine_mars",
-    "companyLogoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
-    "country": "Dnipro, Ukraine",
-    "socials": [],
-    "companyLogo": "/images/logos/gdg-lviv.svg",
-    "bio": "Constantine is Senior Android Developer at DataArt and GDG Dnipro Organizer. He was speaker on DevFest, multiple IT NonStop events and GDG meetups. Constantine is interested mainly in Android Wear platform, RxJava, best practices in applications Architecture, and sometimes cross-platform mobile development with Xamarin.",
-    "featured": false,
-    "shortBio": "Constantine is Senior Android Developer at DataArt and GDG Dnipro Organizer. He was speaker on De...",
-    "title": "Senior Android Developer",
     "badges": [
       {
+        "link": "https://developers.google.com/groups/chapter/116033068768596939209/",
         "description": "Google Developers Group Dnipro",
-        "name": "gdg",
-        "link": "https://developers.google.com/groups/chapter/116033068768596939209/"
+        "name": "gdg"
       }
     ],
+    "company": "DataArt",
     "photo": "/images/people/constantine_mars.jpg",
-    "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/constantine_mars.jpg",
+    "title": "Senior Android Developer",
     "name": "Constantine Mars",
+    "featured": false,
+    "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/constantine_mars.jpg",
+    "bio": "Constantine is Senior Android Developer at DataArt and GDG Dnipro Organizer. He was speaker on DevFest, multiple IT NonStop events and GDG meetups. Constantine is interested mainly in Android Wear platform, RxJava, best practices in applications Architecture, and sometimes cross-platform mobile development with Xamarin.",
+    "companyLogoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
+    "companyLogo": "/images/logos/gdg-lviv.svg",
+    "socials": [],
+    "country": "Dnipro, Ukraine",
     "order": 4,
-    "company": "DataArt"
+    "shortBio": "Constantine is Senior Android Developer at DataArt and GDG Dnipro Organizer. He was speaker on De..."
   },
   {
     "id": "danilo_trombino",
+    "photoUrl": "https://media.licdn.com/dms/image/v2/D4D03AQENEj8KJ0TQ-Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1718369287924?e=1735171200&v=beta&t=Hys-aWvijtUomVCHR0LXhW3j5ism-vMEoGYclu11gqU",
     "name": "Danilo Trombino",
-    "order": 26,
-    "bio": "Data architect con esperienza nello sviluppo di applicazioni cloud per smart cities e pubbliche amministrazioni, e nell’ottimizzazione di soluzioni data-oriented in contesti di innovazione per la salute pubblica. Ha contribuito alla realizzazione di una soluzione private cloud e dei servizi as-a-service associati ed ha esperienza nel disegno di soluzioni GenAI e nell’ottimizzazione della loro scalabilità.",
+    "title": "Cloud & Data Architect @ Datwave (BIP)",
     "featured": false,
+    "order": 26,
     "socials": [
       {
-        "link": "https://linkedin.com/in/danilotrombino/en",
         "name": "LinkedIn",
-        "icon": "linkedin"
+        "icon": "linkedin",
+        "link": "https://linkedin.com/in/danilotrombino/en"
       }
     ],
-    "photoUrl": "https://media.licdn.com/dms/image/v2/D4D03AQENEj8KJ0TQ-Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1718369287924?e=1735171200&v=beta&t=Hys-aWvijtUomVCHR0LXhW3j5ism-vMEoGYclu11gqU",
-    "title": "Cloud & Data Architect @ Datwave (BIP)",
+    "bio": "Data architect con esperienza nello sviluppo di applicazioni cloud per smart cities e pubbliche amministrazioni, e nell’ottimizzazione di soluzioni data-oriented in contesti di innovazione per la salute pubblica. Ha contribuito alla realizzazione di una soluzione private cloud e dei servizi as-a-service associati ed ha esperienza nel disegno di soluzioni GenAI e nell’ottimizzazione della loro scalabilità.",
     "badges": []
   },
   {
     "id": "david_mayboroda",
-    "title": "Android Engineer",
-    "shortBio": "Ex Yandex emproyee. Android enthusiast.",
-    "name": "David Mayboroda",
-    "order": 5,
     "company": "SoftServe",
     "photo": "/images/people/david_mayboroda.jpg",
     "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/david_mayboroda.jpg",
+    "name": "David Mayboroda",
+    "title": "Android Engineer",
+    "featured": false,
+    "companyLogo": "/images/logos/gdg-lviv.svg",
+    "companyLogoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
+    "bio": "Ex-Yandex emploee, currently Android Engineer at SoftServe.",
+    "shortBio": "Ex Yandex emproyee. Android enthusiast.",
+    "country": "Kyiv, Ukraine",
+    "order": 5,
     "socials": [
       {
+        "icon": "facebook",
         "link": "https://www.facebook.com/profile.php?id=100008474898785",
-        "name": "Facebook",
-        "icon": "facebook"
+        "name": "Facebook"
       },
       {
+        "icon": "github",
         "link": "https://github.com/dmayboroda",
-        "name": "GitHub",
-        "icon": "github"
+        "name": "GitHub"
       }
-    ],
-    "country": "Kyiv, Ukraine",
-    "companyLogoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
-    "companyLogo": "/images/logos/gdg-lviv.svg",
-    "bio": "Ex-Yandex emploee, currently Android Engineer at SoftServe.",
-    "featured": false
+    ]
   },
   {
     "id": "david_vávra",
-    "country": "Prague, Czech Republic",
+    "companyLogo": "/images/logos/gdg-lviv.svg",
+    "bio": "David is a Google Developer Expert for Android. He is a CEO now, but he still finds time for diving deep into Android architecture. He currently focuses on Firebase for Android. He loves open-source and gadgets like Android Wear or Android TV. He is the core organiser of GDG Prague events.",
     "companyLogoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
+    "order": 6,
+    "country": "Prague, Czech Republic",
+    "shortBio": "Founder and CEO of Step Up Labs. Android GDE.",
     "socials": [
       {
+        "icon": "twitter",
         "link": "https://twitter.com/vavradav",
-        "name": "Twitter",
-        "icon": "twitter"
+        "name": "Twitter"
       },
       {
-        "link": "https://www.linkedin.com/in/dvavra",
         "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/dvavra",
         "icon": "linkedin"
       },
       {
+        "icon": "github",
         "link": "https://github.com/davidvavra",
-        "name": "GitHub",
-        "icon": "github"
+        "name": "GitHub"
       }
     ],
-    "featured": true,
-    "companyLogo": "/images/logos/gdg-lviv.svg",
-    "bio": "David is a Google Developer Expert for Android. He is a CEO now, but he still finds time for diving deep into Android architecture. He currently focuses on Firebase for Android. He loves open-source and gadgets like Android Wear or Android TV. He is the core organiser of GDG Prague events.",
+    "company": "Step Up Labs",
     "badges": [
       {
-        "description": "Android Google Developer Expert",
+        "link": "https://developers.google.com/experts/people/david-v-vra.html",
         "name": "gde",
-        "link": "https://developers.google.com/experts/people/david-v-vra.html"
+        "description": "Android Google Developer Expert"
       }
     ],
-    "title": "Founder/CEO/Android Lead",
-    "shortBio": "Founder and CEO of Step Up Labs. Android GDE.",
-    "company": "Step Up Labs",
-    "name": "David Vávra",
-    "order": 6,
     "photo": "/images/people/david_vavra.jpg",
+    "featured": true,
+    "title": "Founder/CEO/Android Lead",
+    "name": "David Vávra",
     "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/david_vavra.jpg"
   },
   {
     "id": "dmitrii_valentin",
-    "title": "Leading 6 teams in largest classified on the world",
-    "badges": [],
     "name": "Dmitrii Valentin",
-    "order": 26,
-    "bio": "Over 24 years of experience in IT.",
+    "title": "Leading 6 teams in largest classified on the world",
     "featured": false,
+    "order": 26,
+    "photoUrl": "https://sessionize.com/image/93d0-400o400o1-GPVPxU1thTVcS9L9wMF96k.jpg",
+    "bio": "Over 24 years of experience in IT.",
     "socials": [
       {
         "link": "https://www.linkedin.com/in/dvaletin/",
-        "name": "LinkedIn",
-        "icon": "linkedin"
+        "icon": "linkedin",
+        "name": "LinkedIn"
       }
     ],
-    "photoUrl": "https://sessionize.com/image/93d0-400o400o1-GPVPxU1thTVcS9L9wMF96k.jpg"
+    "badges": []
   },
   {
     "id": "dmytro_danylyk",
-    "shortBio": "First Android GDE in Ukraine. Frequent speaker on tech conferences.",
+    "featured": false,
+    "name": "Dmytro Danylyk",
     "title": "Senior Android Developer",
+    "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/dmytro_danylyk.jpg",
+    "company": "Timee",
     "badges": [
       {
-        "description": "Android Google Developer Expert",
         "link": "https://developers.google.com/experts/people/dmytro-danylyk",
+        "description": "Android Google Developer Expert",
         "name": "gde"
       },
       {
         "name": "gdg",
-        "link": "https://developers.google.com/groups/chapter/102444623953913144164/",
-        "description": "Google Developers Group Lviv"
+        "description": "Google Developers Group Lviv",
+        "link": "https://developers.google.com/groups/chapter/102444623953913144164/"
       }
     ],
-    "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/dmytro_danylyk.jpg",
     "photo": "/images/people/dmytro_danylyk.jpg",
-    "name": "Dmytro Danylyk",
-    "order": 7,
-    "company": "Timee",
-    "companyLogoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
-    "country": "Lviv, Ukraine",
     "socials": [
       {
         "link": "http://www.dmytrodanylyk.com",
-        "name": "Website",
-        "icon": "website"
+        "icon": "website",
+        "name": "Website"
       },
       {
-        "link": "https://twitter.com/dmytrodanylyk",
         "name": "Twitter",
+        "link": "https://twitter.com/dmytrodanylyk",
         "icon": "twitter"
       }
     ],
+    "order": 7,
+    "country": "Lviv, Ukraine",
+    "shortBio": "First Android GDE in Ukraine. Frequent speaker on tech conferences.",
     "bio": "Dmytro is a developer, writer, speaker. He live in Lviv - a quaint and beautiful city. He is passionate about android and flat design. Currently Dmytro works for a startup Timee where he develop Android application and he love what he do.",
-    "companyLogo": "/images/logos/gdg-lviv.svg",
-    "featured": false
+    "companyLogoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
+    "companyLogo": "/images/logos/gdg-lviv.svg"
   },
   {
     "id": "elaine_dias_batista",
+    "photoUrl": "https://sessionize.com/image/aeae-0o0o0-sKdBtkHpN8QSLQD2HHGT65.jpg",
+    "featured": false,
+    "title": "Senior Staff Engineer at SFEIR | GDE",
+    "order": 26,
+    "name": "Elaine Dias Batista",
     "socials": [
       {
         "link": "https://www.linkedin.com/in/elaine-dias-batista/",
-        "name": "LinkedIn",
-        "icon": "linkedin"
+        "icon": "linkedin",
+        "name": "LinkedIn"
       },
       {
-        "link": "https://twitter.com/elainedbatista",
         "name": "Twitter",
-        "icon": "twitter"
+        "icon": "twitter",
+        "link": "https://twitter.com/elainedbatista"
       }
     ],
-    "photoUrl": "https://sessionize.com/image/aeae-0o0o0-sKdBtkHpN8QSLQD2HHGT65.jpg",
-    "featured": false,
     "bio": "Elaine is a Senior Staff Engineer at SFEIR where she works on projects including mobile technologies since 2013. She has worked on several projects in native Android/iOS and Flutter. She's a GDE for the Google Assistant, Flutter and Dart",
-    "order": 26,
-    "name": "Elaine Dias Batista",
     "badges": [
       {
         "description": "Google Developer Expert for Assistant, Flutter and Dart",
         "name": "gde"
       }
-    ],
-    "title": "Senior Staff Engineer at SFEIR | GDE"
+    ]
   },
   {
     "id": "elian_van_cutsem",
     "badges": [],
-    "title": "Lead DevRel @ React Bricks | CTO @ Vulpo | Astro Maintainer",
-    "featured": true,
-    "order": 26,
-    "bio": "Former Astro core team and Astro Maintainer Elian, works in the Developer Experience field. Specifically focusing on user experience, documentation, developer guidance, developer education side of things. As a day job, he's Lead DevRel at React Bricks and CTO at Vulpo. After hours, he helps organize BeJS, React Paris, React Brussels, and React Africa. Next to that, he organises the Devs.gent meetups in his hometown. Known for his passion, puns, and innovative approach to delivering exceptional user experiences, Elian brings a unique blend of technical expertise and creativity to his talks. Guaranteed fun on stage.",
-    "name": "Elian Van Cutsem",
-    "photoUrl": "https://sessionize.com/image/9fa9-0o0o0-BGmmP9ku1QJhV4AaJ9xxXg.jpg",
     "socials": [
       {
         "name": "LinkedIn",
-        "link": "https://www.linkedin.com/in/elianvancutsem",
-        "icon": "linkedin"
+        "icon": "linkedin",
+        "link": "https://www.linkedin.com/in/elianvancutsem"
       },
       {
+        "icon": "twitter",
         "link": "https://x.com/eliancodes",
-        "name": "Twitter",
-        "icon": "twitter"
+        "name": "Twitter"
       }
-    ]
+    ],
+    "bio": "Former Astro core team and Astro Maintainer Elian, works in the Developer Experience field. Specifically focusing on user experience, documentation, developer guidance, developer education side of things. As a day job, he's Lead DevRel at React Bricks and CTO at Vulpo. After hours, he helps organize BeJS, React Paris, React Brussels, and React Africa. Next to that, he organises the Devs.gent meetups in his hometown. Known for his passion, puns, and innovative approach to delivering exceptional user experiences, Elian brings a unique blend of technical expertise and creativity to his talks. Guaranteed fun on stage.",
+    "photoUrl": "https://sessionize.com/image/9fa9-0o0o0-BGmmP9ku1QJhV4AaJ9xxXg.jpg",
+    "title": "Lead DevRel @ React Bricks | CTO @ Vulpo | Astro Maintainer",
+    "name": "Elian Van Cutsem",
+    "featured": true,
+    "order": 26
   },
   {
     "id": "gerard_sans",
-    "companyLogo": "/images/logos/gdg-lviv.svg",
-    "bio": "Angular Google Developer Expert. I am a Computer Science Engineer specialised in Web. International speaker and trainer. I am an Angular fanboy and a community activist fighting for the JavaScript revolution. I have lived and worked for all sorts of companies in Germany, Brazil, UK and Spain. I am always up for a good challenge. I enjoy running AngularLabs London, mentoring students, participating in the community, giving talks and writing technical articles at Medium.",
-    "featured": true,
-    "socials": [
-      {
-        "link": "https://twitter.com/gerardsans",
-        "name": "Twitter",
-        "icon": "twitter"
-      },
-      {
-        "link": "https://medium.com/@gerard.sans",
-        "name": "Website",
-        "icon": "website"
-      }
-    ],
-    "companyLogoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
-    "country": "London, United Kingdom",
-    "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/gerard_sans.jpg",
-    "photo": "/images/people/gerard_sans.jpg",
-    "order": 8,
-    "name": "Gerard Sans",
     "company": "AngularZone",
-    "shortBio": "Angular Google Developer Expert. International speaker and trainer.  Enjoy running AngularLabs London.",
-    "title": "Technical Evangelist",
     "badges": [
       {
         "link": "https://developers.google.com/experts/people/gerard-sans.html",
-        "name": "gde",
-        "description": "Angular Google Developer Expert"
+        "description": "Angular Google Developer Expert",
+        "name": "gde"
       }
-    ]
+    ],
+    "photo": "/images/people/gerard_sans.jpg",
+    "featured": true,
+    "name": "Gerard Sans",
+    "title": "Technical Evangelist",
+    "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/gerard_sans.jpg",
+    "bio": "Angular Google Developer Expert. I am a Computer Science Engineer specialised in Web. International speaker and trainer. I am an Angular fanboy and a community activist fighting for the JavaScript revolution. I have lived and worked for all sorts of companies in Germany, Brazil, UK and Spain. I am always up for a good challenge. I enjoy running AngularLabs London, mentoring students, participating in the community, giving talks and writing technical articles at Medium.",
+    "companyLogoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
+    "companyLogo": "/images/logos/gdg-lviv.svg",
+    "socials": [
+      {
+        "link": "https://twitter.com/gerardsans",
+        "icon": "twitter",
+        "name": "Twitter"
+      },
+      {
+        "name": "Website",
+        "link": "https://medium.com/@gerard.sans",
+        "icon": "website"
+      }
+    ],
+    "order": 8,
+    "country": "London, United Kingdom",
+    "shortBio": "Angular Google Developer Expert. International speaker and trainer.  Enjoy running AngularLabs London."
   },
   {
     "id": "graziano_casto",
     "name": "Graziano Casto",
-    "order": 26,
-    "bio": "Graziano is a software engineer and passionate about agile development and product management. Formerly a developer of distributed systems in enterprise environments and a product manager, he focuses on sharing the myriad beauties of the cloud-native world. Active in international communities with talks and articles, he mainly deals with architectures, AI, platform engineering, and environmental sustainability in the software realm. More on: https://www.castograziano.com/",
+    "title": "Developer Relations Engineer @ Mia-Platform",
     "featured": false,
+    "order": 26,
     "photoUrl": "https://sessionize.com/image/50d7-0o0o0-wCQjLBc3rcQkAf7SeDdSvV.jpg",
+    "bio": "Graziano is a software engineer and passionate about agile development and product management. Formerly a developer of distributed systems in enterprise environments and a product manager, he focuses on sharing the myriad beauties of the cloud-native world. Active in international communities with talks and articles, he mainly deals with architectures, AI, platform engineering, and environmental sustainability in the software realm. More on: https://www.castograziano.com/",
     "socials": [
       {
+        "icon": "linkedin",
         "link": "https://www.linkedin.com/in/castograziano/",
-        "name": "LinkedIn",
-        "icon": "linkedin"
+        "name": "LinkedIn"
       },
       {
+        "icon": "twitter",
         "link": "https://twitter.com/cst_grzn",
-        "name": "Twitter",
-        "icon": "twitter"
+        "name": "Twitter"
       }
     ],
-    "title": "Developer Relations Engineer @ Mia-Platform",
     "badges": []
   },
   {
     "id": "gregorio_palama",
+    "photoUrl": "https://sessionize.com/image/a17b-400o400o1-3Bzfto4MgCJbi7uwAYGkRf.png",
+    "name": "Gregorio\tPalamà",
+    "order": 26,
+    "featured": true,
     "title": "Google Cloud Innovator Champion | Community Manager @ GDG Pescara",
     "badges": [
       {
-        "link": "https://gdg.community.dev/gdg-pescara/",
+        "description": "Community Manager @ GDG Pescara",
         "name": "gdg",
-        "description": "Community Manager @ GDG Pescara"
+        "link": "https://gdg.community.dev/gdg-pescara/"
       }
     ],
-    "name": "Gregorio\tPalamà",
-    "bio": "I have been working in the IT industry for over 15 years. I currently deal with DevOps issues, Cloud Engineering, Cloud Native and everything that revolves around containerization and serverless at Lutech. I am Google Cloud Innovator Champion on the topic of modern architecture. I manage GDG Pescara together with other developers, I love sharing my knowledge and trying to do it in a fun way.",
-    "order": 26,
-    "featured": true,
-    "photoUrl": "https://sessionize.com/image/a17b-400o400o1-3Bzfto4MgCJbi7uwAYGkRf.png",
     "socials": [
       {
-        "link": "https://it.linkedin.com/in/gregorio-palam%C3%A0",
         "name": "LinkedIn",
-        "icon": "linkedin"
+        "icon": "linkedin",
+        "link": "https://it.linkedin.com/in/gregorio-palam%C3%A0"
       },
       {
-        "link": "https://twitter.com/gregoriopalama",
         "name": "Twitter",
-        "icon": "twitter"
+        "icon": "twitter",
+        "link": "https://twitter.com/gregoriopalama"
       }
-    ]
+    ],
+    "bio": "I have been working in the IT industry for over 15 years. I currently deal with DevOps issues, Cloud Engineering, Cloud Native and everything that revolves around containerization and serverless at Lutech. I am Google Cloud Innovator Champion on the topic of modern architecture. I manage GDG Pescara together with other developers, I love sharing my knowledge and trying to do it in a fun way."
   },
   {
     "id": "himanshu_singh",
+    "photoUrl": "https://sessionize.com/image/42e0-0o0o0-XD1DRZGWRbFyuBK1ccNqUF.jpg",
+    "featured": false,
     "title": "Android @NordVPN",
+    "order": 26,
+    "name": "Himanshu Singh",
+    "socials": [
+      {
+        "name": "LinkedIn",
+        "icon": "linkedin",
+        "link": "https://www.linkedin.com/in/himanshoe/"
+      },
+      {
+        "icon": "twitter",
+        "link": "https://twitter.com/hi_man_shoe",
+        "name": "Twitter"
+      }
+    ],
+    "bio": "Himanshu is a Full Stack Kotlin engineer and works as Android Engineer on the professional side. He is also a Google developer expert in Android and Kotlin. He is an active blogger, speaker, and content creator. He loves to mentor and share his knowledge to help people move into the development world!",
     "badges": [
       {
         "description": "Android Google Developer Expert",
         "name": "gde"
       }
-    ],
-    "name": "Himanshu Singh",
-    "bio": "Himanshu is a Full Stack Kotlin engineer and works as Android Engineer on the professional side. He is also a Google developer expert in Android and Kotlin. He is an active blogger, speaker, and content creator. He loves to mentor and share his knowledge to help people move into the development world!",
-    "order": 26,
-    "featured": false,
-    "socials": [
-      {
-        "link": "https://www.linkedin.com/in/himanshoe/",
-        "name": "LinkedIn",
-        "icon": "linkedin"
-      },
-      {
-        "link": "https://twitter.com/hi_man_shoe",
-        "name": "Twitter",
-        "icon": "twitter"
-      }
-    ],
-    "photoUrl": "https://sessionize.com/image/42e0-0o0o0-XD1DRZGWRbFyuBK1ccNqUF.jpg"
+    ]
   },
   {
     "id": "ihor_dvoretskyi",
-    "company": "Mirantis",
-    "name": "Ihor Dvoretskyi",
+    "socials": [
+      {
+        "name": "LinkedIn",
+        "icon": "linkedin",
+        "link": "https://ua.linkedin.com/in/idvoretskyi"
+      },
+      {
+        "name": "Twitter",
+        "icon": "twitter",
+        "link": "https://twitter.com/idvoretskyi"
+      }
+    ],
+    "shortBio": "OpenStack Foundation member, Kubernetes upstream contributor and OpenStack special interest group lead in Kubernetes Community.",
+    "country": "Lviv, Ukraine",
     "order": 9,
-    "photo": "/images/people/ihor_dvoretskyi.jpg",
+    "companyLogoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
+    "bio": "Ihor is an Operations Engineer at Mirantis with a huge experience working in IT companies, where he was responsible for projects tightly bound to Cloud computing and Linux systems. He is deeply interested in the OpenStack cloud platform, other Cloud technologies, especially the Open Source projects.<br><br>Also, Ihor acts as the OpenStack Foundation member, Kubernetes upstream contributor, and OpenStack special interest group lead in Kubernetes Community, working intensely on the questions and abilities, related to the OpenStack and Kubernetes collaboration and integration.",
+    "companyLogo": "/images/logos/gdg-lviv.svg",
     "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/ihor_dvoretskyi.jpg",
+    "featured": false,
+    "title": "Deployment Engineer",
+    "name": "Ihor Dvoretskyi",
     "badges": [
       {
-        "description": "Google Developers Group Lviv",
         "name": "gdg",
+        "description": "Google Developers Group Lviv",
         "link": "https://developers.google.com/groups/chapter/102444623953913144164/"
       }
     ],
-    "title": "Deployment Engineer",
-    "shortBio": "OpenStack Foundation member, Kubernetes upstream contributor and OpenStack special interest group lead in Kubernetes Community.",
-    "featured": false,
-    "bio": "Ihor is an Operations Engineer at Mirantis with a huge experience working in IT companies, where he was responsible for projects tightly bound to Cloud computing and Linux systems. He is deeply interested in the OpenStack cloud platform, other Cloud technologies, especially the Open Source projects.<br><br>Also, Ihor acts as the OpenStack Foundation member, Kubernetes upstream contributor, and OpenStack special interest group lead in Kubernetes Community, working intensely on the questions and abilities, related to the OpenStack and Kubernetes collaboration and integration.",
-    "companyLogo": "/images/logos/gdg-lviv.svg",
-    "socials": [
-      {
-        "link": "https://ua.linkedin.com/in/idvoretskyi",
-        "name": "LinkedIn",
-        "icon": "linkedin"
-      },
-      {
-        "link": "https://twitter.com/idvoretskyi",
-        "name": "Twitter",
-        "icon": "twitter"
-      }
-    ],
-    "country": "Lviv, Ukraine",
-    "companyLogoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg"
+    "company": "Mirantis",
+    "photo": "/images/people/ihor_dvoretskyi.jpg"
   },
   {
     "id": "ilya_savin",
-    "photoUrl": "https://sessionize.com/image/a5d5-0o0o0-hJ4vdNsnmiFtQuYWqakeKg.png",
     "socials": [
       {
-        "name": "LinkedIn",
         "link": "https://www.linkedin.com/in/savinili/",
-        "icon": "linkedin"
+        "icon": "linkedin",
+        "name": "LinkedIn"
       }
     ],
-    "featured": true,
-    "order": 26,
     "bio": "Engineering Manager with 10 years in Android, now focused on using AI to speed up delivery and cut the busywork. I lead with a customer-first mindset and love building clean, impactful mobile experiences that actually ship",
-    "name": "Ilya Savin",
     "badges": [],
+    "photoUrl": "https://sessionize.com/image/a5d5-0o0o0-hJ4vdNsnmiFtQuYWqakeKg.png",
+    "name": "Ilya Savin",
+    "order": 26,
+    "featured": true,
     "title": "Mobile Engineering Manager at Qonto"
   },
   {
     "id": "israel_blancas",
+    "name": "Israel Blancas",
     "title": "Senior Software Engineer @ Coralogix",
+    "featured": false,
+    "order": 26,
+    "photoUrl": "https://sessionize.com/image/c9da-0o0o0-JphBntVGzMNzahDvERWWEU.jpg",
     "badges": [
       {
         "description": "Cloud Google Developer Expert",
         "name": "gde"
       }
     ],
-    "name": "Israel Blancas",
-    "order": 26,
     "bio": "From Granada (Spain). Google Developer Expert in Google Cloud, Google Champion Innovator, Grafana Champion and GDG Organizer.",
-    "featured": false,
-    "photoUrl": "https://sessionize.com/image/c9da-0o0o0-JphBntVGzMNzahDvERWWEU.jpg",
     "socials": [
       {
         "link": "https://www.linkedin.com/in/iblancasa",
-        "name": "LinkedIn",
-        "icon": "linkedin"
+        "icon": "linkedin",
+        "name": "LinkedIn"
       },
       {
-        "link": "https://twitter.com/iblancasa",
         "name": "Twitter",
+        "link": "https://twitter.com/iblancasa",
         "icon": "twitter"
       }
     ]
   },
   {
     "id": "ivan_morgillo",
-    "badges": [],
-    "title": "Android consultant and trainer",
-    "featured": true,
-    "name": "Ivan Morgillo",
-    "order": 26,
     "bio": "Passionate developer, speaker, writer, and 1/2 of Code with the Italians",
     "socials": [
       {
-        "name": "LinkedIn",
         "link": "https://www.linkedin.com/in/ivanmorgillo/",
-        "icon": "linkedin"
+        "icon": "linkedin",
+        "name": "LinkedIn"
       },
       {
-        "name": "Twitter",
+        "icon": "twitter",
         "link": "https://twitter.com/hamen",
-        "icon": "twitter"
+        "name": "Twitter"
       }
     ],
+    "badges": [],
+    "name": "Ivan Morgillo",
+    "order": 26,
+    "featured": true,
+    "title": "Android consultant and trainer",
     "photoUrl": "https://sessionize.com/image/c421-0o0o0-naywFzeWrTQEotymiViL2A.jpg"
   },
   {
     "id": "jakub_škvára",
-    "socials": [
-      {
-        "link": "https://twitter.com/@skvaros",
-        "name": "Twitter",
-        "icon": "twitter"
-      }
-    ],
-    "companyLogoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
-    "country": "Prague, Czech Republic",
-    "featured": false,
-    "companyLogo": "/images/logos/gdg-lviv.svg",
-    "bio": "Jakub is a front-end engineer at Shipito interested in modern web frameworks, libraries and tools. Jakub is also a member of GDG Prague and GDG ČVUT in the Czech republic.",
-    "shortBio": "Jakub is a front-end engineer at Shipito interested in modern web frameworks, libraries and tools...",
     "badges": [
       {
-        "description": "Google Developers Group Prague",
         "link": "https://developers.google.com/groups/chapter/111919016509847766513/",
+        "description": "Google Developers Group Prague",
         "name": "gdg"
       }
     ],
-    "title": "Frontend engineer",
-    "photo": "/images/people/jakub_skvara.jpg",
-    "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/jakub_skvara.jpg",
     "company": "Shipito",
+    "photo": "/images/people/jakub_skvara.jpg",
+    "name": "Jakub Škvára",
+    "title": "Frontend engineer",
+    "featured": false,
+    "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/jakub_skvara.jpg",
+    "companyLogo": "/images/logos/gdg-lviv.svg",
+    "bio": "Jakub is a front-end engineer at Shipito interested in modern web frameworks, libraries and tools. Jakub is also a member of GDG Prague and GDG ČVUT in the Czech republic.",
+    "companyLogoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
+    "country": "Prague, Czech Republic",
     "order": 10,
-    "name": "Jakub Škvára"
+    "shortBio": "Jakub is a front-end engineer at Shipito interested in modern web frameworks, libraries and tools...",
+    "socials": [
+      {
+        "name": "Twitter",
+        "link": "https://twitter.com/@skvaros",
+        "icon": "twitter"
+      }
+    ]
   },
   {
     "id": "jamie_coleman",
-    "badges": [],
-    "title": "Loqate",
+    "photoUrl": "https://sessionize.com/image/4ad1-0o0o0-D4ux4U5Fohpcg2VNoAY3kk.jpg",
     "featured": true,
-    "name": "Jamie Coleman",
+    "title": "Loqate",
     "order": 26,
-    "bio": "Jamie is a Senior Developer Advocate for Loqate formally at IBM & Sonatype, based in the UK. He has had the privilege to have spoken all around the world at developer conferences and is an organiser of London’s biggest developer community, the London Java Community.  Passionate about discovering ways to help reduce developers carbon footprint, he is also a subject matter expert in containerised solutions and build technologies. He fell in love with coding at university and has gone on to talk at many conferences about using languages like Java with microservices and related technologies such as AI and software security. He has worked on a wide variety of projects such as modernising IBMs mainframe testing infrastructure, creating, and automating the creation of Docker images for IBM’s products and contributing to a DevOps pipeline offering.",
+    "name": "Jamie Coleman",
+    "badges": [],
     "socials": [
       {
         "name": "LinkedIn",
@@ -883,632 +883,632 @@
         "icon": "linkedin"
       },
       {
-        "name": "Twitter",
         "link": "https://twitter.com/Jamie_Lee_C",
-        "icon": "twitter"
+        "icon": "twitter",
+        "name": "Twitter"
       }
     ],
-    "photoUrl": "https://sessionize.com/image/4ad1-0o0o0-D4ux4U5Fohpcg2VNoAY3kk.jpg"
+    "bio": "Jamie is a Senior Developer Advocate for Loqate formally at IBM & Sonatype, based in the UK. He has had the privilege to have spoken all around the world at developer conferences and is an organiser of London’s biggest developer community, the London Java Community.  Passionate about discovering ways to help reduce developers carbon footprint, he is also a subject matter expert in containerised solutions and build technologies. He fell in love with coding at university and has gone on to talk at many conferences about using languages like Java with microservices and related technologies such as AI and software security. He has worked on a wide variety of projects such as modernising IBMs mainframe testing infrastructure, creating, and automating the creation of Docker images for IBM’s products and contributing to a DevOps pipeline offering."
   },
   {
     "id": "jana_moudra",
-    "company": "Juicymo",
-    "name": "Jana Moudra",
-    "order": 11,
     "photo": "/images/people/jana_moudra.jpg",
-    "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/jana_moudra.jpg",
     "badges": [
       {
         "description": "Dart Google Developer Expert",
-        "link": "https://developers.google.com/experts/people/jana-moudr.html",
-        "name": "gde"
+        "name": "gde",
+        "link": "https://developers.google.com/experts/people/jana-moudr.html"
       },
       {
-        "name": "gdg",
         "link": "https://developers.google.com/groups/chapter/111919016509847766513/",
+        "name": "gdg",
         "description": "Google Developers Group Prague"
       }
     ],
+    "company": "Juicymo",
     "title": "Co-Founder",
-    "shortBio": "GDG Prague organizer. Android and Dart enthusiast. Co-founder of a company called Juicymo.",
+    "name": "Jana Moudra",
     "featured": false,
+    "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/jana_moudra.jpg",
     "bio": "GDE (Google Developer Expert) for Dart. Jana is a passionate developer and modern web and mobile technology evangelist. She is an event organiser for GDG Prague, where she arranges events for developers including public lectures, code labs and hackathons – covering a wide range of subjects including technologies Dart or Android. She loves to help other developers and spread the knowledge about these technologies. \n\nJana co-founded a company called Juicymo, where she works on juicy apps and products and teaches at Unicorn College.",
+    "companyLogoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
     "companyLogo": "/images/logos/gdg-lviv.svg",
     "socials": [
       {
-        "link": "https://twitter.com/Janamou",
         "name": "Twitter",
+        "link": "https://twitter.com/Janamou",
         "icon": "twitter"
       },
       {
-        "link": "https://cz.linkedin.com/in/janamoudra",
         "name": "LinkedIn",
-        "icon": "linkedin"
+        "icon": "linkedin",
+        "link": "https://cz.linkedin.com/in/janamoudra"
       },
       {
-        "link": "https://github.com/Janamou",
         "name": "GitHub",
+        "link": "https://github.com/Janamou",
         "icon": "github"
       }
     ],
     "country": "Prague, Czech Republic",
-    "companyLogoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg"
+    "order": 11,
+    "shortBio": "GDG Prague organizer. Android and Dart enthusiast. Co-founder of a company called Juicymo."
   },
   {
     "id": "jason_berryman",
     "badges": [
       {
         "description": "Firebase and GCP Google Developer Expert",
-        "link": "https://developers.google.com/profile/u/jasonberryman",
-        "name": "gde"
+        "name": "gde",
+        "link": "https://developers.google.com/profile/u/jasonberryman"
       }
     ],
-    "title": "Architect at 418.dev",
-    "featured": false,
-    "bio": "Jason is a freelance software architect, a Google Cloud Certified Professional Cloud Architect and Cloud Firestore launch partner. He specialises in systems architecture and design using Google Cloud technologies, particularly Cloud Firestore and Cloud Functions, working primarily in a Node.js environment. He also has experience with BigQuery, PubSub and Kubernetes, in addition to media technologies, such as SIP and WebRTC. In his spare time, Jason regularly speaks at events on Firebase suite topics for GDG Cloud London and GDG Milton Keynes. He also volunteers with a medical charity, where he is currently working on developing new apps to track and deploy assets at large events, using Cloud Firestore and Polymer.",
-    "order": 26,
-    "name": "Jason Berryman",
-    "photoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWUye3ScRZ-CBaihEmpzMicbz4QRskp4qh-LD0uGCMyofLrSe3B7Q=s300",
     "socials": [
       {
-        "name": "Linkedin",
         "link": "https://linkedin.com/in/JasonBerryman",
-        "icon": "linkedin"
+        "icon": "linkedin",
+        "name": "Linkedin"
       },
       {
         "link": "https://twitter.com/JasonBerrymanUK",
+        "icon": "twitter",
+        "name": "Twitter"
+      }
+    ],
+    "bio": "Jason is a freelance software architect, a Google Cloud Certified Professional Cloud Architect and Cloud Firestore launch partner. He specialises in systems architecture and design using Google Cloud technologies, particularly Cloud Firestore and Cloud Functions, working primarily in a Node.js environment. He also has experience with BigQuery, PubSub and Kubernetes, in addition to media technologies, such as SIP and WebRTC. In his spare time, Jason regularly speaks at events on Firebase suite topics for GDG Cloud London and GDG Milton Keynes. He also volunteers with a medical charity, where he is currently working on developing new apps to track and deploy assets at large events, using Cloud Firestore and Polymer.",
+    "photoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWUye3ScRZ-CBaihEmpzMicbz4QRskp4qh-LD0uGCMyofLrSe3B7Q=s300",
+    "name": "Jason Berryman",
+    "order": 26,
+    "featured": false,
+    "title": "Architect at 418.dev"
+  },
+  {
+    "id": "jean-baptiste_clion",
+    "bio": "Jean-Baptiste Clion (AKA JB) is a senior cloud engineer working with Google Technologies since 2007.  He is the founder and co-organiser of GDG Basel, Switzerland. Jean-Baptiste worked in various industries such as Defence & Aeronautics, Finance & Consulting. In his last position, JB was Google Practice Lead at Capgemini Switzerland, he is now co-founding a startup dedicated to Progressive Web Apps solutions relying on cloud technologies.",
+    "companyLogoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
+    "companyLogo": "/images/logos/gdg-lviv.svg",
+    "socials": [
+      {
+        "link": "https://www.facebook.com/jbclion",
+        "icon": "facebook",
+        "name": "Facebook"
+      },
+      {
+        "name": "LinkedIn",
+        "icon": "linkedin",
+        "link": "https://ch.linkedin.com/in/jean-baptiste-clion-3196415"
+      },
+      {
         "name": "Twitter",
+        "link": "https://twitter.com/JBaptisteClion",
         "icon": "twitter"
+      }
+    ],
+    "country": "Basel, Switzerland",
+    "order": 12,
+    "shortBio": "Founder and co-organiser of GDG Basel. Worked in Defence & Aeronautics, Finance & Consulting industries.",
+    "photo": "/images/people/jean-baptiste_clion.jpg",
+    "badges": [
+      {
+        "link": "https://developers.google.com/groups/chapter/104796338340371914914/",
+        "description": "Google Developers Group Basel",
+        "name": "gdg"
+      }
+    ],
+    "company": "Apeser",
+    "name": "Jean-Baptiste Clion",
+    "title": "Founder",
+    "featured": false,
+    "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/jean-baptiste_clion.jpg"
+  },
+  {
+    "id": "jozef_vodicka",
+    "companyLogoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
+    "bio": "Right now he is a passionate Googler helping developers and companies in South CEE to be more successful and profitable.\n\nHe co-founded and lead several StartUPs such as Venzeo.com, TrashOut.ngo, Matura.sk and Stuzkova.EU.\n\nHe is TEDx speaker, Slovak Forbes 30-under-30, IT auditor for AIESEC International & TOP 5 Student Entrepreneurs in Slovakia. He gets things done.",
+    "companyLogo": "/images/logos/gdg-lviv.svg",
+    "socials": [
+      {
+        "icon": "linkedin",
+        "link": "https://www.linkedin.com/in/jozefvodicka",
+        "name": "LinkedIn"
+      },
+      {
+        "link": "https://twitter.com/jozefvodicka",
+        "icon": "twitter",
+        "name": "Twitter"
+      },
+      {
+        "name": "Facebook",
+        "icon": "facebook",
+        "link": "https://www.facebook.com/jozef.vodicka"
+      }
+    ],
+    "shortBio": "TEDx speaker, Slovak Forbes 30-under-30, IT auditor for AIESEC International & TOP 5 Student Entrepreneurs in Slovakia.",
+    "country": "Prague, Czech Republic",
+    "order": 13,
+    "photo": "/images/people/jozef_vodicka.jpg",
+    "badges": [
+      {
+        "link": "https://www.linkedin.com/in/jozefvodicka",
+        "description": "Developer Relations Regional Lead",
+        "name": "google"
+      }
+    ],
+    "company": "Google",
+    "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/jozef_vodicka.jpg",
+    "featured": true,
+    "title": "Developer Relations Program Manager",
+    "name": "Jozef Vodicka"
+  },
+  {
+    "id": "kenichi_kambara",
+    "featured": true,
+    "title": "NTT TechnoCross Corporation Principal Evangelist (Tech)",
+    "order": 26,
+    "name": "Kenichi Kambara",
+    "photoUrl": "https://sessionize.com/image/c5ad-400o400o1-89-83ff-41c0-b3db-d3cdc13d9ecc.6b478931-9af2-45d3-9d1b-90456eda2051.jpg",
+    "badges": [],
+    "bio": "I specialize in mobile applications such as Android, iOS, etc. I have over 20 years of experience as a mobile application developer. Also, I have development experience with Smartphones, Tablets, and Wearable devices. In addition, I've been doing a lot of writing and speeches, including 16 international events such as droidcon/DevFest/Devoxx.",
+    "socials": [
+      {
+        "name": "LinkedIn",
+        "icon": "linkedin",
+        "link": "https://www.linkedin.com/in/korodroid/"
+      },
+      {
+        "link": "https://twitter.com/korodroid",
+        "icon": "twitter",
+        "name": "Twitter"
       }
     ]
   },
   {
-    "id": "jean-baptiste_clion",
-    "photo": "/images/people/jean-baptiste_clion.jpg",
-    "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/jean-baptiste_clion.jpg",
-    "order": 12,
-    "name": "Jean-Baptiste Clion",
-    "company": "Apeser",
-    "shortBio": "Founder and co-organiser of GDG Basel. Worked in Defence & Aeronautics, Finance & Consulting industries.",
-    "title": "Founder",
-    "badges": [
-      {
-        "description": "Google Developers Group Basel",
-        "name": "gdg",
-        "link": "https://developers.google.com/groups/chapter/104796338340371914914/"
-      }
-    ],
-    "companyLogo": "/images/logos/gdg-lviv.svg",
-    "bio": "Jean-Baptiste Clion (AKA JB) is a senior cloud engineer working with Google Technologies since 2007.  He is the founder and co-organiser of GDG Basel, Switzerland. Jean-Baptiste worked in various industries such as Defence & Aeronautics, Finance & Consulting. In his last position, JB was Google Practice Lead at Capgemini Switzerland, he is now co-founding a startup dedicated to Progressive Web Apps solutions relying on cloud technologies.",
-    "featured": false,
-    "socials": [
-      {
-        "link": "https://www.facebook.com/jbclion",
-        "name": "Facebook",
-        "icon": "facebook"
-      },
-      {
-        "link": "https://ch.linkedin.com/in/jean-baptiste-clion-3196415",
-        "name": "LinkedIn",
-        "icon": "linkedin"
-      },
-      {
-        "link": "https://twitter.com/JBaptisteClion",
-        "name": "Twitter",
-        "icon": "twitter"
-      }
-    ],
-    "companyLogoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
-    "country": "Basel, Switzerland"
-  },
-  {
-    "id": "jozef_vodicka",
-    "socials": [
-      {
-        "link": "https://www.linkedin.com/in/jozefvodicka",
-        "name": "LinkedIn",
-        "icon": "linkedin"
-      },
-      {
-        "link": "https://twitter.com/jozefvodicka",
-        "name": "Twitter",
-        "icon": "twitter"
-      },
-      {
-        "link": "https://www.facebook.com/jozef.vodicka",
-        "name": "Facebook",
-        "icon": "facebook"
-      }
-    ],
-    "country": "Prague, Czech Republic",
-    "companyLogoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
-    "featured": true,
-    "companyLogo": "/images/logos/gdg-lviv.svg",
-    "bio": "Right now he is a passionate Googler helping developers and companies in South CEE to be more successful and profitable.\n\nHe co-founded and lead several StartUPs such as Venzeo.com, TrashOut.ngo, Matura.sk and Stuzkova.EU.\n\nHe is TEDx speaker, Slovak Forbes 30-under-30, IT auditor for AIESEC International & TOP 5 Student Entrepreneurs in Slovakia. He gets things done.",
-    "badges": [
-      {
-        "link": "https://www.linkedin.com/in/jozefvodicka",
-        "name": "google",
-        "description": "Developer Relations Regional Lead"
-      }
-    ],
-    "title": "Developer Relations Program Manager",
-    "shortBio": "TEDx speaker, Slovak Forbes 30-under-30, IT auditor for AIESEC International & TOP 5 Student Entrepreneurs in Slovakia.",
-    "company": "Google",
-    "name": "Jozef Vodicka",
-    "order": 13,
-    "photo": "/images/people/jozef_vodicka.jpg",
-    "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/jozef_vodicka.jpg"
-  },
-  {
-    "id": "kenichi_kambara",
-    "badges": [],
-    "title": "NTT TechnoCross Corporation Principal Evangelist (Tech)",
-    "socials": [
-      {
-        "name": "LinkedIn",
-        "link": "https://www.linkedin.com/in/korodroid/",
-        "icon": "linkedin"
-      },
-      {
-        "link": "https://twitter.com/korodroid",
-        "name": "Twitter",
-        "icon": "twitter"
-      }
-    ],
-    "photoUrl": "https://sessionize.com/image/c5ad-400o400o1-89-83ff-41c0-b3db-d3cdc13d9ecc.6b478931-9af2-45d3-9d1b-90456eda2051.jpg",
-    "featured": true,
-    "name": "Kenichi Kambara",
-    "order": 26,
-    "bio": "I specialize in mobile applications such as Android, iOS, etc. I have over 20 years of experience as a mobile application developer. Also, I have development experience with Smartphones, Tablets, and Wearable devices. In addition, I've been doing a lot of writing and speeches, including 16 international events such as droidcon/DevFest/Devoxx."
-  },
-  {
     "id": "konrad_dzwinel",
+    "companyLogo": "/images/logos/gdg-lviv.svg",
+    "bio": "Konrad is a front-end developer at Brainly, Google Developer Expert for Web Technologies and co-organizer of Google Developers Group in Krakow. Over the years he worked for various startups, consultancies and software houses building websites, hybrid apps and internal tools. After work, he develops Chrome extensions, experiments with various front-end technologies, gives presentations and runs workshops.",
+    "companyLogoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
+    "order": 14,
+    "country": "Krakow, Poland",
     "shortBio": "Fighting for 60FPS on Web. GDE on Web Technologies. Co-organizer of GDG Krakow.",
-    "title": "Front-End Engineer",
+    "socials": [
+      {
+        "icon": "github",
+        "link": "https://github.com/kdzwinel",
+        "name": "GitHub"
+      },
+      {
+        "icon": "twitter",
+        "link": "https://twitter.com/kdzwinel",
+        "name": "Twitter"
+      }
+    ],
     "badges": [
       {
-        "description": "Web Technologies Google Developer Expert",
         "link": "https://developers.google.com/experts/people/konrad-dzwinel.html",
+        "description": "Web Technologies Google Developer Expert",
         "name": "gde"
       },
       {
-        "name": "gdg",
         "link": " https://developers.google.com/groups/directory/",
+        "name": "gdg",
         "description": "Google Developers Group Krakow"
       }
     ],
-    "photo": "/images/people/konrad_dzwinel.jpg",
-    "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/konrad_dzwinel.jpg",
-    "name": "Konrad Dzwinel",
-    "order": 14,
     "company": "Brainly",
-    "socials": [
-      {
-        "link": "https://github.com/kdzwinel",
-        "name": "GitHub",
-        "icon": "github"
-      },
-      {
-        "link": "https://twitter.com/kdzwinel",
-        "name": "Twitter",
-        "icon": "twitter"
-      }
-    ],
-    "companyLogoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
-    "country": "Krakow, Poland",
-    "companyLogo": "/images/logos/gdg-lviv.svg",
-    "bio": "Konrad is a front-end developer at Brainly, Google Developer Expert for Web Technologies and co-organizer of Google Developers Group in Krakow. Over the years he worked for various startups, consultancies and software houses building websites, hybrid apps and internal tools. After work, he develops Chrome extensions, experiments with various front-end technologies, gives presentations and runs workshops.",
-    "featured": true
+    "photo": "/images/people/konrad_dzwinel.jpg",
+    "featured": true,
+    "title": "Front-End Engineer",
+    "name": "Konrad Dzwinel",
+    "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/konrad_dzwinel.jpg"
   },
   {
     "id": "leonardo_cavagnis",
-    "badges": [],
+    "name": "Leonardo Cavagnis",
     "title": "Firmware Engineer @ Arduino",
     "featured": false,
-    "name": "Leonardo Cavagnis",
-    "bio": "Since 2023, I have been working as a firmware engineer at Arduino, contributing to the development of innovative hardware and software solutions.    I hold a Master's Degree in Computer Engineering from Politecnico di Milano, specializing in embedded systems. Before joining Arduino, I gained experience in various fields, including industrial, automotive, and green mobility.    Passionate about technical writing and traveling, I am always seeking new experiences and knowledge.",
     "order": 26,
     "photoUrl": "https://sessionize.com/image/39d9-400o400o1-UxtwKsVoC2wTDTZKPLW8ZZ.jpg",
+    "badges": [],
+    "bio": "Since 2023, I have been working as a firmware engineer at Arduino, contributing to the development of innovative hardware and software solutions.    I hold a Master's Degree in Computer Engineering from Politecnico di Milano, specializing in embedded systems. Before joining Arduino, I gained experience in various fields, including industrial, automotive, and green mobility.    Passionate about technical writing and traveling, I am always seeking new experiences and knowledge.",
     "socials": [
       {
-        "link": "https://www.linkedin.com/in/leonardocavagnis",
         "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/leonardocavagnis",
         "icon": "linkedin"
       },
       {
+        "icon": "twitter",
         "link": "https://twitter.com/LeoCavagnis",
-        "name": "Twitter",
-        "icon": "twitter"
+        "name": "Twitter"
       }
     ]
   },
   {
     "id": "loredana_frontino",
-    "photoUrl": "https://sessionize.com/image/8d4e-400o400o1-9QsyXHDVtyf6JfxP1mAU7B.jpg",
-    "socials": [
-      {
-        "link": "https://www.linkedin.com/in/loredana-frontino-0a2367132/",
-        "name": "LinkedIn",
-        "icon": "linkedin"
-      }
-    ],
-    "featured": false,
-    "name": "Loredana Frontino",
-    "bio": "Passionate about technology and design. The background in both fields led her to become a ux/ui designer and Frontend developer and become the point of contact of those worlds.    She likes organizing meetups with GDG Turin and share her knowledge.",
-    "order": 26,
     "badges": [
       {
         "description": "WTM Ambassador",
         "name": "wtm"
       },
       {
-        "description": "GDG Turin organizer",
         "link": "https://gdg.community.dev/gdg-torino/",
+        "description": "GDG Turin organizer",
         "name": "gdg"
       }
     ],
+    "socials": [
+      {
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/loredana-frontino-0a2367132/",
+        "icon": "linkedin"
+      }
+    ],
+    "bio": "Passionate about technology and design. The background in both fields led her to become a ux/ui designer and Frontend developer and become the point of contact of those worlds.    She likes organizing meetups with GDG Turin and share her knowledge.",
+    "photoUrl": "https://sessionize.com/image/8d4e-400o400o1-9QsyXHDVtyf6JfxP1mAU7B.jpg",
+    "name": "Loredana Frontino",
+    "order": 26,
+    "featured": false,
     "title": "UX/UI Designer & Frontend Developer - WTM Ambassador"
   },
   {
     "id": "lorenzo_de_francesco",
-    "featured": true,
-    "bio": "I am the CTO of Azimut Marketplace with over 10 years of experience in IT development. In the last year alone, I have successfully reduced IT costs by 80%, enhancing the operational efficiency of the platform. My primary commitment is to create IT solutions that not only drive profits but are also robust, durable, and flexible enough to meet the ever-evolving needs of our modern society. I am driven by a passion for innovation and technology, and I consistently strive to promote excellence in the management and development of technological systems.",
-    "order": 26,
-    "name": "Lorenzo De Francesco",
     "photoUrl": "https://sessionize.com/image/3dac-0o0o0-no3LfKzhtCxKPw2RdJZohk.png",
+    "name": "Lorenzo De Francesco",
+    "order": 26,
+    "featured": true,
+    "title": "CTO",
+    "badges": [],
     "socials": [
       {
-        "name": "LinkedIn",
         "link": "https://www.linkedin.com/in/lorenzodefrancesco",
-        "icon": "linkedin"
+        "icon": "linkedin",
+        "name": "LinkedIn"
       }
     ],
-    "badges": [],
-    "title": "CTO"
+    "bio": "I am the CTO of Azimut Marketplace with over 10 years of experience in IT development. In the last year alone, I have successfully reduced IT costs by 80%, enhancing the operational efficiency of the platform. My primary commitment is to create IT solutions that not only drive profits but are also robust, durable, and flexible enough to meet the ever-evolving needs of our modern society. I am driven by a passion for innovation and technology, and I consistently strive to promote excellence in the management and development of technological systems."
   },
   {
     "id": "luca_fregoso",
     "photoUrl": "https://sessionize.com/image/1255-400o400o1-YWEgsPciLrD8g6huzN4TcB.jpg",
+    "name": "Luca Fregoso",
+    "title": "Content Manager - Dev Talent Partner @ Codemotion",
+    "featured": false,
+    "order": 26,
+    "badges": [],
     "socials": [
       {
         "link": "https://www.linkedin.com/in/lucafregoso/",
-        "name": "LinkedIn",
-        "icon": "linkedin"
+        "icon": "linkedin",
+        "name": "LinkedIn"
       },
       {
-        "link": "https://twitter.com/scakko",
         "name": "Twitter",
+        "link": "https://twitter.com/scakko",
         "icon": "twitter"
       },
       {
         "link": "https://www.instagram.com/lucafregoso/",
-        "name": "Instagram",
-        "icon": "instagram"
+        "icon": "instagram",
+        "name": "Instagram"
       }
     ],
-    "name": "Luca Fregoso",
-    "bio": "Developing since the early 2000s, my passion for networking has led me to manage work teams, projects and training courses. Geek to the core, I am constantly on the lookout for tech news.",
-    "order": 26,
-    "featured": false,
-    "title": "Content Manager - Dev Talent Partner @ Codemotion",
-    "badges": []
+    "bio": "Developing since the early 2000s, my passion for networking has led me to manage work teams, projects and training courses. Geek to the core, I am constantly on the lookout for tech news."
   },
   {
     "id": "ludovico_besana",
-    "badges": [],
-    "title": "Senior Test Engineer",
-    "featured": false,
-    "name": "Ludovico Besana",
-    "order": 26,
-    "bio": "Ludovico, born as a Full Stack Developer, discovered his true passion for quality later in his career. With a background in Full Stack Development, he possessed a strong technical foundation and a deep understanding of software systems.    As an Automation and Open Source enthusiast, Ludovico recognized the power of efficient and reliable testing methodologies. He understood the importance of ensuring that software products met the highest standards of performance, functionality, and user experience. He works as a Senior Test Engineer.",
     "photoUrl": "https://sessionize.com/image/7868-400o400o1-9GKEbr3ZW2cJLVAJkJWLCV.png",
-    "socials": [
-      {
-        "link": "https://www.linkedin.com/in/ludovicobesana/",
-        "name": "LinkedIn",
-        "icon": "linkedin"
-      },
-      {
-        "link": "https://twitter.com/ludovicobesana",
-        "name": "Twitter",
-        "icon": "twitter"
-      },
-      {
-        "link": "https://www.instagram.com/ludovicobesana/",
-        "name": "Instagram",
-        "icon": "instagram"
-      },
-      {
-        "link": "https://www.ludovicobesana.com/blog",
-        "name": "Website",
-        "icon": "website"
-      }
-    ]
-  },
-  {
-    "id": "marco_arena",
-    "photoUrl": "https://sessionize.com/image/1e38-400o400o1-GrPLYAdnwMG1X7ah5tXR3v.jpg",
-    "socials": [
-      {
-        "link": "https://it.linkedin.com/in/marcoarena",
-        "name": "LinkedIn",
-        "icon": "linkedin"
-      },
-      {
-        "link": "https://twitter.com/ilpropheta",
-        "name": "Twitter",
-        "icon": "twitter"
-      },
-      {
-        "link": "http://www.marcoarena.com",
-        "name": "Website",
-        "icon": "website"
-      }
-    ],
-    "name": "Marco Arena",
-    "order": 26,
-    "bio": "Marco Arena is a software engineer and community lead with extensive experience in C++ development.         He is currently pioneering Artificial Intelligence adoption at Tetra Pak as a technical leader. Previously, he worked as a software engineer for the Ferrari F1 racing team, focusing on mission-critical software and driving the adoption of the latest C++ standards.        Beyond coding, Marco is a seasoned community manager, blogger, and speaker with over 11 years of experience. He founded the Italian C++ Community (2013), Coding Gym (2016), and ML Modena (2020), and co-founded the ISO C++ Italian body (2020). His initiatives have attracted thousands of participants.        Recognized for his contributions, Marco has received the Microsoft MVP award nine times since 2016, highlighting his significant impact on the community.",
     "featured": false,
-    "title": "C++ Software Engineer & Community Lead",
-    "badges": []
-  },
-  {
-    "id": "marco_pollacci",
-    "title": "FrontEnd Javascript Enthusiast",
-    "badges": [],
-    "name": "Marco Pollacci",
+    "title": "Senior Test Engineer",
     "order": 26,
-    "bio": "Hi! I’m a frontend developer with a long-standing love affair with JavaScript, CSS, and the magic they bring to the web. My journey started back in the jQuery era, when Chrome was just a baby—and I’ve been hooked ever since! I thrive on building snappy, interactive experiences and exploring the endless possibilities of the modern web.",
-    "featured": false,
-    "socials": [
-      {
-        "link": "https://www.linkedin.com/in/marcopollacci/",
-        "name": "LinkedIn",
-        "icon": "linkedin"
-      },
-      {
-        "link": "https://x.com/Cerins_Marco",
-        "name": "Twitter",
-        "icon": "twitter"
-      }
-    ],
-    "photoUrl": "https://sessionize.com/image/da84-0o0o0-RT5fkEX7b8pUYVg9CHuUCv.png"
-  },
-  {
-    "id": "marin_niehues",
-    "badges": [],
-    "title": "Founder & Principal Consultant",
-    "photoUrl": "https://sessionize.com/image/6ec8-0o0o0-XHtujJimCuK5okxwNxFRv8.jpg",
-    "socials": [
-      {
-        "name": "LinkedIn",
-        "link": "https://www.linkedin.com/in/marin-niehues-167a98b1/",
-        "icon": "linkedin"
-      }
-    ],
-    "featured": true,
-    "name": "Marin Niehues",
-    "order": 26,
-    "bio": "Marin Niehues is an independent consultant with a track record of over 20 client projects and two startups of his own. He works with VC-backed scaleups and DAX40 companies alike, advising on organizational design, operational performance, and management structures that actually scale.  In the past three years, Marin has been a featured speaker at conferences in more than ten countries across three continents - including repeated invitations from Google and Microsoft."
-  },
-  {
-    "id": "martina_lilla",
-    "badges": [],
-    "title": "Cloud & Data Engineer @Datwave | II Level Master @PoliMi | Datwave Ambassador",
-    "socials": [
-      {
-        "link": "https://it.linkedin.com/in/martina-lilla",
-        "name": "LinkedIn",
-        "icon": "linkedin"
-      },
-      {
-        "link": "https://www.instagram.com/martinalilla",
-        "name": "Instagram",
-        "icon": "instagram"
-      }
-    ],
-    "photoUrl": "https://sessionize.com/image/6d82-0o0o0-MAUq1k6xacPCgZ6bygEF32.jpg",
-    "featured": false,
-    "order": 26,
-    "bio": "Cloud & Data Engineer at Datwave (a BIP company), second-level Master at Politecnico di Milano and Datwave Ambassador. Driven by passion for technology and innovation, her daily work focuses on Google Cloud, Software Development, DevOps, and Microservices.  In addition to her technical skills, she has a natural ability to easily interface with different disciplines. Curiosity is her driver, constantly pushing her to expand her knowledge and experience.",
-    "name": "Martina Lilla"
-  },
-  {
-    "id": "mateusz_herych",
-    "order": 15,
-    "name": "Mateusz Herych",
-    "company": "IG",
-    "photo": "/images/people/mateusz_herych.jpg",
-    "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/mateusz_herych.jpg",
-    "title": "Android Tech Lead",
-    "badges": [
-      {
-        "description": "Android Google Developer Expert",
-        "link": "https://developers.google.com/experts/img/user/108555637824110226040.png",
-        "name": "gde"
-      },
-      {
-        "name": "gdg",
-        "link": "https://developers.google.com/groups/directory/",
-        "description": "Google Developers Group Krakow"
-      }
-    ],
-    "shortBio": "3x rockstar of DevFest Ukraine stage. Android GDE. Co-organizer of GDG Krakow.",
-    "companyLogo": "/images/logos/gdg-lviv.svg",
-    "bio": "Mateusz lives in Krakow, holds a membership in the Google Developer Expert program for Android. Works as an Android Tech Lead at IG. Co-organizer of GDG Krakow community meetups. Fresh dad of twins. For the third time at DevFest Ukraine.",
-    "featured": true,
-    "country": "Krakow, Poland",
-    "companyLogoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
-    "socials": [
-      {
-        "link": "https://twitter.com/mherych",
-        "name": "Twitter",
-        "icon": "twitter"
-      },
-      {
-        "link": "https://www.linkedin.com/in/herych",
-        "name": "LinkedIn",
-        "icon": "linkedin"
-      }
-    ]
-  },
-  {
-    "id": "matteo_guidotto",
-    "badges": [],
-    "title": "Senior Product Manage @ Elty",
-    "photoUrl": "https://sessionize.com/image/ace0-400o400o1-rhnFigf1mLGec59MBUxVYN.jpg",
-    "socials": [],
-    "featured": false,
-    "order": 26,
-    "bio": "Born in the humid Venetian lagoon, for 18 years I have been working in the digital world dealing more with people than with technology. Product Management, User Experience but also community management.",
-    "name": "Matteo Guidotto"
-  },
-  {
-    "id": "mete_atamel",
-    "company": "Google",
-    "name": "Mete Atamel",
-    "order": 16,
-    "photo": "/images/people/mete_atamel.jpg",
-    "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/mete_atamel.jpg",
-    "badges": [
-      {
-        "description": "Developer Advocate",
-        "link": "https://www.linkedin.com/in/meteatamel/",
-        "name": "google"
-      }
-    ],
-    "title": "Developer Advocate",
-    "shortBio": "Mete is a Developer Advocate at Google, currently focused on helping developers with Google Cloud...",
-    "featured": true,
-    "bio": "Mete is a Developer Advocate at Google, currently focused on helping developers with Google Cloud Platform. As a long-time Java and a recent C# developer, he likes to compare the two ecosystems. Prior to Google, he worked at Microsoft, Skype, Adobe, EMC, and Nokia building apps and services on various web, mobile and cloud platforms. Originally from Cyprus, he currently lives in Greenwich, not too far away from the prime meridian.",
-    "companyLogo": "/images/logos/gdg-lviv.svg",
-    "country": "Mete is a Developer Advocate at Google Advocate at Google Advocate at Google at London, United Kingdom",
-    "companyLogoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
-    "socials": [
-      {
-        "link": "https://www.linkedin.com/in/meteatamel/",
-        "name": "LinkedIn",
-        "icon": "linkedin"
-      },
-      {
-        "link": "https://twitter.com/meteatamel/",
-        "name": "Twitter",
-        "icon": "twitter"
-      },
-      {
-        "link": "https://github.com/meteatamel/",
-        "name": "GitHub",
-        "icon": "github"
-      }
-    ]
-  },
-  {
-    "id": "michael_pustovit",
-    "country": "Kyiv, Ukraine",
-    "companyLogoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
-    "socials": [
-      {
-        "link": "https://github.com/lampapos",
-        "name": "GitHub",
-        "icon": "github"
-      },
-      {
-        "link": "https://www.facebook.com/pustovit",
-        "name": "Facebook",
-        "icon": "facebook"
-      },
-      {
-        "link": "https://twitter.com/pustovit",
-        "name": "Twitter",
-        "icon": "twitter"
-      }
-    ],
-    "companyLogo": "/images/logos/gdg-lviv.svg",
-    "bio": "Michael is a software engineer at Stanfy. He is KPI FICT Computer Science graduate and has 4+ years in Android development. Michael moderates KyivAndroidDevClub. Besides programming, he is a capoeira player.",
-    "featured": false,
-    "title": "Senior Android Developer",
-    "shortBio": "Michael is a software engineer at Stanfy. He is KPI FICT Computer Science graduate and has 4+ yea...",
-    "order": 17,
-    "name": "Michael Pustovit",
-    "company": "Stanfy",
-    "photo": "/images/people/michael_pustovit.jpg",
-    "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/michael_pustovit.jpg"
-  },
-  {
-    "id": "michel_murabito",
-    "photoUrl": "https://sessionize.com/image/e82f-0o0o0-s467DFN1CA1vPQjbQfH9Vb.jpg",
+    "name": "Ludovico Besana",
     "socials": [
       {
         "name": "LinkedIn",
         "icon": "linkedin",
-        "link": "https://www.linkedin.com/in/mich-murabito"
+        "link": "https://www.linkedin.com/in/ludovicobesana/"
       },
       {
-        "icon": "twitter",
-        "link": "https://twitter.com/michelmurabito",
-        "name": "Twitter"
+        "name": "Twitter",
+        "link": "https://twitter.com/ludovicobesana",
+        "icon": "twitter"
       },
       {
         "name": "Instagram",
         "icon": "instagram",
-        "link": "https://www.instagram.com/michel_murabito/"
+        "link": "https://www.instagram.com/ludovicobesana/"
       },
       {
-        "link": "https://michelmurabito.com",
+        "icon": "website",
+        "link": "https://www.ludovicobesana.com/blog",
+        "name": "Website"
+      }
+    ],
+    "bio": "Ludovico, born as a Full Stack Developer, discovered his true passion for quality later in his career. With a background in Full Stack Development, he possessed a strong technical foundation and a deep understanding of software systems.    As an Automation and Open Source enthusiast, Ludovico recognized the power of efficient and reliable testing methodologies. He understood the importance of ensuring that software products met the highest standards of performance, functionality, and user experience. He works as a Senior Test Engineer.",
+    "badges": []
+  },
+  {
+    "id": "marco_arena",
+    "socials": [
+      {
+        "icon": "linkedin",
+        "link": "https://it.linkedin.com/in/marcoarena",
+        "name": "LinkedIn"
+      },
+      {
+        "name": "Twitter",
+        "link": "https://twitter.com/ilpropheta",
+        "icon": "twitter"
+      },
+      {
         "name": "Website",
+        "link": "http://www.marcoarena.com",
         "icon": "website"
       }
     ],
-    "featured": true,
-    "name": "Michel Murabito",
-    "bio": "I'm Michel Murabito, Mich to my friends! Born in 1986 in Turin with Sicilian roots, I now live in Milan. My journey in software began at 12, coding for fun. At 18, I started my first job as a software developer and have continuously sought new challenges to grow and learn. Today,  I'm a Developer Advocate and a Cloud Native Computing Foundation (CNCF) Ambassador, sharing my passion for cloud native technologies with a community of curious minds. I'm also an organizer of the Cloud Native Days Italy (formerly KCD Italy) and KCD San Francisco Bay Area, fostering collaboration and innovation within the cloud native ecosystem.",
-    "order": 26,
+    "bio": "Marco Arena is a software engineer and community lead with extensive experience in C++ development.         He is currently pioneering Artificial Intelligence adoption at Tetra Pak as a technical leader. Previously, he worked as a software engineer for the Ferrari F1 racing team, focusing on mission-critical software and driving the adoption of the latest C++ standards.        Beyond coding, Marco is a seasoned community manager, blogger, and speaker with over 11 years of experience. He founded the Italian C++ Community (2013), Coding Gym (2016), and ML Modena (2020), and co-founded the ISO C++ Italian body (2020). His initiatives have attracted thousands of participants.        Recognized for his contributions, Marco has received the Microsoft MVP award nine times since 2016, highlighting his significant impact on the community.",
     "badges": [],
-    "title": "CNCF Ambassador & Developer Advocate"
-  },
-  {
-    "id": "paolo_di_giglio",
+    "photoUrl": "https://sessionize.com/image/1e38-400o400o1-GrPLYAdnwMG1X7ah5tXR3v.jpg",
     "featured": false,
+    "title": "C++ Software Engineer & Community Lead",
     "order": 26,
-    "bio": "\"Born as a Physicist; grown up as a Software Developer.        I do extreme sports like paragliding and C++ metaprogramming. Yes, I know, \"\"danger\"\" is my middle name.        Became a Coding Gym trainer to challenge myself with coding riddles and share clever ideas.        A well-thought elegant algorithm or data structure will always get my jaw dropped.\"\t\t\t\t\t",
-    "name": "Paolo Di Giglio",
-    "photoUrl": "https://sessionize.com/image/47eb-400o400o1-wgZd6KBDSN8UpF9H4QbrKG.jpg",
-    "socials": [],
-    "badges": [],
-    "title": "Software Developer | Metaprogramming Enthusiast"
+    "name": "Marco Arena"
   },
   {
-    "id": "paul_lammertsma",
-    "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/paul_lammertsma.jpg",
-    "photo": "/images/people/paul_lammertsma.jpg",
-    "company": "Pixplicity",
-    "order": 18,
-    "name": "Paul Lammertsma",
-    "shortBio": "Paul is CTO and co-founder of Pixplicity, Holland's leading Android-specific consulting and app-b...",
-    "title": "CTO",
+    "id": "marco_pollacci",
+    "photoUrl": "https://sessionize.com/image/da84-0o0o0-RT5fkEX7b8pUYVg9CHuUCv.png",
+    "name": "Marco Pollacci",
+    "order": 26,
+    "featured": false,
+    "title": "FrontEnd Javascript Enthusiast",
+    "socials": [
+      {
+        "link": "https://www.linkedin.com/in/marcopollacci/",
+        "icon": "linkedin",
+        "name": "LinkedIn"
+      },
+      {
+        "link": "https://x.com/Cerins_Marco",
+        "icon": "twitter",
+        "name": "Twitter"
+      }
+    ],
+    "bio": "Hi! I’m a frontend developer with a long-standing love affair with JavaScript, CSS, and the magic they bring to the web. My journey started back in the jQuery era, when Chrome was just a baby—and I’ve been hooked ever since! I thrive on building snappy, interactive experiences and exploring the endless possibilities of the modern web.",
+    "badges": []
+  },
+  {
+    "id": "marin_niehues",
+    "photoUrl": "https://sessionize.com/image/6ec8-0o0o0-XHtujJimCuK5okxwNxFRv8.jpg",
+    "name": "Marin Niehues",
+    "title": "Founder & Principal Consultant",
     "featured": true,
-    "bio": "Paul is CTO and co-founder of Pixplicity, Holland's leading Android-specific consulting and app-building company. He applies his knowledge of Java, Android and Linux in Pixplicity to develop high-quality apps and provide technical solutions for customers such as Mercedes-Benz, Nestlé, De Telegraaf, AGIS and De Consumentenbond.",
+    "order": 26,
+    "socials": [
+      {
+        "icon": "linkedin",
+        "link": "https://www.linkedin.com/in/marin-niehues-167a98b1/",
+        "name": "LinkedIn"
+      }
+    ],
+    "bio": "Marin Niehues is an independent consultant with a track record of over 20 client projects and two startups of his own. He works with VC-backed scaleups and DAX40 companies alike, advising on organizational design, operational performance, and management structures that actually scale.  In the past three years, Marin has been a featured speaker at conferences in more than ten countries across three continents - including repeated invitations from Google and Microsoft.",
+    "badges": []
+  },
+  {
+    "id": "martina_lilla",
+    "badges": [],
+    "socials": [
+      {
+        "name": "LinkedIn",
+        "icon": "linkedin",
+        "link": "https://it.linkedin.com/in/martina-lilla"
+      },
+      {
+        "link": "https://www.instagram.com/martinalilla",
+        "icon": "instagram",
+        "name": "Instagram"
+      }
+    ],
+    "bio": "Cloud & Data Engineer at Datwave (a BIP company), second-level Master at Politecnico di Milano and Datwave Ambassador. Driven by passion for technology and innovation, her daily work focuses on Google Cloud, Software Development, DevOps, and Microservices.  In addition to her technical skills, she has a natural ability to easily interface with different disciplines. Curiosity is her driver, constantly pushing her to expand her knowledge and experience.",
+    "photoUrl": "https://sessionize.com/image/6d82-0o0o0-MAUq1k6xacPCgZ6bygEF32.jpg",
+    "name": "Martina Lilla",
+    "order": 26,
+    "featured": false,
+    "title": "Cloud & Data Engineer @Datwave | II Level Master @PoliMi | Datwave Ambassador"
+  },
+  {
+    "id": "mateusz_herych",
+    "photo": "/images/people/mateusz_herych.jpg",
+    "badges": [
+      {
+        "name": "gde",
+        "description": "Android Google Developer Expert",
+        "link": "https://developers.google.com/experts/img/user/108555637824110226040.png"
+      },
+      {
+        "description": "Google Developers Group Krakow",
+        "name": "gdg",
+        "link": "https://developers.google.com/groups/directory/"
+      }
+    ],
+    "company": "IG",
+    "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/mateusz_herych.jpg",
+    "title": "Android Tech Lead",
+    "name": "Mateusz Herych",
+    "featured": true,
+    "companyLogoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
+    "bio": "Mateusz lives in Krakow, holds a membership in the Google Developer Expert program for Android. Works as an Android Tech Lead at IG. Co-organizer of GDG Krakow community meetups. Fresh dad of twins. For the third time at DevFest Ukraine.",
     "companyLogo": "/images/logos/gdg-lviv.svg",
     "socials": [
       {
-        "link": "https://twitter.com/officesunshine",
         "name": "Twitter",
+        "link": "https://twitter.com/mherych",
         "icon": "twitter"
+      },
+      {
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/herych",
+        "icon": "linkedin"
       }
     ],
+    "shortBio": "3x rockstar of DevFest Ukraine stage. Android GDE. Co-organizer of GDG Krakow.",
+    "country": "Krakow, Poland",
+    "order": 15
+  },
+  {
+    "id": "matteo_guidotto",
+    "badges": [],
+    "socials": [],
+    "bio": "Born in the humid Venetian lagoon, for 18 years I have been working in the digital world dealing more with people than with technology. Product Management, User Experience but also community management.",
+    "photoUrl": "https://sessionize.com/image/ace0-400o400o1-rhnFigf1mLGec59MBUxVYN.jpg",
+    "featured": false,
+    "title": "Senior Product Manage @ Elty",
+    "order": 26,
+    "name": "Matteo Guidotto"
+  },
+  {
+    "id": "mete_atamel",
+    "photo": "/images/people/mete_atamel.jpg",
+    "badges": [
+      {
+        "description": "Developer Advocate",
+        "name": "google",
+        "link": "https://www.linkedin.com/in/meteatamel/"
+      }
+    ],
+    "company": "Google",
+    "featured": true,
+    "title": "Developer Advocate",
+    "name": "Mete Atamel",
+    "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/mete_atamel.jpg",
+    "bio": "Mete is a Developer Advocate at Google, currently focused on helping developers with Google Cloud Platform. As a long-time Java and a recent C# developer, he likes to compare the two ecosystems. Prior to Google, he worked at Microsoft, Skype, Adobe, EMC, and Nokia building apps and services on various web, mobile and cloud platforms. Originally from Cyprus, he currently lives in Greenwich, not too far away from the prime meridian.",
     "companyLogoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
-    "country": "Amsterdam, The Netherlands"
+    "companyLogo": "/images/logos/gdg-lviv.svg",
+    "socials": [
+      {
+        "link": "https://www.linkedin.com/in/meteatamel/",
+        "icon": "linkedin",
+        "name": "LinkedIn"
+      },
+      {
+        "link": "https://twitter.com/meteatamel/",
+        "icon": "twitter",
+        "name": "Twitter"
+      },
+      {
+        "icon": "github",
+        "link": "https://github.com/meteatamel/",
+        "name": "GitHub"
+      }
+    ],
+    "order": 16,
+    "country": "Mete is a Developer Advocate at Google Advocate at Google Advocate at Google at London, United Kingdom",
+    "shortBio": "Mete is a Developer Advocate at Google, currently focused on helping developers with Google Cloud..."
+  },
+  {
+    "id": "michael_pustovit",
+    "photo": "/images/people/michael_pustovit.jpg",
+    "company": "Stanfy",
+    "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/michael_pustovit.jpg",
+    "name": "Michael Pustovit",
+    "title": "Senior Android Developer",
+    "featured": false,
+    "companyLogoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
+    "bio": "Michael is a software engineer at Stanfy. He is KPI FICT Computer Science graduate and has 4+ years in Android development. Michael moderates KyivAndroidDevClub. Besides programming, he is a capoeira player.",
+    "companyLogo": "/images/logos/gdg-lviv.svg",
+    "socials": [
+      {
+        "name": "GitHub",
+        "link": "https://github.com/lampapos",
+        "icon": "github"
+      },
+      {
+        "link": "https://www.facebook.com/pustovit",
+        "icon": "facebook",
+        "name": "Facebook"
+      },
+      {
+        "link": "https://twitter.com/pustovit",
+        "icon": "twitter",
+        "name": "Twitter"
+      }
+    ],
+    "shortBio": "Michael is a software engineer at Stanfy. He is KPI FICT Computer Science graduate and has 4+ yea...",
+    "order": 17,
+    "country": "Kyiv, Ukraine"
+  },
+  {
+    "id": "michel_murabito",
+    "bio": "I'm Michel Murabito, Mich to my friends! Born in 1986 in Turin with Sicilian roots, I now live in Milan. My journey in software began at 12, coding for fun. At 18, I started my first job as a software developer and have continuously sought new challenges to grow and learn. Today,  I'm a Developer Advocate and a Cloud Native Computing Foundation (CNCF) Ambassador, sharing my passion for cloud native technologies with a community of curious minds. I'm also an organizer of the Cloud Native Days Italy (formerly KCD Italy) and KCD San Francisco Bay Area, fostering collaboration and innovation within the cloud native ecosystem.",
+    "socials": [
+      {
+        "icon": "linkedin",
+        "link": "https://www.linkedin.com/in/mich-murabito",
+        "name": "LinkedIn"
+      },
+      {
+        "name": "Twitter",
+        "icon": "twitter",
+        "link": "https://twitter.com/michelmurabito"
+      },
+      {
+        "icon": "instagram",
+        "link": "https://www.instagram.com/michel_murabito/",
+        "name": "Instagram"
+      },
+      {
+        "name": "Website",
+        "link": "https://michelmurabito.com",
+        "icon": "website"
+      }
+    ],
+    "badges": [],
+    "name": "Michel Murabito",
+    "order": 26,
+    "featured": true,
+    "title": "CNCF Ambassador & Developer Advocate",
+    "photoUrl": "https://sessionize.com/image/e82f-0o0o0-s467DFN1CA1vPQjbQfH9Vb.jpg"
+  },
+  {
+    "id": "paolo_di_giglio",
+    "name": "Paolo Di Giglio",
+    "order": 26,
+    "featured": false,
+    "title": "Software Developer | Metaprogramming Enthusiast",
+    "photoUrl": "https://sessionize.com/image/47eb-400o400o1-wgZd6KBDSN8UpF9H4QbrKG.jpg",
+    "bio": "\"Born as a Physicist; grown up as a Software Developer.        I do extreme sports like paragliding and C++ metaprogramming. Yes, I know, \"\"danger\"\" is my middle name.        Became a Coding Gym trainer to challenge myself with coding riddles and share clever ideas.        A well-thought elegant algorithm or data structure will always get my jaw dropped.\"\t\t\t\t\t",
+    "socials": [],
+    "badges": []
+  },
+  {
+    "id": "paul_lammertsma",
+    "company": "Pixplicity",
+    "photo": "/images/people/paul_lammertsma.jpg",
+    "title": "CTO",
+    "featured": true,
+    "name": "Paul Lammertsma",
+    "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/paul_lammertsma.jpg",
+    "companyLogo": "/images/logos/gdg-lviv.svg",
+    "bio": "Paul is CTO and co-founder of Pixplicity, Holland's leading Android-specific consulting and app-building company. He applies his knowledge of Java, Android and Linux in Pixplicity to develop high-quality apps and provide technical solutions for customers such as Mercedes-Benz, Nestlé, De Telegraaf, AGIS and De Consumentenbond.",
+    "companyLogoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
+    "country": "Amsterdam, The Netherlands",
+    "order": 18,
+    "shortBio": "Paul is CTO and co-founder of Pixplicity, Holland's leading Android-specific consulting and app-b...",
+    "socials": [
+      {
+        "name": "Twitter",
+        "icon": "twitter",
+        "link": "https://twitter.com/officesunshine"
+      }
+    ]
   },
   {
     "id": "pawel_zajaczkowski",
-    "badges": [],
-    "title": "Development Manager at Xebia Poland",
-    "featured": false,
     "name": "Pawel Zajączkowski\t",
-    "bio": "Paweł has been working in Wrocław IT since 2009. He was digging through the code in a Finnish telecom, German logistics, a Swiss bank, a car factory, a travel startup, British compliance, and villa rental. Currently, he has gone to the dark side and takes care of a flock of programmers and team leaders, a mentoring program, a guild and is sticking his nose wherever else he can.         Personally, he likes to read, play board games, analog and computer RPGs. He practices powerlifting and collects vintage Lego Technic. Writes about software, peopleware and dragons on HowToTrainYourJava.com.",
     "order": 26,
+    "featured": false,
+    "title": "Development Manager at Xebia Poland",
     "photoUrl": "https://sessionize.com/image/932c-400o400o1-TJPAFV8EdL6rHuotZY9y5o.png",
+    "badges": [],
+    "bio": "Paweł has been working in Wrocław IT since 2009. He was digging through the code in a Finnish telecom, German logistics, a Swiss bank, a car factory, a travel startup, British compliance, and villa rental. Currently, he has gone to the dark side and takes care of a flock of programmers and team leaders, a mentoring program, a guild and is sticking his nose wherever else he can.         Personally, he likes to read, play board games, analog and computer RPGs. He practices powerlifting and collects vintage Lego Technic. Writes about software, peopleware and dragons on HowToTrainYourJava.com.",
     "socials": [
       {
         "name": "LinkedIn",
@@ -1516,14 +1516,14 @@
         "icon": "linkedin"
       },
       {
+        "icon": "twitter",
         "link": "https://twitter.com/gvaireth",
-        "name": "Twitter",
-        "icon": "twitter"
+        "name": "Twitter"
       },
       {
-        "name": "Instagram",
         "link": "https://www.instagram.com/gvaireth/",
-        "icon": "instagram"
+        "icon": "instagram",
+        "name": "Instagram"
       }
     ]
   },
@@ -1532,32 +1532,36 @@
     "socials": [
       {
         "link": "https://twitter.com/protechman",
-        "name": "Twitter",
-        "icon": "twitter"
+        "icon": "twitter",
+        "name": "Twitter"
       },
       {
         "link": "https://facebook.com/r.caner.yildirim",
-        "name": "Facebook",
-        "icon": "facebook"
+        "icon": "facebook",
+        "name": "Facebook"
       },
       {
+        "icon": "website",
         "link": "https://dribbble.com/protechman",
-        "name": "Website",
-        "icon": "website"
+        "name": "Website"
       },
       {
-        "link": "https://linkedin.com/in/protechman",
         "name": "LinkedIn",
+        "link": "https://linkedin.com/in/protechman",
         "icon": "linkedin"
       }
     ],
-    "companyLogoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
+    "shortBio": "Caner is a GDE on UX/UI who is also a technology geek. Mainly focused on the design and marketing...",
     "country": "Istanbul, Turkey",
+    "order": 19,
+    "companyLogoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
     "bio": "Caner is a GDE on UX/UI who is also a technology geek. Mainly focused on the design and marketing of mobile applications. Passionate about good UX, IoT and Android. He works at InnovationBox, a design agency in Istanbul making and creating apps that users love. Caner has been an organiser of GDG Istanbul since 2013, organising, participating, and speaking at events.",
     "companyLogo": "/images/logos/gdg-lviv.svg",
-    "featured": false,
-    "shortBio": "Caner is a GDE on UX/UI who is also a technology geek. Mainly focused on the design and marketing...",
+    "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/resul caner_yildirim.jpg",
+    "name": "Resul Caner  Yildirim",
     "title": "User Experience Expert",
+    "featured": false,
+    "photo": "/images/people/resul_caner_yildirim.jpg",
     "badges": [
       {
         "link": "https://developers.google.com/experts/people/resul-caner-y-ld-r-m.html",
@@ -1566,41 +1570,31 @@
       },
       {
         "description": "Google Developers Group Istanbul",
-        "link": "https://developers.google.com/groups/chapter/100514812580249787371/",
-        "name": "gdg"
+        "name": "gdg",
+        "link": "https://developers.google.com/groups/chapter/100514812580249787371/"
       }
     ],
-    "photo": "/images/people/resul_caner_yildirim.jpg",
-    "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/resul caner_yildirim.jpg",
-    "order": 19,
-    "name": "Resul Caner  Yildirim",
     "company": "InnovationBox"
   },
   {
     "id": "rob_orgiu",
-    "socials": [],
-    "photoUrl": "https://sessionize.com/image/e3a5-400o400o1-Xng3TgUHQGPahwUV2Am3SX.jpg",
-    "featured": true,
-    "order": 26,
-    "bio": "Roberto è uno sviluppatore Android che viaggia molto. Gli piace scattare fotografie e visitare posti nuovi.",
-    "name": "Rob Orgiu",
     "badges": [
       {
-        "description": "Google",
-        "name": "google"
+        "name": "google",
+        "description": "Google"
       }
     ],
-    "title": "Developer Relations Engineer @ Google"
+    "bio": "Roberto è uno sviluppatore Android che viaggia molto. Gli piace scattare fotografie e visitare posti nuovi.",
+    "socials": [],
+    "order": 26,
+    "featured": true,
+    "title": "Developer Relations Engineer @ Google",
+    "name": "Rob Orgiu",
+    "photoUrl": "https://sessionize.com/image/e3a5-400o400o1-Xng3TgUHQGPahwUV2Am3SX.jpg"
   },
   {
     "id": "roman_herasymenko",
-    "photo": "/images/people/roman_herasymenko.jpg",
-    "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/roman_herasymenko.jpg",
-    "order": 20,
-    "name": "Roman Herasymenko",
     "company": "Yamert",
-    "shortBio": "Roman is Founder and CEO at Yamert and a co-organizer of GDG Dnipropetrovsk. Roman is interesting...",
-    "title": "CEO",
     "badges": [
       {
         "link": "https://developers.google.com/experts/people/roman-herasymenko.html",
@@ -1608,300 +1602,306 @@
         "description": "Android Google Developer Expert"
       },
       {
+        "link": "https://developers.google.com/groups/chapter/116033068768596939209/",
         "description": "Google Developers Group Dnipro",
-        "name": "gdg",
-        "link": "https://developers.google.com/groups/chapter/116033068768596939209/"
+        "name": "gdg"
       }
     ],
-    "companyLogo": "/images/logos/gdg-lviv.svg",
-    "bio": "Roman is Founder and CEO at Yamert and a co-organizer of GDG Dnipropetrovsk. Roman is interesting in software development for cutting edge technologies and devices like Google Glass and Android Wear.",
+    "photo": "/images/people/roman_herasymenko.jpg",
     "featured": false,
+    "name": "Roman Herasymenko",
+    "title": "CEO",
+    "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/roman_herasymenko.jpg",
+    "bio": "Roman is Founder and CEO at Yamert and a co-organizer of GDG Dnipropetrovsk. Roman is interesting in software development for cutting edge technologies and devices like Google Glass and Android Wear.",
     "companyLogoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
-    "country": "Dnipro, Ukraine",
+    "companyLogo": "/images/logos/gdg-lviv.svg",
     "socials": [
       {
         "link": "http://ua.linkedin.com/pub/roman-gerasimenko/",
-        "name": "LinkedIn",
-        "icon": "linkedin"
+        "icon": "linkedin",
+        "name": "LinkedIn"
       }
-    ]
+    ],
+    "order": 20,
+    "country": "Dnipro, Ukraine",
+    "shortBio": "Roman is Founder and CEO at Yamert and a co-organizer of GDG Dnipropetrovsk. Roman is interesting..."
   },
   {
     "id": "rustem_arzymbetov",
-    "socials": [],
-    "companyLogoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
-    "country": "Mountain View, United States",
     "companyLogo": "/images/logos/gdg-lviv.svg",
+    "companyLogoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
     "bio": "Rustem is working at Google for last 8 years. Was in Search and Android teams. Big fan of performance optimizations.",
-    "featured": true,
     "shortBio": "Rustem is working at Google for last 8 years. Was in Search and Android teams. Big fan of perform...",
-    "title": "Software Engineer",
-    "photo": "/images/people/rustem_arzymbetov.jpg",
-    "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/rustem_arzymbetov.jpg",
-    "name": "Rustem Arzymbetov",
+    "country": "Mountain View, United States",
     "order": 21,
-    "company": "Google"
+    "socials": [],
+    "photo": "/images/people/rustem_arzymbetov.jpg",
+    "company": "Google",
+    "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/rustem_arzymbetov.jpg",
+    "title": "Software Engineer",
+    "featured": true,
+    "name": "Rustem Arzymbetov"
   },
   {
     "id": "samuele_bruschi",
-    "socials": [
-      {
-        "name": "LinkedIn",
-        "link": "https://www.linkedin.com/in/samuele794/",
-        "icon": "linkedin"
-      }
-    ],
     "photoUrl": "https://sessionize.com/image/b40b-400o400o1-wqRvmRcjTsBKBFtm9EvZF3.png",
     "name": "Samuele Bruschi",
     "order": 26,
-    "bio": "\"Kotlin Dev Mobile Android.    Fosse per me, svilupperei tutto in Kotlin... non che ogni tanto non ci provi a farlo.    Per il resto sono Perito semplice.\"\t\t",
     "featured": false,
     "title": "Android Mobile Dev",
+    "socials": [
+      {
+        "name": "LinkedIn",
+        "icon": "linkedin",
+        "link": "https://www.linkedin.com/in/samuele794/"
+      }
+    ],
+    "bio": "\"Kotlin Dev Mobile Android.    Fosse per me, svilupperei tutto in Kotlin... non che ogni tanto non ci provi a farlo.    Per il resto sono Perito semplice.\"\t\t",
     "badges": []
   },
   {
     "id": "sasa_sekulic",
-    "name": "Sasa Sekulic",
-    "order": 26,
+    "badges": [],
     "bio": "Sasa Sekulic is the CTO and Co-founder of Develhope, an edtech company empowering students across Europe and Africa with practical software development skills. With almost three decades of experience in software development, Sasa has led technical teams across startups and enterprises, focusing on scalable architecture and impactful product delivery. He is passionate about building technology that drives social change through education.",
-    "featured": true,
-    "photoUrl": "https://sessionize.com/image/3f43-0o0o0-HiLy3qNL6gmsJEvUc8HrwB.jpg",
     "socials": [
       {
-        "name": "LinkedIn",
         "link": "https://www.linkedin.com/in/sasasekulic/",
-        "icon": "linkedin"
+        "icon": "linkedin",
+        "name": "LinkedIn"
       }
     ],
+    "name": "Sasa Sekulic",
+    "order": 26,
+    "featured": true,
     "title": "CTO at Develhope",
-    "badges": []
+    "photoUrl": "https://sessionize.com/image/3f43-0o0o0-HiLy3qNL6gmsJEvUc8HrwB.jpg"
   },
   {
     "id": "sascha_wolter",
+    "title": "Senior Developer Evangelist Connected Home",
+    "featured": true,
+    "name": "Sascha Wolter",
+    "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/sascha_wolter.jpg",
+    "company": "Duetsche Telekom AG - Group Innovation+",
+    "photo": "/images/people/sascha_wolter.jpg",
     "socials": [
       {
+        "icon": "website",
         "link": "http://www.wolter.biz",
-        "name": "Website",
-        "icon": "website"
+        "name": "Website"
       },
       {
+        "icon": "twitter",
         "link": "http://twitter.com/saschawolter",
-        "name": "Twitter",
-        "icon": "twitter"
+        "name": "Twitter"
       },
       {
+        "icon": "linkedin",
         "link": "http://www.linkedin.com/pub/sascha-wolter/5/a38/493",
-        "name": "LinkedIn",
-        "icon": "linkedin"
+        "name": "LinkedIn"
       }
     ],
-    "companyLogoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
     "country": "Munich and Dusseldorf, Germany",
-    "featured": true,
-    "bio": "Sascha Wolter is a professional developer and user experience enthusiast with passion for the Internet of Things in all flavors. He also works as a consultant, trainer, lecturer, keynote-speaker, and author who focusses on understanding, innovation and value. Sascha is the founder of the User Group flashforum.de with more than 100,000 members, and as such he is committed to the interests of the user. After organizing internationally renowned events like beyond tellerrand from 2001 to 2011, he is now board member of the Usability & User Experience committee at the federal association BITKOM. When he is not tinkering with new soft- and hardware for Deutsche Telekom AG – Connected Home, he likes discovering the world together with his kids in an odd way.",
-    "companyLogo": "/images/logos/gdg-lviv.svg",
-    "shortBio": "UX enthusiast with passion for the IoT. Board member of the Usability & User Experience committee at the federal association BITKOM.",
-    "title": "Senior Developer Evangelist Connected Home",
-    "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/sascha_wolter.jpg",
-    "photo": "/images/people/sascha_wolter.jpg",
-    "company": "Duetsche Telekom AG - Group Innovation+",
     "order": 22,
-    "name": "Sascha Wolter"
+    "shortBio": "UX enthusiast with passion for the IoT. Board member of the Usability & User Experience committee at the federal association BITKOM.",
+    "bio": "Sascha Wolter is a professional developer and user experience enthusiast with passion for the Internet of Things in all flavors. He also works as a consultant, trainer, lecturer, keynote-speaker, and author who focusses on understanding, innovation and value. Sascha is the founder of the User Group flashforum.de with more than 100,000 members, and as such he is committed to the interests of the user. After organizing internationally renowned events like beyond tellerrand from 2001 to 2011, he is now board member of the Usability & User Experience committee at the federal association BITKOM. When he is not tinkering with new soft- and hardware for Deutsche Telekom AG – Connected Home, he likes discovering the world together with his kids in an odd way.",
+    "companyLogoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
+    "companyLogo": "/images/logos/gdg-lviv.svg"
   },
   {
     "id": "sergii_khomenko",
-    "title": "Data Scientist",
-    "shortBio": "Data scientist at one of the biggest fashion communities, STYLIGHT. Data analysis and visualisati...",
     "order": 23,
-    "name": "Sergii Khomenko",
-    "company": "Stylight",
-    "photo": "/images/people/sergii_khomenko.jpg",
-    "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/sergii_khomenko.jpg",
+    "country": "Munich, Germany",
+    "shortBio": "Data scientist at one of the biggest fashion communities, STYLIGHT. Data analysis and visualisati...",
     "socials": [
       {
         "link": "https://twitter.com/lc0d3r",
-        "name": "Twitter",
-        "icon": "twitter"
+        "icon": "twitter",
+        "name": "Twitter"
       }
     ],
-    "country": "Munich, Germany",
-    "companyLogoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
     "companyLogo": "/images/logos/gdg-lviv.svg",
     "bio": "Data scientist at one of the biggest fashion communities, STYLIGHT. Data analysis and visualisation hobbyist, working on problems not only in working time, but in free time for fun and personal data visualisations.\n\nSpeaker at different conferences: Berlin Buzzwords 2014, ApacheCon Europe 2014, Puppet Camp London 2015, Munich Developer Camp, Berlin Buzzwords 2015, Tableau Conference on Tour - Berlin 2015, Budapest BI forum 2015, CrunchConf 2015, FOSDEM 2016, PyData Amsterdam 2016",
-    "featured": true
+    "companyLogoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
+    "featured": true,
+    "title": "Data Scientist",
+    "name": "Sergii Khomenko",
+    "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/sergii_khomenko.jpg",
+    "company": "Stylight",
+    "photo": "/images/people/sergii_khomenko.jpg"
   },
   {
     "id": "sergiy_mokienko",
+    "companyLogoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
+    "bio": "Sergiy is an android developer that has experience from building apps from scratch to developing android based sdks and libraries for other applications. He has more than 10 applications successfully published on Google Play. Former GDG chapter lead in Nikolaev. Currently he is leading a team that builds broker software for 60+ different brokers.",
+    "companyLogo": "/images/logos/gdg-lviv.svg",
     "socials": [
       {
+        "icon": "linkedin",
         "link": "https://www.linkedin.com/in/sergiy-mokienko-76891359",
-        "name": "LinkedIn",
-        "icon": "linkedin"
+        "name": "LinkedIn"
       },
       {
-        "link": "https://www.facebook.com/Korwin22",
         "name": "Facebook",
+        "link": "https://www.facebook.com/Korwin22",
         "icon": "facebook"
       }
     ],
+    "shortBio": "Sergiy is an android developer that has experience from building apps from scratch to developing...",
     "country": "Kyiv,  Ukraine",
-    "companyLogoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
-    "companyLogo": "/images/logos/gdg-lviv.svg",
-    "bio": "Sergiy is an android developer that has experience from building apps from scratch to developing android based sdks and libraries for other applications. He has more than 10 applications successfully published on Google Play. Former GDG chapter lead in Nikolaev. Currently he is leading a team that builds broker software for 60+ different brokers.",
-    "featured": false,
-    "title": "Android Team Lead",
+    "order": 24,
+    "photo": "/images/people/sergiy_mokienko.jpg",
     "badges": [
       {
+        "description": "Google Developers Group Kyiv",
         "name": "gdg",
-        "link": "https://developers.google.com/groups/chapter/110301321530950732281/",
-        "description": "Google Developers Group Kyiv"
+        "link": "https://developers.google.com/groups/chapter/110301321530950732281/"
       }
     ],
-    "shortBio": "Sergiy is an android developer that has experience from building apps from scratch to developing...",
-    "order": 24,
-    "name": "Sergiy Mokienko",
     "company": "Leverate",
     "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/sergiy_mokienko.jpg",
-    "photo": "/images/people/sergiy_mokienko.jpg"
-  },
-  {
-    "id": "simone_colucci",
-    "title": "Head of Product @ xtream",
-    "badges": [],
-    "socials": [
-      {
-        "name": "LinkedIn",
-        "link": "https://www.linkedin.com/in/simonecolucci/",
-        "icon": "linkedin"
-      }
-    ],
-    "photoUrl": "https://sessionize.com/image/6e29-400o400o1-QLYfizckRG5hQxAzUhttzo.jpg",
-    "name": "Simone Colucci",
-    "order": 26,
-    "bio": "In love with technology and innovation since university, he has transitioned from software engineering to product management a few years ago. Co-founded xtream, a boutique of digital products and AI, where he helped scale-ups and corporates build better solutions for their businesses.",
+    "name": "Sergiy Mokienko",
+    "title": "Android Team Lead",
     "featured": false
   },
   {
-    "id": "talia_asghar",
+    "id": "simone_colucci",
+    "photoUrl": "https://sessionize.com/image/6e29-400o400o1-QLYfizckRG5hQxAzUhttzo.jpg",
+    "name": "Simone Colucci",
     "order": 26,
-    "bio": "Taley’a is a software engineer, having exposure to working in the product ecosystem for the more than seven years.    She has experience in diverse web and mobile technologies. She enjoys simplifying problems and making the user experience better for the product users.     She is an active contributor in the community and loves speaking at community events and conferences. Apart from this, she likes reading, art, and hiking to explore nature.",
+    "featured": false,
+    "title": "Head of Product @ xtream",
+    "socials": [
+      {
+        "icon": "linkedin",
+        "link": "https://www.linkedin.com/in/simonecolucci/",
+        "name": "LinkedIn"
+      }
+    ],
+    "bio": "In love with technology and innovation since university, he has transitioned from software engineering to product management a few years ago. Co-founded xtream, a boutique of digital products and AI, where he helped scale-ups and corporates build better solutions for their businesses.",
+    "badges": []
+  },
+  {
+    "id": "talia_asghar",
     "name": "Taley’a Mirza",
+    "order": 26,
     "featured": true,
+    "title": "Software Engineer at Delivery Hero and Google Dev Expert in Web Technologies",
     "photoUrl": "https://sessionize.com/image/d4c4-400o400o1-HanMtzE6wdymMNyx2TEAyN.jpg",
+    "bio": "Taley’a is a software engineer, having exposure to working in the product ecosystem for the more than seven years.    She has experience in diverse web and mobile technologies. She enjoys simplifying problems and making the user experience better for the product users.     She is an active contributor in the community and loves speaking at community events and conferences. Apart from this, she likes reading, art, and hiking to explore nature.",
     "socials": [
       {
         "link": "https://linkedin.com/in/taleyamirza",
-        "name": "LinkedIn",
-        "icon": "linkedin"
+        "icon": "linkedin",
+        "name": "LinkedIn"
       },
       {
+        "icon": "twitter",
         "link": "https://twitter.com/taleyamirza",
-        "name": "Twitter",
-        "icon": "twitter"
+        "name": "Twitter"
       }
     ],
-    "title": "Software Engineer at Delivery Hero and Google Dev Expert in Web Technologies",
     "badges": [
       {
         "name": "gde",
-        "link": "https://developers.google.com/profile/u/taleyamirza",
-        "description": "Web Google Developer Expert"
+        "description": "Web Google Developer Expert",
+        "link": "https://developers.google.com/profile/u/taleyamirza"
       }
     ]
   },
   {
     "id": "thomas_kunneth",
-    "badges": [
-      {
-        "description": "Android Google Developer Expert",
-        "name": "gde",
-        "link": "https://developers.google.com/profile/u/tkuenneth"
-      }
-    ],
-    "title": "Senior Android Developer @snappmobile_io",
-    "featured": false,
-    "name": "Thomas Künneth",
-    "order": 26,
-    "bio": "Thomas fell in love with Android in 2009. He has been constantly contributing to the community since then. Thomas loves writing books (four titles, 15 editions) and articles. He enjoys speaking at conferences and meetups. Thomas' first encounter with programming was in the era of home computers during the early 1980s. Later came C, Perl and a few more. During the 90s he wrote a bunch of programs for the Atari ST series. The first decade of Thomas' professional career centered around Java Enterprise. Today it’s all things Android and Kotlin.",
     "socials": [
       {
+        "icon": "linkedin",
         "link": "https://www.linkedin.com/in/thomaskuenneth/",
-        "name": "LinkedIn",
-        "icon": "linkedin"
+        "name": "LinkedIn"
       },
       {
-        "name": "Twitter",
         "link": "https://twitter.com/tkuenneth",
-        "icon": "twitter"
+        "icon": "twitter",
+        "name": "Twitter"
       },
       {
-        "name": "Website",
+        "icon": "website",
         "link": "https://www.thomaskuenneth.de/",
-        "icon": "website"
+        "name": "Website"
       }
     ],
-    "photoUrl": "https://sessionize.com/image/6833-400o400o1-XnzKp9ZD3bUWUGVhTAUdti.png"
+    "bio": "Thomas fell in love with Android in 2009. He has been constantly contributing to the community since then. Thomas loves writing books (four titles, 15 editions) and articles. He enjoys speaking at conferences and meetups. Thomas' first encounter with programming was in the era of home computers during the early 1980s. Later came C, Perl and a few more. During the 90s he wrote a bunch of programs for the Atari ST series. The first decade of Thomas' professional career centered around Java Enterprise. Today it’s all things Android and Kotlin.",
+    "badges": [
+      {
+        "link": "https://developers.google.com/profile/u/tkuenneth",
+        "name": "gde",
+        "description": "Android Google Developer Expert"
+      }
+    ],
+    "photoUrl": "https://sessionize.com/image/6833-400o400o1-XnzKp9ZD3bUWUGVhTAUdti.png",
+    "name": "Thomas Künneth",
+    "order": 26,
+    "featured": false,
+    "title": "Senior Android Developer @snappmobile_io"
   },
   {
     "id": "valentyn_shybanov",
-    "shortBio": "Google Developer Expert on Cloud. Co-organizer of GDG Kyiv-Center.",
+    "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/valentyn_shybanov.jpg",
+    "featured": false,
+    "name": "Valentyn Shybanov",
+    "title": "Software Engineer/Country Manager",
+    "company": "Wolters Kluwer",
     "badges": [
       {
-        "description": "Cloud Google Developer Expert",
         "link": "https://developers.google.com/experts/people/valentyn-shybanov.html",
-        "name": "gde"
+        "name": "gde",
+        "description": "Cloud Google Developer Expert"
       },
       {
-        "link": "https://developers.google.com/groups/chapter/110301321530950732281/",
         "name": "gdg",
-        "description": "Google Developers Group Kyiv"
+        "description": "Google Developers Group Kyiv",
+        "link": "https://developers.google.com/groups/chapter/110301321530950732281/"
       }
     ],
-    "title": "Software Engineer/Country Manager",
-    "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/valentyn_shybanov.jpg",
     "photo": "/images/people/valentyn_shybanov.jpg",
-    "company": "Wolters Kluwer",
+    "shortBio": "Google Developer Expert on Cloud. Co-organizer of GDG Kyiv-Center.",
     "order": 25,
-    "name": "Valentyn Shybanov",
-    "companyLogoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
     "country": "Kyiv, Ukraine",
     "socials": [
       {
         "link": "http://olostan.name/",
-        "name": "Website",
-        "icon": "website"
+        "icon": "website",
+        "name": "Website"
       }
     ],
-    "featured": false,
     "companyLogo": "/images/logos/gdg-lviv.svg",
+    "companyLogoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
     "bio": "Google Developer Expert on Cloud. Co-organizer of GDG Kyiv-Center."
   },
   {
     "id": "yonatan_levin",
+    "name": "Yonatan Levin",
+    "title": "Developer at monday.com",
     "featured": false,
     "order": 26,
-    "bio": "I'm Yonatan, a seasoned startup professional with a trajectory from developer to founder. At Monday.com, I led the development of the Public API and formed a pivotal mobile team, and also co-founded the innovative genetics startup KolGene.  Recently, I've been focusing on Generative AI, leading its integration at Monday.com. Starting as a solo developer, I built a team that successfully launched AI solutions now enhancing our customer experience.  Beyond my professional role, I'm an avid speaker, traveling globally to share insights on Generative AI, software innovation, and personal development. These engagements reflect my passion for knowledge exchange and continuous learning.  Additionally, as a co-leader of Android Academy, I advocate for gender diversity and technological education, combining my professional expertise with a commitment to community enrichment and mentorship.",
-    "name": "Yonatan Levin",
     "photoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXU_Q9yIAzmc3m-b1T7iKEQsp9GZtHzAXPXGavAurfGSqHybFz77g=s300",
-    "socials": [
-      {
-        "link": "https://linkedin.com/in/levinyonatan",
-        "name": "Linkedin",
-        "icon": "linkedin"
-      },
-      {
-        "link": "https://twitter.com/parahall",
-        "name": "Twitter",
-        "icon": "twitter"
-      }
-    ],
     "badges": [
       {
-        "name": "gde",
         "link": "https://developers.google.com/profile/u/yoni",
-        "description": "Android Google Developer Expert"
+        "description": "Android Google Developer Expert",
+        "name": "gde"
       }
     ],
-    "title": "Developer at monday.com"
+    "bio": "I'm Yonatan, a seasoned startup professional with a trajectory from developer to founder. At Monday.com, I led the development of the Public API and formed a pivotal mobile team, and also co-founded the innovative genetics startup KolGene.  Recently, I've been focusing on Generative AI, leading its integration at Monday.com. Starting as a solo developer, I built a team that successfully launched AI solutions now enhancing our customer experience.  Beyond my professional role, I'm an avid speaker, traveling globally to share insights on Generative AI, software innovation, and personal development. These engagements reflect my passion for knowledge exchange and continuous learning.  Additionally, as a co-leader of Android Academy, I advocate for gender diversity and technological education, combining my professional expertise with a commitment to community enrichment and mentorship.",
+    "socials": [
+      {
+        "name": "Linkedin",
+        "icon": "linkedin",
+        "link": "https://linkedin.com/in/levinyonatan"
+      },
+      {
+        "name": "Twitter",
+        "link": "https://twitter.com/parahall",
+        "icon": "twitter"
+      }
+    ]
   }
 ]

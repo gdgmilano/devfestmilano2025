@@ -1,13 +1,13 @@
 [
   {
     "id": "devfest-free-ticket",
-    "order": "0",
-    "url": "https://gdg.community.dev/events/details/google-gdg-milano-presents-devfest-milano-2025/cohost-gdg-milano",
-    "available": true,
-    "currency": "€",
     "soldOut": false,
-    "info": "Tickets are free! Just RSVP",
+    "currency": "€",
     "price": 0,
+    "available": true,
+    "info": "Tickets are free! Just RSVP",
+    "url": "https://gdg.community.dev/events/details/google-gdg-milano-presents-devfest-milano-2025/cohost-gdg-milano",
+    "order": "0",
     "name": "Regular"
   }
 ]

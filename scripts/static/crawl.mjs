@@ -36,6 +36,19 @@ export async function renderRoute(page, route) {
   await page.evaluate('window.__autoScroll()');
   await page.waitForTimeout(400);
 
+  // Wait for images to load so each lazy-image's inner <img>.currentSrc (the
+  // real CDN URL) is populated. Stop early when the pending count stabilises
+  // (broken images never load, so don't wait for zero).
+  let lastPending = -1;
+  for (let i = 0; i < 14; i++) {
+    const pending = await page.evaluate(
+      `(()=>{let p=0;function r(n){if(!n.querySelectorAll)return;n.querySelectorAll('img').forEach(im=>{if(!(im.complete&&im.naturalWidth>0))p++;});n.querySelectorAll('*').forEach(e=>{if(e.shadowRoot)r(e.shadowRoot);});}r(document);return p;})()`,
+    );
+    if (pending === 0 || pending === lastPending) break;
+    lastPending = pending;
+    await page.waitForTimeout(400);
+  }
+
   const isNotFound = await page.evaluate('window.__isNotFound()');
   if (isNotFound) return null;
 
@@ -62,7 +75,10 @@ export async function buildOriginals() {
 }
 
 export async function crawl() {
-  const routes = JSON.parse(await readFile(join(DATA_DIR, 'routes.json'), 'utf8'));
+  const allRoutes = JSON.parse(await readFile(join(DATA_DIR, 'routes.json'), 'utf8'));
+  // Speaker / previous-speaker detail pages render "Not Found" on cold load and
+  // are generated from data by build-speakers.mjs — skip crawling them.
+  const routes = allRoutes.filter((r) => !/^\/(speakers|previous-speakers)\/[^/]+$/.test(r));
   const originals = await buildOriginals();
   console.log(`  originals: ${Object.keys(originals.people).length} people photos, ${originals.gallery.length} gallery`);
   const browser = await chromium.launch({ headless: true });

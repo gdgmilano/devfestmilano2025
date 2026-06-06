@@ -36,20 +36,28 @@ let __galleryIdx = 0;       // per-page gallery cursor
 // and force the lazy-image's inner <img> visible (it defaults to opacity:0
 // via aria-hidden under :host([fade]), and needs JS to load otherwise).
 function fixLazyImage(el) {
-  const O = window.__ORIGINALS || { people: {}, gallery: [] };
+  const sr = el.shadowRoot;
+  let img = sr && sr.querySelector('#image');
   const alt = el.getAttribute('alt') || '';
   let original = null;
-  if (O.people && O.people[alt]) original = O.people[alt];
-  else if ((el.getAttribute('class') || '').includes('grid-item') && O.gallery && O.gallery.length) {
-    original = O.gallery[__galleryIdx++ % O.gallery.length];
+  // 1) Prefer the URL the browser actually loaded (covers speakers, gallery,
+  //    partner/company logos, etc.). The /assets src attribute is a stale
+  //    placeholder that 403s; currentSrc is the real CDN URL.
+  const cur = img && img.currentSrc;
+  if (cur && /^https?:/i.test(cur) && !/\\/assets\\//.test(cur)) original = cur;
+  // 2) Fallback to Firestore originals (when the image had not loaded yet).
+  if (!original) {
+    const O = window.__ORIGINALS || { people: {}, gallery: [] };
+    if (O.people && O.people[alt]) original = O.people[alt];
+    else if ((el.getAttribute('class') || '').includes('grid-item') && O.gallery && O.gallery.length) {
+      original = O.gallery[__galleryIdx++ % O.gallery.length];
+    }
   }
   if (!original) return;
   const local = recordAsset(original);
   if (!local) return;
   el.setAttribute('src', local);
-  const sr = el.shadowRoot;
   if (sr) {
-    let img = sr.querySelector('#image');
     if (!img) {
       img = document.createElement('img');
       img.id = 'image';
@@ -61,6 +69,26 @@ function fixLazyImage(el) {
     img.setAttribute('data-loc', '1');
   }
   el.setAttribute('data-loc', '1');
+}
+
+// Remove non-functional dynamic UI (no backend in the static archive).
+function removeDynamicUI(root) {
+  if (!root.querySelectorAll) return;
+  const TAGS = ['auth-required', 'feedback-block', 'feedback-dialog', 'mwc-snackbar',
+    'notification-toggle', 'paper-fab', 'signin-dialog', 'subscribe-dialog', 'subscribe-block',
+    'google-map', 'google-maps-api'];
+  TAGS.forEach((t) => root.querySelectorAll(t).forEach((e) => e.remove()));
+  // Google Maps JS-API error box ("This page didn't load Google Maps correctly").
+  root.querySelectorAll('[class*="gm-err"]').forEach((e) => e.remove());
+  // Ticket purchase links.
+  root.querySelectorAll('a[href]').forEach((a) => {
+    if (/gdg\\.community\\.dev|cohost|eventbrite|ticket/i.test(a.getAttribute('href') || '')) a.remove();
+  });
+  // Sign in / Get free ticket / Sign out controls (by text).
+  root.querySelectorAll('paper-tab, paper-button, mwc-button, button, a').forEach((e) => {
+    const t = (e.textContent || '').trim().toLowerCase();
+    if (t === 'sign in' || t === 'sign out' || t === 'get free ticket') e.remove();
+  });
 }
 
 function recordAsset(absUrl, forceCss) {
@@ -212,6 +240,7 @@ function removeScriptsAndDynamic() {
         if (/^on/i.test(a.name)) el.removeAttribute(a.name);
       }
     });
+    removeDynamicUI(root);
   }
   // Remove stray CSS-comment text nodes (e.g. "/* Most common used flex... */")
   // that Polymer leaves in the light DOM and that render as visible text.

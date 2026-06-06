@@ -1,22 +1,9 @@
 [
   {
     "id": "2025-10-11",
-    "dateReadable": "October 11",
-    "date": "2025-10-11",
-    "tracks": [
-      {
-        "title": "Nexus"
-      },
-      {
-        "title": "Coworking"
-      },
-      {
-        "title": "Workshop"
-      }
-    ],
     "timeslots": [
       {
-        "startTime": "08:30",
+        "endTime": "9:30",
         "sessions": [
           {
             "items": [
@@ -24,9 +11,10 @@
             ]
           }
         ],
-        "endTime": "9:30"
+        "startTime": "08:30"
       },
       {
+        "endTime": "10:00",
         "sessions": [
           {
             "items": [
@@ -34,11 +22,9 @@
             ]
           }
         ],
-        "startTime": "9:30",
-        "endTime": "10:00"
+        "startTime": "9:30"
       },
       {
-        "endTime": "10:45",
         "startTime": "10:00",
         "sessions": [
           {
@@ -52,14 +38,16 @@
             ]
           },
           {
-            "extend": 3,
             "items": [
               "0969947"
-            ]
+            ],
+            "extend": 3
           }
-        ]
+        ],
+        "endTime": "10:45"
       },
       {
+        "endTime": "11:25",
         "startTime": "10:45",
         "sessions": [
           {
@@ -72,11 +60,9 @@
               "0970559"
             ]
           }
-        ],
-        "endTime": "11:25"
+        ]
       },
       {
-        "startTime": "11:25",
         "sessions": [
           {
             "items": [
@@ -84,6 +70,7 @@
             ]
           }
         ],
+        "startTime": "11:25",
         "endTime": "11:40"
       },
       {
@@ -105,8 +92,6 @@
         "startTime": "11:40"
       },
       {
-        "endTime": "13:05",
-        "startTime": "12:25",
         "sessions": [
           {
             "items": [
@@ -118,9 +103,12 @@
               "0949128"
             ]
           }
-        ]
+        ],
+        "startTime": "12:25",
+        "endTime": "13:05"
       },
       {
+        "endTime": "14:05",
         "sessions": [
           {
             "items": [
@@ -128,11 +116,10 @@
             ]
           }
         ],
-        "startTime": "13:05",
-        "endTime": "14:05"
+        "startTime": "13:05"
       },
       {
-        "endTime": "14:50",
+        "startTime": "14:05",
         "sessions": [
           {
             "items": [
@@ -151,10 +138,9 @@
             "extend": 3
           }
         ],
-        "startTime": "14:05"
+        "endTime": "14:50"
       },
       {
-        "endTime": "15:35",
         "startTime": "14:50",
         "sessions": [
           {
@@ -167,18 +153,19 @@
               "0968693"
             ]
           }
-        ]
+        ],
+        "endTime": "15:35"
       },
       {
-        "endTime": "15:50",
-        "startTime": "15:35",
         "sessions": [
           {
             "items": [
               "100004"
             ]
           }
-        ]
+        ],
+        "startTime": "15:35",
+        "endTime": "15:50"
       },
       {
         "startTime": "15:50",
@@ -197,8 +184,6 @@
         "endTime": "16:35"
       },
       {
-        "endTime": "17:15",
-        "startTime": "16:35",
         "sessions": [
           {
             "items": [
@@ -210,9 +195,12 @@
               "0970280"
             ]
           }
-        ]
+        ],
+        "startTime": "16:35",
+        "endTime": "17:15"
       },
       {
+        "endTime": "17:30",
         "startTime": "17:15",
         "sessions": [
           {
@@ -220,9 +208,21 @@
               "100005"
             ]
           }
-        ],
-        "endTime": "17:30"
+        ]
       }
-    ]
+    ],
+    "tracks": [
+      {
+        "title": "Nexus"
+      },
+      {
+        "title": "Coworking"
+      },
+      {
+        "title": "Workshop"
+      }
+    ],
+    "date": "2025-10-11",
+    "dateReadable": "October 11"
   }
 ]
