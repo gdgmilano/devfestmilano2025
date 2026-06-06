@@ -1,0 +1,38 @@
+name: Deploy static site to GitHub Pages
+
+# Publishes the pre-built static archive in static-site/ to GitHub Pages.
+# In the repo: Settings -> Pages -> Build and deployment -> Source: GitHub Actions.
+# For a custom domain, add a CNAME (see scripts/static/README.md) and set it
+# under Settings -> Pages -> Custom domain.
+
+on:
+  push:
+    branches: [main-static]
+    paths:
+      - 'static-site/**'
+      - '.github/workflows/deploy-pages.yaml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: static-site
+      - id: deployment
+        uses: actions/deploy-pages@v4

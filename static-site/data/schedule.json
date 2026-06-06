@@ -1,0 +1,228 @@
+[
+  {
+    "id": "2025-10-11",
+    "dateReadable": "October 11",
+    "date": "2025-10-11",
+    "tracks": [
+      {
+        "title": "Nexus"
+      },
+      {
+        "title": "Coworking"
+      },
+      {
+        "title": "Workshop"
+      }
+    ],
+    "timeslots": [
+      {
+        "startTime": "08:30",
+        "sessions": [
+          {
+            "items": [
+              "100000"
+            ]
+          }
+        ],
+        "endTime": "9:30"
+      },
+      {
+        "sessions": [
+          {
+            "items": [
+              "100001"
+            ]
+          }
+        ],
+        "startTime": "9:30",
+        "endTime": "10:00"
+      },
+      {
+        "endTime": "10:45",
+        "startTime": "10:00",
+        "sessions": [
+          {
+            "items": [
+              "0950029"
+            ]
+          },
+          {
+            "items": [
+              "0946762"
+            ]
+          },
+          {
+            "extend": 3,
+            "items": [
+              "0969947"
+            ]
+          }
+        ]
+      },
+      {
+        "startTime": "10:45",
+        "sessions": [
+          {
+            "items": [
+              "0957496"
+            ]
+          },
+          {
+            "items": [
+              "0970559"
+            ]
+          }
+        ],
+        "endTime": "11:25"
+      },
+      {
+        "startTime": "11:25",
+        "sessions": [
+          {
+            "items": [
+              "100002"
+            ]
+          }
+        ],
+        "endTime": "11:40"
+      },
+      {
+        "endTime": "12:25",
+        "sessions": [
+          {
+            "items": [
+              "0971063"
+            ]
+          },
+          {
+            "items": [
+              "0941830",
+              "0955734",
+              "0960699"
+            ]
+          }
+        ],
+        "startTime": "11:40"
+      },
+      {
+        "endTime": "13:05",
+        "startTime": "12:25",
+        "sessions": [
+          {
+            "items": [
+              "0969331"
+            ]
+          },
+          {
+            "items": [
+              "0949128"
+            ]
+          }
+        ]
+      },
+      {
+        "sessions": [
+          {
+            "items": [
+              "100003"
+            ]
+          }
+        ],
+        "startTime": "13:05",
+        "endTime": "14:05"
+      },
+      {
+        "endTime": "14:50",
+        "sessions": [
+          {
+            "items": [
+              "0972783"
+            ]
+          },
+          {
+            "items": [
+              "0938332"
+            ]
+          },
+          {
+            "items": [
+              "0961571"
+            ],
+            "extend": 3
+          }
+        ],
+        "startTime": "14:05"
+      },
+      {
+        "endTime": "15:35",
+        "startTime": "14:50",
+        "sessions": [
+          {
+            "items": [
+              "0980972"
+            ]
+          },
+          {
+            "items": [
+              "0968693"
+            ]
+          }
+        ]
+      },
+      {
+        "endTime": "15:50",
+        "startTime": "15:35",
+        "sessions": [
+          {
+            "items": [
+              "100004"
+            ]
+          }
+        ]
+      },
+      {
+        "startTime": "15:50",
+        "sessions": [
+          {
+            "items": [
+              "0950016"
+            ]
+          },
+          {
+            "items": [
+              "0971358"
+            ]
+          }
+        ],
+        "endTime": "16:35"
+      },
+      {
+        "endTime": "17:15",
+        "startTime": "16:35",
+        "sessions": [
+          {
+            "items": [
+              "0959753"
+            ]
+          },
+          {
+            "items": [
+              "0970280"
+            ]
+          }
+        ]
+      },
+      {
+        "startTime": "17:15",
+        "sessions": [
+          {
+            "items": [
+              "100005"
+            ]
+          }
+        ],
+        "endTime": "17:30"
+      }
+    ]
+  }
+]
