@@ -24,7 +24,7 @@ function cyrb53(str, seed = 0) {
   return (4294967296 * (2097151 & h2) + (h1 >>> 0)).toString(16);
 }
 
-const LIVE_ORIGINS = ['https://devfestmilano.it', 'https://devfest-milano-2025.web.app'];
+const LIVE_ORIGINS = window.__LIVE_ORIGINS || [location.origin];
 const ASSET_EXT = /\\.(png|jpe?g|gif|svg|webp|avif|ico|css|js|mjs|woff2?|ttf|otf|eot|mp4|webm|json|webmanifest)$/i;
 
 const __assets = new Map(); // localPath -> absUrl

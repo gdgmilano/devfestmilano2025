@@ -29,9 +29,30 @@ Shadow DOM. The builder:
 cd scripts/static
 npm install            # installs Playwright
 npx playwright install chromium chromium-headless-shell
-npm run build          # runs all four stages -> ../../static-site/
+npm run build          # builds the 2025 edition -> ../../static-site/
 node verify.mjs        # sanity checks (counts, no backend calls, link check)
 ```
+
+### Other editions (portable — no edits needed)
+
+The builder **auto-detects** the edition from the repo it lives in:
+- Firebase web config (`projectId`, `apiKey`) from `../../index.html`
+  (`window.firebaseConfig`)
+- live URL + Firestore database id from `../../config/production.json`
+  (`url`, `firestoreDatabaseId`)
+
+So to archive another edition (e.g. DevFest Milano 2024), just copy
+`scripts/static/` into that repo and run `npm install && npm run build` — it
+configures itself. Override anything via env if a repo differs:
+
+```bash
+SITE_ORIGIN=https://my-site.example FB_PROJECT=... FB_API_KEY=... FB_DB=... \
+SITE_YEAR=2024 OUT_DIR=static-site npm run build
+```
+
+Read [`RUNBOOK.md`](RUNBOOK.md) first — it documents the exact steps plus every
+gotcha (DSD, the /assets 403 → currentSrc image recovery, speaker-page
+cold-load templating, crawler throttling, layout/header fixes).
 
 Environment variables for `finalize`/`build`:
 

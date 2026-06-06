@@ -4,8 +4,10 @@
 // clean, on-brand template that links to the speaker's sessions.
 import { mkdir, writeFile, readFile } from 'node:fs/promises';
 import { join } from 'node:path';
-import { OUT_DIR, DATA_DIR } from './config.mjs';
+import { OUT_DIR, DATA_DIR, YEAR } from './config.mjs';
 import { localFor } from './asset-path.mjs';
+
+const SITE_TITLE = `DevFest Milano ${YEAR}`;
 
 const esc = (s) =>
   String(s == null ? '' : s)
@@ -53,13 +55,13 @@ const STYLE = `
 
 function header() {
   return `<header class="site">
-  <a class="logo" href="/"><img src="/images/logo.png" alt="DevFest Milano 2025">DevFest Milano 2025</a>
+  <a class="logo" href="/"><img src="/images/logo.png" alt="${SITE_TITLE}">${SITE_TITLE}</a>
   <nav>${NAV.map(([h, t]) => `<a href="${h}">${t}</a>`).join('')}</nav>
 </header>`;
 }
 
 function footer() {
-  return `<footer class="site">DevFest Milano 2025 · GDG Milano &amp; GDG Cloud Milano · <a href="/coc">Code of Conduct</a></footer>`;
+  return `<footer class="site">${SITE_TITLE} · GDG Milano &amp; GDG Cloud Milano · <a href="/coc">Code of Conduct</a></footer>`;
 }
 
 function page(sp, photoLocal, sessions) {
@@ -80,7 +82,7 @@ function page(sp, photoLocal, sessions) {
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>${esc(sp.name)} — DevFest Milano 2025</title>
+<title>${esc(sp.name)} — ${SITE_TITLE}</title>
 <meta name="description" content="${esc((sp.shortBio || sp.bio || sp.name).slice(0, 150))}">
 <link rel="icon" href="/images/favicon.ico">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">

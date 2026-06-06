@@ -1,6 +1,7 @@
 // Shared asset-path logic used by both the crawler and the localizer, kept in
 // sync with the in-page version in page-serialize.mjs.
-export const LIVE_ORIGINS = ['https://devfestmilano.it', 'https://devfest-milano-2025.web.app'];
+import { LIVE_ORIGINS } from './config.mjs';
+export { LIVE_ORIGINS };
 export const ASSET_EXT = /\.(png|jpe?g|gif|svg|webp|avif|ico|css|js|mjs|woff2?|ttf|otf|eot|mp4|webm|json|webmanifest)$/i;
 
 // cyrb53 — identical to the in-page hash so local paths line up exactly.

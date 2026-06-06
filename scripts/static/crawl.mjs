@@ -3,7 +3,7 @@
 import { chromium } from 'playwright';
 import { mkdir, writeFile, readFile } from 'node:fs/promises';
 import { join, dirname } from 'node:path';
-import { LIVE_ORIGIN, OUT_DIR, DATA_DIR } from './config.mjs';
+import { LIVE_ORIGIN, LIVE_ORIGINS, OUT_DIR, DATA_DIR } from './config.mjs';
 import { PAGE_FUNCTIONS } from './page-serialize.mjs';
 
 // Map a route to its output file (directory-style for clean URLs).
@@ -91,7 +91,9 @@ export async function crawl() {
       '(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
   });
   const page = await context.newPage();
-  // Inject the serialization helpers + original-photo map before app code.
+  // Inject target config + serialization helpers + original-photo map before
+  // any app code on every navigation. __LIVE_ORIGINS must precede PAGE_FUNCTIONS.
+  await context.addInitScript(`window.__LIVE_ORIGINS = ${JSON.stringify(LIVE_ORIGINS)};`);
   await context.addInitScript(PAGE_FUNCTIONS);
   await context.addInitScript(`window.__ORIGINALS = ${JSON.stringify(originals)};`);
 

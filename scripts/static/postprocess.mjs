@@ -7,7 +7,7 @@ import { chromium } from 'playwright';
 import { readdir, readFile, writeFile } from 'node:fs/promises';
 import { join, relative } from 'node:path';
 import { pathToFileURL } from 'node:url';
-import { OUT_DIR, DATA_DIR } from './config.mjs';
+import { OUT_DIR, DATA_DIR, LIVE_ORIGINS } from './config.mjs';
 import { PAGE_FUNCTIONS } from './page-serialize.mjs';
 import { buildOriginals } from './crawl.mjs';
 
@@ -37,6 +37,7 @@ export async function postprocess() {
 
   const browser = await chromium.launch({ headless: true });
   const context = await browser.newContext();
+  await context.addInitScript(`window.__LIVE_ORIGINS = ${JSON.stringify(LIVE_ORIGINS)};`);
   await context.addInitScript(PAGE_FUNCTIONS);
   await context.addInitScript(`window.__ORIGINALS = ${JSON.stringify(originals)};`);
   const page = await context.newPage();
