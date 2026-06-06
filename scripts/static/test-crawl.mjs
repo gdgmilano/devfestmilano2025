@@ -17,7 +17,7 @@ for (const p of [...speakers, ...prev]) {
 }
 const originals = { people, gallery: gallery.map((g) => g.url).filter(Boolean) };
 
-const ROUTES = ['/', '/speakers', '/sessions/0938332'];
+const ROUTES = ['/', '/speakers', '/faq'];
 
 const browser = await chromium.launch({ headless: true });
 const context = await browser.newContext({

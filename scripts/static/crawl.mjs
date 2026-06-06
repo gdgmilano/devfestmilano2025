@@ -52,6 +52,8 @@ export async function renderRoute(page, route) {
   const isNotFound = await page.evaluate('window.__isNotFound()');
   if (isNotFound) return null;
 
+  // Solid header (dark text) on every page except the home hero.
+  await page.evaluate(`window.__SOLID_HEADER = ${route !== '/'}`);
   return page.evaluate('window.__serialize()');
 }
 

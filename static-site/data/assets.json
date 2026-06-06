@@ -40,20 +40,20 @@
     "url": "https://devfestmilano.it/images/logo.png"
   },
   {
-    "local": "/assets/111b7b34caf504.jpg",
-    "url": "https://sessionize.com/image/e3a5-400o400o1-Xng3TgUHQGPahwUV2Am3SX.jpg"
-  },
-  {
-    "local": "/assets/cf50bde4591a4.jpg",
-    "url": "https://sessionize.com/image/9fa9-0o0o0-BGmmP9ku1QJhV4AaJ9xxXg.jpg"
+    "local": "/assets/17a0ef7853af4a.png",
+    "url": "https://sessionize.com/image/3097-0o0o0-UtREYN6c5NUYLM14t4N9Xq.png"
   },
   {
     "local": "/assets/14783ad90ea239.png",
     "url": "https://sessionize.com/image/5179-0o0o0-4fVJ6MXwKJzgu75Zskx9nC.png"
   },
   {
-    "local": "/assets/155629830348fe.png",
-    "url": "https://sessionize.com/image/3dac-0o0o0-no3LfKzhtCxKPw2RdJZohk.png"
+    "local": "/assets/32338ac69df81.png",
+    "url": "https://sessionize.com/image/a5d5-0o0o0-hJ4vdNsnmiFtQuYWqakeKg.png"
+  },
+  {
+    "local": "/assets/111b7b34caf504.jpg",
+    "url": "https://sessionize.com/image/e3a5-400o400o1-Xng3TgUHQGPahwUV2Am3SX.jpg"
   },
   {
     "local": "/assets/1e96d1001dcfb1",
@@ -102,10 +102,6 @@
   {
     "local": "/images/team.jpg",
     "url": "https://devfestmilano.it/images/team.jpg"
-  },
-  {
-    "local": "/assets/18e5f0e78d0a3a.png",
-    "url": "https://maps.gstatic.com/mapfiles/api-3/images/icon_error.png"
   },
   {
     "local": "/assets/135ef0156ac53f.svg",
@@ -160,8 +156,8 @@
     "url": "https://sessionize.com/image/da84-0o0o0-RT5fkEX7b8pUYVg9CHuUCv.png"
   },
   {
-    "local": "/assets/17a0ef7853af4a.png",
-    "url": "https://sessionize.com/image/3097-0o0o0-UtREYN6c5NUYLM14t4N9Xq.png"
+    "local": "/assets/cf50bde4591a4.jpg",
+    "url": "https://sessionize.com/image/9fa9-0o0o0-BGmmP9ku1QJhV4AaJ9xxXg.jpg"
   },
   {
     "local": "/assets/1e342422c3f11.jpg",
@@ -176,12 +172,12 @@
     "url": "https://sessionize.com/image/c421-0o0o0-naywFzeWrTQEotymiViL2A.jpg"
   },
   {
-    "local": "/assets/12f2001e969ea.jpg",
-    "url": "https://sessionize.com/image/1e38-400o400o1-GrPLYAdnwMG1X7ah5tXR3v.jpg"
+    "local": "/assets/155629830348fe.png",
+    "url": "https://sessionize.com/image/3dac-0o0o0-no3LfKzhtCxKPw2RdJZohk.png"
   },
   {
-    "local": "/assets/32338ac69df81.png",
-    "url": "https://sessionize.com/image/a5d5-0o0o0-hJ4vdNsnmiFtQuYWqakeKg.png"
+    "local": "/assets/12f2001e969ea.jpg",
+    "url": "https://sessionize.com/image/1e38-400o400o1-GrPLYAdnwMG1X7ah5tXR3v.jpg"
   },
   {
     "local": "/assets/10087a973ef3ac.jpg",
@@ -614,9 +610,5 @@
   {
     "local": "/assets/11e7ea5e9b25f6",
     "url": "https://lh3.googleusercontent.com/a-/ALV-UjXU_Q9yIAzmc3m-b1T7iKEQsp9GZtHzAXPXGavAurfGSqHybFz77g=s300"
-  },
-  {
-    "local": "/assets/108fa7eceeeb09.jpg",
-    "url": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/resul%20caner_yildirim.jpg"
   }
 ]

@@ -45,6 +45,8 @@ export async function postprocess() {
   let n = 0;
   for (const file of files) {
     await page.goto(pathToFileURL(file).href, { waitUntil: 'domcontentloaded' });
+    const isHome = relative(OUT_DIR, file) === 'index.html';
+    await page.evaluate(`window.__SOLID_HEADER = ${!isHome}`);
     const r = await page.evaluate('window.__fixAndSerialize()');
     await writeFile(file, r.html);
     for (const a of r.assets) assets.set(a.local, a.url);

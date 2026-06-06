@@ -71,6 +71,56 @@ function fixLazyImage(el) {
   el.setAttribute('data-loc', '1');
 }
 
+// The speakers grid renders each speaker as TWO sibling grid children:
+// <a class="speaker card"> and a <div class="contacts"> (social icons +
+// company logo). The live app positions .contacts over the card via JS; without
+// JS it flows as a separate grid cell (card, contacts, card, ...), breaking the
+// layout. Move each .contacts inside its preceding card so it flows below the
+// bio (it already has margin-top:16px) and the grid holds one cell per speaker.
+function fixSpeakerLayout(root) {
+  if (!root.querySelectorAll) return;
+  // The speakers grid renders each speaker as a <a class="speaker card"> plus a
+  // separate sibling <div class="contacts"> (social links + company logo) that
+  // the live app positions over the card via JS. Without JS each .contacts
+  // flows as its own grid cell, scrambling the layout. The data is irregular
+  // (not every speaker has contacts), so the robust fix is to drop .contacts
+  // from the grid — the cards then form a clean responsive grid. Social links
+  // and company logos remain on each speaker's detail page.
+  root.querySelectorAll('.contacts').forEach((c) => c.remove());
+  // Company-logo badges overlaying the photo are usually broken (the /assets
+  // logos 403); remove them so they don't show as empty boxes.
+  root.querySelectorAll('.badges').forEach((b) => b.remove());
+}
+
+// The header's nav colors and active-tab underline are computed by JS at
+// runtime (text turns white over the hero, the paper-tabs selection bar is
+// positioned in script). Frozen statically this breaks: subpage nav text stays
+// white-on-white, and the selection bar lands under the wrong tab. Fix with CSS:
+// drop the JS selection bar, underline the actually-selected tab, and on pages
+// without a hero force a solid header with dark text. window.__SOLID_HEADER is
+// set per route by the crawler (true for every route except '/').
+function fixHeader(root) {
+  if (!root.querySelectorAll) return;
+  // Hide the JS-positioned selection bar (lives inside paper-tabs' shadow root).
+  root.querySelectorAll('paper-tabs').forEach((t) => {
+    if (t.shadowRoot) {
+      const s = document.createElement('style');
+      s.textContent = '#selectionBar{display:none!important}';
+      t.shadowRoot.appendChild(s);
+    }
+  });
+  if (root.querySelector && root.querySelector('paper-tab')) {
+    let css = 'paper-tab.iron-selected{border-bottom:3px solid #1a73e8!important}';
+    if (window.__SOLID_HEADER) {
+      css += 'app-toolbar,app-header,app-header-layout{background:#fff!important}' +
+        'paper-tab,.toolbar-logo,[main-title],app-toolbar a,app-toolbar span{color:#202124!important}';
+    }
+    const s = document.createElement('style');
+    s.textContent = css;
+    (root === document ? document.head : root).appendChild(s);
+  }
+}
+
 // Remove non-functional dynamic UI (no backend in the static archive).
 function removeDynamicUI(root) {
   if (!root.querySelectorAll) return;
@@ -241,6 +291,8 @@ function removeScriptsAndDynamic() {
       }
     });
     removeDynamicUI(root);
+    fixSpeakerLayout(root);
+    fixHeader(root);
   }
   // Remove stray CSS-comment text nodes (e.g. "/* Most common used flex... */")
   // that Polymer leaves in the light DOM and that render as visible text.
