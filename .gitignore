@@ -71,3 +71,5 @@ serviceAccount.json
 *-adminsdk-*.json
 .DS_Store
 .history
+# GitHub Pages staging dir (built in CI by deploy-pages.yaml)
+_site/
